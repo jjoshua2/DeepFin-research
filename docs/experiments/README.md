@@ -179,7 +179,7 @@ New preregistrations and readouts belong here. Existing imported records retain 
 - [2026-09-30-sf-dlite-d8-label-operations.md](2026-09-30-sf-dlite-d8-label-operations.md) — main copy removed in the draft
 - [2026-09-30-sf-dlite-d8-value-eligibility-amendment.md](2026-09-30-sf-dlite-d8-value-eligibility-amendment.md) — main copy removed in the draft
 - [2026-09-30-sf-dlite-full07-cpu-placement.md](2026-09-30-sf-dlite-full07-cpu-placement.md) — main copy removed in the draft
-- [2026-09-30-sf-dlite-historical-donor-adapter.md](2026-09-30-sf-dlite-historical-donor-adapter.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-historical-donor-adapter.md](2026-09-30-sf-dlite-historical-donor-adapter.md) — source retained in DeepFin
 - [2026-09-30-sf-dlite-native-pair-auditor.md](2026-09-30-sf-dlite-native-pair-auditor.md) — main copy removed in the draft
 - [2026-09-30-sf-raw-zstd-frames.md](2026-09-30-sf-raw-zstd-frames.md) — main copy removed in the draft
 - [2026-09-30-tri-source-checkpointed-sort-foundation.md](2026-09-30-tri-source-checkpointed-sort-foundation.md) — main copy removed in the draft

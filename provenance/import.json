@@ -4,8 +4,8 @@
   "original_byte_import_commit": "8536ec99471478efee257e9b7bbeb4d3e614854b",
   "files": 251,
   "source_bytes": 2153780,
-  "main_draft_removes": 122,
-  "main_draft_removed_bytes": 839327,
+  "main_draft_removes": 121,
+  "main_draft_removed_bytes": 834985,
   "scratchpad_markdown_reference_copies": 41,
   "excluded": "All non-Markdown payloads, Bend/proof paths, qualification inputs and executable/runtime dependencies remain in DeepFin.",
   "originals": "Original bytes are in the import commit, verified against source-manifest.tsv. Current presentation adds attribution and portable Markdown links."

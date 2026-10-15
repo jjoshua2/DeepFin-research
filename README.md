@@ -9,7 +9,7 @@ Living, searchable experiment records for [DeepFin](https://github.com/jjoshua2/
 
 This initial import contains 251 already-public Markdown records, including 41 scratchpad records. Original bytes are preserved in import commit 8536ec99471478efee257e9b7bbeb4d3e614854b. Presentation edits only add attribution and link retained evidence/current-source context to the exact original DeepFin revision. Code blocks, local paths and historical instructions remain evidence, not current operating authority.
 
-Earlier history remains searchable in the original DeepFin repository. This repository begins new history at the recorded import; no source history was rewritten. Main retains 129 imported source copies with evidence, provenance or runtime bindings, plus all Bend/proofs, verifiers and machine-read evidence.
+Earlier history remains searchable in the original DeepFin repository. This repository begins new history at the recorded import; no source history was rewritten. Main retains 130 imported source copies with evidence, provenance or runtime bindings, plus all Bend/proofs, verifiers and machine-read evidence.
 
 Large datasets, labels, weights, checkpoints and bulk logs stay in existing artifact storage. Record their source identities, hashes and restore locations here. Do not copy live or private receipts into this public repository.
 
