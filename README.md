@@ -16,3 +16,9 @@ Large datasets, labels, weights, checkpoints and bulk logs stay in existing arti
 Research prose changes receive review here; changes affecting executable consumers or qualification evidence require the relevant code/evidence review. DeepFin pins an explicit research commit as an optional submodule, so ordinary production code reviews do not include every record body.
 
 Search the initialized checkout with rg; search earlier history in DeepFin at the source commit from provenance/source.json. Follow-ups should link original records and preserve their failed/inconclusive verdicts rather than rewriting conclusions.
+
+## Historical publication summaries
+
+[Payload provenance](provenance/publication-originals.json) and its [source manifest](provenance/publication-originals-source-manifest.tsv) preserve22 historical JSON summaries (20,805,299 bytes):8 completed training summaries,13 derivation/mix summaries and1 sidecar summary. Original bytes are in import commit09eac46d3f7a849415a50f4ee85cef2526b4adfe. These are historical reports, not corpora, checkpoints or live outputs.
+
+The main draft relocates21 files (20,802,555 bytes), retaining one2744-byte summary linked from a frozen record. The existing catalog reader resolves absent-main paths under initialized pinned research and preserves size/SHA256 checks. Old manifests, frozen runtime inventories and producing data/runs paths are untouched.
