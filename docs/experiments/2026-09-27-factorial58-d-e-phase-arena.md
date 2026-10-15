@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-27-factorial58-d-e-phase-arena.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-27-factorial58-d-e-phase-arena.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF-free D/E phase-start arena: completed readout — September 27, 2026
 
 The preregistered phase interaction is **inconclusive**. E121's score relative
@@ -31,7 +33,7 @@ the directional verdict was inconclusive. A stronger early-positive/late-negativ
 reversal required the early score interval entirely above 50%, the late interval
 entirely below 50%, and the interaction interval below zero. These rules were
 frozen in the phase protocol before play; its source SHA256 is recorded in the
-[compact readout](evidence/factorial58-phase-de-20260927/compact-readout.json).
+[compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-phase-de-20260927/compact-readout.json).
 
 The frozen history-bearing panel had 384 distinct source-game roots, with 128 in
 each of the early, middle and late bins and 64 roots per starting side in each
@@ -43,7 +45,7 @@ prior temperature 1.0, game temperature 0.1, seed 2026092703, compiled CUDA,
 and strict rule50-aware six-man Syzygy root, leaf and terminal adjudication. Its
 10,800-second and 1,000-ply limits were recovery bounds, not shorter decision
 samples. Both checkpoints, evaluation config, panel, history seeds, arena code,
-and output files are hash-bound in the [compact evidence](evidence/factorial58-phase-de-20260927/compact-readout.json).
+and output files are hash-bound in the [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-phase-de-20260927/compact-readout.json).
 
 ## Completed readout
 
@@ -105,7 +107,7 @@ mixture at larger scale. Keep the phase claim unresolved; no target, training,
 or deployment change follows from this readout. The held second-seed plan
 remains a separate allocation decision.
 
-The [compact readout](evidence/factorial58-phase-de-20260927/compact-readout.json)
+The [compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-phase-de-20260927/compact-readout.json)
 retains both game scores, phase, starting side and short-prefix flag for each
 ordered root, plus aggregate statistics, settings and SHA256 identities. The
 verbatim [independent PASS note](evidence/factorial58-phase-de-20260927/independent-readout-review.md)

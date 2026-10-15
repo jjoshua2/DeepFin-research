@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-20-preparation-overlap.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-20-preparation-overlap.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Factorial58 CPU preparation overlap
 
 ## Publication recovery, 2026-09-30
@@ -51,7 +53,7 @@ and no GPU visibility.
 | Allocated output bytes | 106,098,688 |
 | Output files | 2,465 |
 
-[Raw probe receipt](artifacts/2026-09-20-preparation-overlap/probe.json).
+[Raw probe receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-preparation-overlap/probe.json).
 Proportional extrapolation suggests about 22GiB allocated for all 58M overlay rows;
 full-corpus I/O, label coverage and scheduling can change throughput. It does not
 establish an exact completion ETA. An earlier probe failed before sealing because
@@ -81,8 +83,8 @@ No active corpus was moved, and no caches were dropped.
 The adoption transaction preserved all other queue entries and inserted the
 separately reviewed 15-minute BT4 batch benchmark immediately before preparation:
 remaining Ceres collection → BT4 batch benchmark → preparation → existing training
-and arena sequence. [Adoption receipt](artifacts/2026-09-20-preparation-overlap/adopted.json)
-and [exact config](artifacts/2026-09-20-preparation-overlap/config.json) are retained.
+and arena sequence. [Adoption receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-preparation-overlap/adopted.json)
+and [exact config](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-preparation-overlap/config.json) are retained.
 
 Sidecar launch PID 1023632 used CPUs 2–3. Host evidence and append-only stage timings:
 `/home/<user>/chess-artifacts/operations/factorial58-preparation-overlap-20260920/`.
@@ -100,6 +102,6 @@ factorial preparation completion is made by this launch record.
 
 Initial production readback: cohort 03 sealed in 15.95s and completed target
 construction plus verification in 111.06s; cohort 01 then sealed in 19.55s.
-[Initial stage receipts](artifacts/2026-09-20-preparation-overlap/initial-production-stages.jsonl)
+[Initial stage receipts](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-preparation-overlap/initial-production-stages.jsonl)
 confirm useful production work beyond the disjoint probe. The final 35-root
 qualification remains pending.

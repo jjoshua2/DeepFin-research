@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-11-deeper-sf-value-census.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-11-deeper-sf-value-census.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Deeper Stockfish value observations in G10
 
 Status: the CPU diagnostic and independent saved-bank review completed. The observed label changes warrant preparing a controlled value comparison. No deeper-value training corpus or playing-strength result has been produced.
@@ -28,9 +30,9 @@ The original 18.91M B100 corpus is a different single-phase source. These observ
 
 Host artifacts: `scratchpad/bt4_joint20/g10_deeper_sf_value_census_v1/`.
 
-- [Preregistration](evidence/deeper-sf-value/preregistration.json) SHA256: `0b5cbda7987a4df36abc5158e67a47a3761a7f2060cf9096de42dae78132c3bf`.
+- [Preregistration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/deeper-sf-value/preregistration.json) SHA256: `0b5cbda7987a4df36abc5158e67a47a3761a7f2060cf9096de42dae78132c3bf`.
 - Analysis SHA256: `035b97e8ee5d4c8e73687020a8902acfd0fd4a093b6abbd4402ef9856c4eb7e9`.
-- Eleven fixture cases and plan validation passed before launch. Parent source/plan review and independent static review passed. The completed readout appears below. [Independent review](evidence/deeper-sf-value/independent_review.json) SHA256: `ea2bad85f459414298c0ff297031f0864923b1fd01abe067b9d37f38cf9d655d`.
+- Eleven fixture cases and plan validation passed before launch. Parent source/plan review and independent static review passed. The completed readout appears below. [Independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/deeper-sf-value/independent_review.json) SHA256: `ea2bad85f459414298c0ff297031f0864923b1fd01abe067b9d37f38cf9d655d`.
 
 The compressed row bank and raw sources remain host-local. Compact completion, counts and review are linked below.
 
@@ -56,4 +58,4 @@ The selected next implementation is an opt-in value selector in the existing der
 
 After qualification, compare this SF anchor with current SF on the same G10 cohort and hold any BT4/Ceres mixture weights fixed. Existing G10 BT4 WDL may be reused where coverage is established. The current Ceres bank and producer target the original 18.91M corpus; they do not establish G10 Ceres coverage.
 
-Evidence: [compact readout](evidence/deeper-sf-value/compact_readout.json), [independent completed review](evidence/deeper-sf-value/completed_review.json), [terminal receipt](evidence/deeper-sf-value/terminal.json). Full host readout SHA256: `b0789da1c5024e1e5251a9791e50b40a03b14074515cf9237c75b9744ab656a3`; completed review SHA256: `c41e47b6a4728fa138795c7d71e9cb62c8722076ebf871f2bd467aa1c0cd539f`.
+Evidence: [compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/deeper-sf-value/compact_readout.json), [independent completed review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/deeper-sf-value/completed_review.json), [terminal receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/deeper-sf-value/terminal.json). Full host readout SHA256: `b0789da1c5024e1e5251a9791e50b40a03b14074515cf9237c75b9744ab656a3`; completed review SHA256: `c41e47b6a4728fa138795c7d71e9cb62c8722076ebf871f2bd467aa1c0cd539f`.

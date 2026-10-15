@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-overlay-validation-reuse.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-overlay-validation-reuse.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Reuse validated overlay identities during one exact epoch
 
 The schema-2 overlay constructor repeated the same dense target validation nine
@@ -51,7 +53,7 @@ The focused static gate passes. Whole-repository Ruff passes; basedpyright
 reports 23 diagnostics in seven unchanged test files. Baseline verification is
 recorded in the receipt; these unrelated diagnostics are not suppressed here.
 
-[Compact receipt](evidence/overlay-validation-reuse-20260921/receipt.json).
+[Compact receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/overlay-validation-reuse-20260921/receipt.json).
 Full raw inputs, timings, rejected attempts, source patch, logs and reviewer
 receipt are banked under
 `~/chess-artifacts/operations/overlay-validation-reuse-20260921/`.

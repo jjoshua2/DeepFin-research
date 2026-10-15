@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-ceres-teacher-readiness.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-ceres-teacher-readiness.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres as an additional bootstrap policy teacher
 
 Research direction and results, September 8, 2026. C3 passes CPU execution and
@@ -43,10 +45,10 @@ The existing local Ceres inventory includes float-input C1-384-12, C1-512-15,
 C1-640-25 and C1-640-34. Historical Ceres teacher audit artifacts exist; this is
 not a completed C3 integration or a new strength result.
 
-The repository already implements [Ceres TPG encoding](../../chess_anti_engine/encoding/ceres_tpg.py):
+The repository already implements [Ceres TPG encoding](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/chess_anti_engine/encoding/ceres_tpg.py):
 64 square records with 137 features, including a raw-byte primitive. The float
-input is those bytes divided by 100. The audit found that the [ONNX adapter](../../chess_anti_engine/onnx/load.py)
-and [foreign-net audit](../../scripts/foreign_net_audit.py) used only floating-point
+input is those bytes divided by 100. The audit found that the [ONNX adapter](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/chess_anti_engine/onnx/load.py)
+and [foreign-net audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/foreign_net_audit.py) used only floating-point
 input paths. They now share explicit byte-input handling, including the startup
 WDL probe. Casting normalized input to uint8 would lose the intended byte values;
 the adapter rejects that misuse. Also, the existing BT4 raw-label pipeline uses LC0 planes; changing only the
@@ -125,9 +127,9 @@ Synthetic tests used ONNX Runtime 1.29.0; the real C3 checks above used 1.23.2.
 Both float Ceres and LC0 regression coverage passed. The implementation validates
 input arity/name/type and refuses normalized floating input for a byte graph.
 
-The [compact readout](evidence/ceres-bootstrap/c3-pre8-cpu-readout.json) includes
+The [compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-pre8-cpu-readout.json) includes
 model identity, fixed positions, source hashes, per-position results and the
-[original input/logit bank](evidence/ceres-bootstrap/c3-pre8-cpu-policy-bank.npz).
+[original input/logit bank](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-pre8-cpu-policy-bank.npz).
 The initial download-inspection script failed after extraction because it used
 `hashlib.file_digest` under Python 3.10. Recovery hashed the existing archive/model
 and read the graph; download and extraction were not repeated. That inspection
@@ -222,10 +224,10 @@ temperature 0.5. Sharpening preserves BT4's top-move ordering; Ceres changes the
 top move on the 15 observed disagreements. This does not establish equivalent rankings, a shared
 training source, independent errors, or which teacher makes a stronger bootstrap.
 
-The [readout and manifest](evidence/ceres-bootstrap/c3-training-sample-readout.json),
-[per-position distributions and histories](evidence/ceres-bootstrap/c3-training-sample-rows.json),
-[raw byte/logit bank](evidence/ceres-bootstrap/c3-training-sample-bank.npz), and
-[frozen collector source](evidence/ceres-bootstrap/c3-training-sample-collector-source.txt)
+The [readout and manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-training-sample-readout.json),
+[per-position distributions and histories](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-training-sample-rows.json),
+[raw byte/logit bank](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-training-sample-bank.npz), and
+[frozen collector source](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-training-sample-collector-source.txt)
 are published. The bank concatenates the original batch arrays losslessly; the
 manifest preserves each original batch hash. Source paths are logical repository
 paths. The original source-bank qualification and host execution records remain
@@ -254,7 +256,7 @@ One bounded C3 CUDA probe is **prepared and independently reviewed, not launched
 or queued**. It reuses the saved 128 training positions and their exact original
 byte inputs, legal rosters, raw policy logits and primary value logits. It adds no
 new position selection, history replay or CPU reference inference. Existing
-[policy evidence](evidence/ceres-bootstrap/c3-training-sample-readout.json) and the
+[policy evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-training-sample-readout.json) and the
 [matched value diagnostic](2026-09-08-sf-anchored-value-bootstrap.md) remain the
 reference banks; the assembled input bank is external and pinned in the manifest.
 
@@ -285,10 +287,10 @@ so transient overshoot remains possible. The per-file limit is not an aggregate
 quota. The model identity and default byte-input semantics stay pinned; native
 repetition-edge and nondefault-Q parity remain unresolved.
 
-[Exact plan snapshot](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/ceres_gpu/plan.json)
-· [independent preparation review](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/ceres_gpu/independent_preparation_review.json)
-· [collector source as data](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/ceres_gpu/collect.py.txt)
-· [snapshot manifest](evidence/bt4-bootstrap/softsf-training-ceres-gpu-manifest.json).
+[Exact plan snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/ceres_gpu/plan.json)
+· [independent preparation review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/ceres_gpu/independent_preparation_review.json)
+· [collector source as data](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/ceres_gpu/collect.py.txt)
+· [snapshot manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/softsf-training-ceres-gpu-manifest.json).
 
 ## September 9 preregistration: integrated 8,192-row pilot
 
@@ -335,6 +337,6 @@ synchronous session-call time; component speed cannot establish full-labeler
 throughput. This one-shard pilot does not establish full-corpus coverage, teacher
 strength or a preferred mixture.
 
-The [compact preregistration](evidence/ceres-bootstrap/c3-compact-pilot8192-preregistration.json)
+The [compact preregistration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-bootstrap/c3-compact-pilot8192-preregistration.json)
 binds the exact plan, collector, author checks and independent preparation review
 by SHA256. Operational paths and logs remain external.

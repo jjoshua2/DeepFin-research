@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-09-b100-prior-calibration.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-09-b100-prior-calibration.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # B100 search-prior calibration — September 9
 
 Completed development comparison: sharpening B100’s search prior from 1.0 to 0.7 scored **52.34%**, or **+16.30 Elo** with a nominal paired 95% interval of **−20.83 to +53.80**. This misses the preregistered follow-up threshold. Keep prior 1.0 for recipe comparisons and prioritize value, tactical-policy and teacher-family experiments. This does not establish that 0.7 is ineffective or that 1.0 is optimal.
@@ -26,4 +28,4 @@ Independent review verified all unique game keys, color swaps, panel endpoints, 
 
 The first operational attempt failed before any games because its GPU-check executable path did not match WSL. A separate corrected attempt retained the same scientific settings and panel; only that completed attempt contributes results. The original failure remains recorded.
 
-[Compact result and artifact identities](artifacts/b100-prior-calibration-20260909/result.json) preserve the result and audit hashes. Full game-bank and operational records remain retained separately; this compact record does not publish them.
+[Compact result and artifact identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/b100-prior-calibration-20260909/result.json) preserve the result and audit hashes. Full game-bank and operational records remain retained separately; this compact record does not publish them.

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-07-g10-transfer-readiness.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-07-g10-transfer-readiness.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # G10 transfer readiness and target alignment
 
 ## Native WDL coverage update — September 9
@@ -12,7 +14,7 @@ including admission, lease, inference and teardown; this is not isolated GPU tim
 
 This adds value coverage to existing inputs. It does **not** increase the
 9,298,514-row common corpus, complete its value coverage, create a value-mixture
-recipe or qualify combined transfer training. [Compact coverage and review identities](artifacts/v50-training-g10-status-20260909/status.json)
+recipe or qualify combined transfer training. [Compact coverage and review identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/v50-training-g10-status-20260909/status.json)
 retain the latest completion and independent review hashes without operational logs.
 
 September 7, 2026. This preparation work supports the larger-data stage of the
@@ -54,11 +56,11 @@ and worker-realized cp-map cross-checks remain unavailable. This is aligned inpu
 inventory, not a finalized transfer recipe, qualified combined training schedule,
 unique-position count or playing-strength result.
 
-[Independent completed review](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/independent_completed_review.json)
-· [detailed accounting](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/independent_completed_accounting_checks.json)
-· [runner completion](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/completed.json)
-· [terminal-observation limits](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/operator_terminal_observation.json)
-· [snapshot hashes](evidence/bt4-bootstrap/softsf-training-ceres-gpu-manifest.json).
+[Independent completed review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/independent_completed_review.json)
+· [detailed accounting](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/independent_completed_accounting_checks.json)
+· [runner completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/completed.json)
+· [terminal-observation limits](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/g10_large/operator_terminal_observation.json)
+· [snapshot hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/softsf-training-ceres-gpu-manifest.json).
 
 ## Worker01 recovery completed — September 8
 
@@ -116,7 +118,7 @@ that cap. This is a deterministic cache-admission failure, not a rejection of th
 labels or a negative scientific result. The original failure and partial outputs
 are preserved; no successful completion was substituted.
 
-The [failure and recovery review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_worker01_v1/independent_failure_recovery_review.json)
+The [failure and recovery review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_worker01_v1/independent_failure_recovery_review.json)
 found that both retained derivations still matched their metadata snapshots and
 that all observed owned processes had exited. Reusing those derivations requires
 a new explicit post-derivation recovery with sufficient cache allocation and final
@@ -130,7 +132,7 @@ and 150GiB free-space reserve. Estimates are planning assumptions, not measured
 throughput or a promise that the next batch will fit. Final runtime and omission
 budgets remain unbound; this is not an automatic queue or a training selection.
 
-The [pipeline evidence catalog](evidence/bt4-bootstrap/g10-worker01-failure-and-large-readiness-manifest.json)
+The [pipeline evidence catalog](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-worker01-failure-and-large-readiness-manifest.json)
 contains the exact rank failure, retained derivation summaries, independent review
 and non-executable larger-data proposal. This operational status is separate from
 the completed [Soft-SF training-sample result](2026-09-08-soft-sf-qualified-training-sample.md).
@@ -168,7 +170,7 @@ warnings are retained in the logs; their cause is not established. No payloads w
 reread or qualification rerun: full per-row integrity evidence comes from the
 successful frozen consumers and their inspected checks, supported by these receipts.
 
-The [completion evidence manifest](evidence/bt4-bootstrap/g10-next-completion-manifest.json)
+The [completion evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-next-completion-manifest.json)
 publishes the original summaries, stage logs/resource receipts, support-exclusion
 ledgers and independent review. The failed first attempt and corrected registration
 below remain unchanged. This completion advances data readiness, not playing-strength
@@ -182,7 +184,7 @@ and 1,063,011 run07 rows. Source-qualified games do not overlap the previous
 `w00-00000..00191` selections or other selected shards. At that readiness snapshot, no pipeline had been launched for these inputs;
 the subsequent failed attempt is recorded above.
 
-The [worker01 readiness evidence](evidence/bt4-bootstrap/g10-worker01-readiness-manifest.json)
+The [worker01 readiness evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-worker01-readiness-manifest.json)
 records the source/config bindings, closed teacher coverage, prior selections,
 game disjointness and metadata checks. This inspection read no raw or sidecar
 chunks. Its output/time estimates and historical omission-limit defaults are
@@ -220,7 +222,7 @@ low CPU/idle I/O priority, hidden GPU, an 8 GiB sampled output/cache bound and
 raw BT4 generation were preserved. Missing-result omissions are bounded at 2%
 per source and evidenced support defects at 64, with zero envelope drops.
 
-The [attempt evidence manifest](evidence/bt4-bootstrap/g10-next-attempts-manifest.json)
+The [attempt evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-next-attempts-manifest.json)
 binds the original registrations, exact manifests and commands, independent/root
 reviews, startup receipts and terminal failure. Compact metadata archives include
 per-member SHA indexes and the frozen collector/header-check sources. No raw
@@ -251,14 +253,14 @@ omitted identities can be reconstructed from selected rows minus emitted refs.
 The successful pinned qualifiers checked ordinary BT4/rank admission, adapted
 payload hashes and legal normalized mass, with derived storage unchanged.
 
-The [independent completed review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/independent_completed_review_v1/review.json)
+The [independent completed review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/independent_completed_review_v1/review.json)
 reconciled six final summary hashes, all 390 derived/BT4/rank attribute records,
 130-shard memberships and per-shard survivor sums. It checked that the original
 128 selected raw-file storage identities were unchanged and all 30 recorded task
 PIDs were absent. It did not repeat raw/policy payload or row-provenance NPZ
 reads: the complete per-row proof relies on the inspected, successfully executed
 frozen consumers and qualifier. The original qualifiers, summaries, ledgers and
-stage receipts are in the [completion evidence manifest](evidence/bt4-bootstrap/capacity-g10-launch-manifest.json).
+stage receipts are in the [completion evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/capacity-g10-launch-manifest.json).
 
 The coordinator took **2,714.28 seconds (45.24 minutes)**, within its four-hour
 cap; including the outer launch interval gives 2,714.71 seconds. The two CPU
@@ -289,8 +291,8 @@ from each original source (531,791 run06; 531,155 run07). The frozen metadata
 records no source-qualified game overlap with the earlier prefix and increment.
 Survivor counts were unknown at registration; the completed accounting is above.
 Original receipts, source metadata and selections
-are retained in the [138-member metadata archive](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_parallel_metadata.tar.gz),
-with per-member hashes in the [publication manifest](evidence/bt4-bootstrap/h20-g100-increment-launch-manifest.json).
+are retained in the [138-member metadata archive](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_parallel_metadata.tar.gz),
+with per-member hashes in the [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-g100-increment-launch-manifest.json).
 Raw payloads were not scanned to prepare this registration.
 
 The target semantics and exclusion categories remain unchanged: complete
@@ -310,12 +312,12 @@ after admission confirmed the previous owners were absent. The overall
 cap is four hours including termination, with nice 19, idle I/O priority, hidden
 GPU, a periodically sampled 8 GiB output/cache bound and a 150 GiB free-space
 reserve. The sampled output bound is not a filesystem quota. The
-[reviewed launch manifest](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/runner_manifest_v2.json)
+[reviewed launch manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/runner_manifest_v2.json)
 binds qualified frozen runtime `56d650e06`, original selected inputs and exact
-commands. The [operator receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/operator_launch.json),
-[root launch review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/root_launch_review.json)
+commands. The [operator receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/operator_launch.json),
+[root launch review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_parallel_v1/root_launch_review.json)
 and both actual lane-start receipts are preserved in the
-[capacity and launch evidence manifest](evidence/bt4-bootstrap/capacity-g10-launch-manifest.json).
+[capacity and launch evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/capacity-g10-launch-manifest.json).
 Earlier unlaunched registration snapshots remain unchanged.
 
 This distinct-data preparation changes both adapter implementation and source
@@ -340,15 +342,15 @@ training corpus or a completed training schedule.
 
 There were zero envelope drops. Each source remained below its registered 2%
 missing-result ceiling and 64-support-exclusion ceiling. The
-[run06](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/run06_g10/common_input_qualification.json)
-and [run07 qualifications](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/run07_g10_companion4/common_input_qualification.json)
+[run06](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/run06_g10/common_input_qualification.json)
+and [run07 qualifications](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/run07_g10_companion4/common_input_qualification.json)
 record complete source-qualified survivor accounting, matching independent rank
 eligibility counts, unique physical-row/full-history joins, ordinary BT4/rank
 admission and unchanged derived storage. Omitted identities remain reconstructible
 from the pinned selection minus emitted row provenance; the 13 support-defect
 identities are also published in their actual ledgers.
 
-The [completed-metadata review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/completion_review_v1/review.json)
+The [completed-metadata review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/completion_review_v1/review.json)
 checked six final summary hashes, all 65 derived/BT4/rank attribute-lineage joins,
 65 row-provenance NPZ byte hashes, selected raw storage identities and exact
 complement arithmetic. It did not replay source or policy payloads: the full
@@ -356,7 +358,7 @@ eligibility and legal-distribution checks rely on the successfully executed pinn
 consumers and qualifier. The reviewer authored earlier pilot plumbing, so this is
 a separate completed-accounting check rather than a new independent audit of all
 inherited qualification code. The
-[terminal observation](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/completion_review_v1/terminal_observation.json)
+[terminal observation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_increment_completed/completion_review_v1/terminal_observation.json)
 found all 28 recorded coordinator, stage and observed descendant PIDs absent.
 
 Both sources ran sequentially on the registered two-CPU allocation. GNU-time
@@ -368,7 +370,7 @@ and sampled process/resource records, not a controlled speedup measurement.
 This batch used the pre-single-pass adapter at `f77101a59`; it does not measure
 the later PR #544 optimization or the prospective two-source concurrency change.
 
-The [completion evidence manifest](evidence/bt4-bootstrap/g10-increment-completion-manifest.json)
+The [completion evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-increment-completion-manifest.json)
 binds the supervisor/worker completion, ten stage receipts, full qualifications,
 losslessly compressed summaries, ledgers and review. Earlier launch snapshots
 below retain their original bytes and capture-time status.
@@ -380,10 +382,10 @@ its realized survivor and exclusion counts are reported above. The prior
 receipt/metadata checks bound the original source identities and completed history-aware BT4 sidecars
 without scanning raw payloads or rerunning the teacher.
 
-The [preregistration](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/preregistration.json),
+The [preregistration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/preregistration.json),
 [qualification contract](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/qualification_contract.md)
-and exact [run06](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/run06_g10/source_shards.json)
-and [run07 selections](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/run07_g10_companion4/source_shards.json)
+and exact [run06](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/run06_g10/source_shards.json)
+and [run07 selections](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/run07_g10_companion4/source_shards.json)
 preserve complete phase-zero d9 policy at temperature 0.0005, floor zero,
 separate latest-phase search value and source-qualified full-history provenance.
 Admission allows at most 64 evidenced policy-support exclusions per source,
@@ -397,23 +399,23 @@ The limit is **two hours**, two CPUs (2–3), nice 19/idle I/O priority, hidden 
 batch is a planning reference, not a throughput guarantee. Closed-shard selection
 is implemented and merged in [PR #542](https://github.com/jjoshua2/DeepFin/pull/542);
 the wrapper and CPU runtime were subsequently qualified before launch.
-The [operator receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/artifacts/operator_launch.json)
+The [operator receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/artifacts/operator_launch.json)
 records startup at **06:46:23 UTC**, with coordinator 312086. The
-[06:49:31 host snapshot](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/artifacts/startup_observation.json)
+[06:49:31 host snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/artifacts/startup_observation.json)
 confirms the owned worker processes, CPUs 2–3, nice 19 and hidden GPU. That
 historical snapshot establishes launch only; the later completed receipts above supply the realized counts. The
 operation prepared common inputs only: no policy mixture, teacher
 inference, training or new recipe selection is included.
 
-The [22-artifact launch archive](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/manifest.json)
+The [22-artifact launch archive](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/manifest.json)
 preserves the exact wrapper, reviews, final launch manifest, actual runtime
 qualification and startup receipts. It binds merged PR #542 at `f77101a59` and
 the existing Python 3.13.15 / Torch 2.14.0 CPU environment. The later single-pass
 adapter is not retroactively attributed to this batch.
 
-The [77-member frozen metadata archive](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/G10_increment_metadata.tar.gz)
+The [77-member frozen metadata archive](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/G10_increment_metadata.tar.gz)
 contains original manifests, selected closed receipts and sidecar attributes.
-Its [per-member manifest](evidence/bt4-bootstrap/h20-c100-g10-increment-manifest.json)
+Its [per-member manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-c100-g10-increment-manifest.json)
 binds exact bytes; extraction preserves repository-relative historical paths.
 The original prospective documents retain their capture-time implementation
 status. Their hashes are unchanged; the merged-code status above supersedes that
@@ -461,10 +463,10 @@ supervisor checks. No extra GPU work was performed.
 shutdown.** The warnings remain in the evidence despite successful downstream
 qualification; their cause and actual cleanup were not independently established.
 
-The [completed readout](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v3/completed_readout.json)
-and [independent receipt review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v3/completed_readout_independent_review.json)
+The [completed readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v3/completed_readout.json)
+and [independent receipt review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v3/completed_readout_independent_review.json)
 record the exact counts, exclusions, stage costs, source/storage identities and
-limitations. The [completed-readiness manifest](evidence/bt4-bootstrap/completed-readiness-manifest.json)
+limitations. The [completed-readiness manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/completed-readiness-manifest.json)
 includes all 53 compact readout evidence files and their original hashes. Earlier
 failed attempts and prospective records remain unchanged below and in their
 original evidence manifests.
@@ -533,7 +535,7 @@ H20 continues to use its already frozen, single-phase development corpus.
 
 ## Registered bounded pipeline pilot
 
-[Machine-readable registration](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_pipeline_pilot_v1/preregistration.json)
+[Machine-readable registration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_pipeline_pilot_v1/preregistration.json)
 and the two original closed receipt snapshots are included in the evidence manifest.
 Registered before operational derivation or adaptation. This tests whether the
 new tools can produce aligned inputs for a later recipe comparison. It does not
@@ -634,15 +636,15 @@ recipe plays better, or establish 100M-scale costs. Before expanding preparation
 use these stage costs and the existing parallel paths to select a bounded common-data
 batch. The next target-family training remains conditional on completed H20 results.
 
-[Actual readout](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_pipeline_pilot_v1/readout.json)
-and the [pilot evidence manifest](evidence/bt4-bootstrap/g10-pipeline-pilot-manifest.json)
+[Actual readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_pipeline_pilot_v1/readout.json)
+and the [pilot evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-pipeline-pilot-manifest.json)
 retain the fixed runner, launch/runtime pins, original stage logs and receipts,
 source-qualified row references, and completed derivation/sidecar/mixer summaries.
 Bulk Zarr payloads stay host-local with their recorded identities.
 
 ## Selected next common-data preparation
 
-The [machine-readable registration](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v1/preregistration.json)
+The [machine-readable registration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v1/preregistration.json)
 and both closed-receipt snapshots are included in the evidence manifest.
 
 The next preparation batch is **531,412 raw rows**: the first 32 closed,
@@ -676,7 +678,7 @@ bottleneck. The pilot suggests that the adapter's serial history reconstruction
 may matter, but it has not separated CPU from I/O cost or shown that a new
 implementation is necessary. H20 and useful GPU labeling retain priority.
 
-The [read-only assessment](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_readiness_v1/post_pilot_preparation_assessment_v1.json)
+The [read-only assessment](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_readiness_v1/post_pilot_preparation_assessment_v1.json)
 records the exact prefix counts and distinguishes the labeler's ONNX thread setting
 from Python encoding parallelism. At the preparation snapshot, this batch was selected but had not launched.
 
@@ -740,7 +742,7 @@ and retains the private startup hook. The v2 runner is a proposal only: no new
 registration, frozen launch or operational retry exists. The original attempt
 remains failed.
 
-[Original common-batch evidence](evidence/bt4-bootstrap/g10-common-batch-manifest.json)
+[Original common-batch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-common-batch-manifest.json)
 includes the exact runner, startup hook, registration, launch/review pins, original
 logs and terminal/cleanup receipts, plus the bounded diagnostic, exact failure row
 and losslessly compressed original diagnostic bank. Bulk partial spill arrays remain
@@ -768,7 +770,7 @@ full-history key proof and reason, with one budget enforced across workers.
 The rank consumer independently validates that evidence, skips only those rows,
 and refuses any emitted reference to an excluded row.
 
-The [corrected preparation registration](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v3/preregistration.json)
+The [corrected preparation registration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v3/preregistration.json)
 uses the original 64 raw shards with fresh output parents. Directory v2 preserves
 the earlier unlaunched direct-CLI proposal; v3 is the second operational attempt,
 initially recorded before freeze and launch. Its completed readout is above. The
@@ -785,7 +787,7 @@ ran derive, adapt, rank and qualification once each; no target mixing, teacher i
 Preserve the failed v1 outputs. Complete common inputs can support whichever recipe
 comparison is selected later from H20 evidence.
 
-[Implementation and follow-up evidence](evidence/bt4-bootstrap/g10-policy-support-manifest.json)
+[Implementation and follow-up evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-policy-support-manifest.json)
 includes original author/static checks, the supplemental value readout and review,
 and the proposed operational contract with small retained fixtures. Final code
 checks cover serial/spawn identity, combined worker limits, grouped-game drops,
@@ -796,16 +798,16 @@ for publication.
 
 ## Evidence
 
-The [publication manifest](evidence/bt4-bootstrap/g10-readiness-manifest.json) binds
+The [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-readiness-manifest.json) binds
 the original inventory, 3,003-shard membership record, 128 raw rows, exact diagnostic
 arrays and row-level joins/readouts, estimator corrections and producing script.
-[Readiness receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_readiness_v1/readiness.json)
-and [diagnostic/recommendation](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_readiness_v1/sample_diagnostic_v1/diagnostic_and_recommendation.json)
+[Readiness receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_readiness_v1/readiness.json)
+and [diagnostic/recommendation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_readiness_v1/sample_diagnostic_v1/diagnostic_and_recommendation.json)
 retain complete hashes, observed settings and limitations. Host commands and PIDs
 are archival provenance. Bulk source corpora and temporary writer directories remain
 host-local; this evidence publication is not a portable launch bundle.
 
-[Tool validation and independent reviews](evidence/bt4-bootstrap/g10-tools-validation-manifest.json)
+[Tool validation and independent reviews](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-tools-validation-manifest.json)
 bind the final derivation, adapter and rank changes. The affected derivation suite
 passed 317 cases, adapter tests passed eight, rank tests passed 13, and the combined
 repository lint passed with no findings. Independent checks covered actual mixer
@@ -822,10 +824,10 @@ had completed, and the full common-input qualifier had not started. Run07's
 1,056,966-row derivation remained available for the next lane. **New common-qualified
 rows: zero**; the completed inventory remains **3,165,265**.
 
-The [bounded progress review](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/worker01_snapshot/independent_progress_review.json)
-and [process observation](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/worker01_snapshot/independent_progress_observation.json)
+The [bounded progress review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/worker01_snapshot/independent_progress_review.json)
+and [process observation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/worker01_snapshot/independent_progress_observation.json)
 record active producers, no failure receipt and about 2h29 remaining to the original
 hard deadline. This is a timestamped progress observation, not completion or a
 throughput claim. Original failed artifacts are preserved, derivation is not repeated,
 and no recovery outcome changes B100's original-corpus comparison. The compact copies
-are bound in the [publication catalog](evidence/bt4-bootstrap/b100-completion-arena-launch-manifest.json).
+are bound in the [publication catalog](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-completion-arena-launch-manifest.json).

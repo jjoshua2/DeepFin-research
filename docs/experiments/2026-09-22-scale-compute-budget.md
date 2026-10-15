@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-22-scale-compute-budget.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-22-scale-compute-budget.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 500M generation and GPU capacity requirements
 
 Date: 2026-09-22. Status: illustrative resource model, not a measured schedule.
@@ -12,9 +14,9 @@ reduce the work. Neither this model nor throughput establishes target quality.
 
 ## Assumptions and reproducibility
 
-[Inputs](evidence/scale-compute-budget-20260922/inputs.json),
-[calculator](evidence/scale-compute-budget-20260922/calculate.py), and
-[output](evidence/scale-compute-budget-20260922/requirements.json) are banked together.
+[Inputs](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/scale-compute-budget-20260922/inputs.json),
+[calculator](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/scale-compute-budget-20260922/calculate.py), and
+[output](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/scale-compute-budget-20260922/requirements.json) are banked together.
 Run `python3 docs/experiments/evidence/scale-compute-budget-20260922/calculate.py`.
 The 8.76 BT4-label GPU-days, 4.23 Ceres-label GPU-days, and 4.7 training GPU-days
 are **provisional planning inputs from prior discussion**, not throughput newly

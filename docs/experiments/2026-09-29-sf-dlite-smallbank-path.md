@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-sf-dlite-smallbank-path.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-sf-dlite-smallbank-path.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # D-lite scalar value: small-bank executable path
 
 Status: source implementation, synthetic tests, an independently audited
@@ -5,7 +7,7 @@ Status: source implementation, synthetic tests, an independently audited
 attachment smoke. No full-128 attachment, corpus admission, training or Elo
 result has been run by this path.
 
-The [small-bank adapter](../../scripts/sf_dlite_smallbank.py) accepts at most
+The [small-bank adapter](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/sf_dlite_smallbank.py) accepts at most
 512 uniquely keyed winners and their compact, authenticated tri-source
 per-game `history_chain` proof lines. It rebuilds each row from the original
 root FEN, 16-ply opening and complete played UCI prefix. It checks exact
@@ -47,7 +49,7 @@ be corrected before physical attachment. The full D-lite experiment also
 needs a frozen matched training/arena comparison against selected-neural
 control; this slice grants neither training nor playing-strength credit.
 
-The [metadata extractor](../../scripts/sf_dlite_extract128.py) takes a
+The [metadata extractor](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/sf_dlite_extract128.py) takes a
 separately audited successful tri-source terminal and its exact receipt,
 wave-1 index, and three wave-1 game-proof files. It checks their recorded
 SHA-256 hashes, reconstructs the selected history joins, and freezes 128
@@ -76,7 +78,7 @@ D-calibrated values to 1e-6. Every sampled root had more than six pieces, but
 20 final depth-8 UCI lines reported nonzero `tbhits` (560 in total, at most 57
 in one search): 13 of those roots had seven pieces, three had eight, three had
 nine and one had ten. Their board plies ranged from 75 to 296 (median 150).
-The [compact evidence](evidence/2026-09-29-sf-dlite-128-raw-labels.json) pins
+The [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-sf-dlite-128-raw-labels.json) pins
 the replay, extraction, raw labels, audits and durable artifact manifest by
 SHA-256 without embedding source-host paths. The audited scope is the requested
 engine profile and raw labels; there was no independent UCI wire capture,
@@ -94,7 +96,7 @@ every frozen raw scalar label, selected and candidate target hash, unchanged
 3,716-byte policy, and the float32 value blend rounded once to float16. The
 mean per-row maximum absolute WDL-channel change was 0.03688 and the largest
 was 0.20752; these are target differences, not strength estimates. The
-[compact attachment evidence](evidence/2026-09-30-sf-dlite-92-bc-attachment.json)
+[compact attachment evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-30-sf-dlite-92-bc-attachment.json)
 pins the selected inputs, candidate output, root audit and durable 11-file
 artifact manifest. Its scope is the B/C sample and exact saved selected-target
 profile. It grants no full-128 target, training, corpus, GPU or Elo credit.

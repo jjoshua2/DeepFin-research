@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-23-loader-profile.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-23-loader-profile.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Live E loader profile and the next CPU comparison
 
 Date: 2026-09-23 UTC. Status: descriptive profile; prepared comparison not admitted.
@@ -12,8 +14,8 @@ No trainer settings or sources were changed.
 
 ## Profile evidence
 
-[Raw folded stacks](evidence/loader-profile-20260923/E-main.raw) and
-[summary/source hashes](evidence/loader-profile-20260923/profile-summary.json)
+[Raw folded stacks](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/loader-profile-20260923/E-main.raw) and
+[summary/source hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/loader-profile-20260923/profile-summary.json)
 retain the sample. `py-spy record --nonblocking --rate 20 --duration 20 --format raw`
 observed trainer PID2156939, frozen runtime `502cd02e072471c901255f3fdb580d6ea7b826d0`.
 The profiler ran on cores16–17 at nice19. It reported1198 all-thread samples and
@@ -44,8 +46,8 @@ reason to measure `_load_one` too. Neither27.5% nor5.42× predicts a full-epoch 
 
 ## Prepared CPU diagnostic
 
-[Draft runner](evidence/loader-profile-20260923/benchmark_overlay_hotload.py) and
-[plan](evidence/loader-profile-20260923/prepared-hotload-plan.json) extend the previous
+[Draft runner](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/loader-profile-20260923/benchmark_overlay_hotload.py) and
+[plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/loader-profile-20260923/prepared-hotload-plan.json) extend the previous
 banked eight-shard B constructor screen. They call the real `_load_one` method on
 scanned/planned records with the same validated context; all decoded arrays' shapes,
 dtypes and bytes, complete plans, counts and target hashes must agree. This isolates

@@ -1,8 +1,10 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bootstrap-storage-capacity.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bootstrap-storage-capacity.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Storage capacity changes the 100M bootstrap plan
 
 The September 8 read-only inventory does **not** support retaining 100 million G10 raw rows, their common-input data and multiple full recipe copies together on the current local disk. The archive has ample capacity; the local working set is the constraint. A larger experiment needs explicit staging and recipe retention, or suitable added working capacity. Neither design is qualified yet.
 
-The **earlier inventory snapshot** in the [capacity evidence](../../scratchpad/storage_scaling_20260908/publication/capacity.json) records 397.49 GB free on local ext4, leaving **236.43 GB above the existing 150-GiB reserve**. The archive mount is a 10.0007-TB volume with **8.1855 TB free**, exposed through 9p. GB/TB here are decimal; GiB is binary. Free space is an observation, not an allocation reserved for this experiment.
+The **earlier inventory snapshot** in the [capacity evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/capacity.json) records 397.49 GB free on local ext4, leaving **236.43 GB above the existing 150-GiB reserve**. The archive mount is a 10.0007-TB volume with **8.1855 TB free**, exposed through 9p. GB/TB here are decimal; GiB is binary. Free space is an observation, not an allocation reserved for this experiment.
 
 ## Continuing storage objective — September 8 update
 
@@ -42,10 +44,10 @@ The original dataset remains local: **source bytes reclaimed = 0**. Summaries,
 checkpoints and restore evidence remain retained; any later source removal still
 needs exact current source and consumer checks.
 
-[Compact completion identities](artifacts/storage-t1-wdl-update-20260909/status.json)
+[Compact completion identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/storage-t1-wdl-update-20260909/status.json)
 bind the actual operator, content-verification and root-review receipts. They are
 selected public fields, not copies of the operational logs or a new archive rehash.
-The [earlier startup snapshot](artifacts/v50-training-g10-status-20260909/status.json)
+The [earlier startup snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/v50-training-g10-status-20260909/status.json)
 remains historical. After this copy finished, [T1 materialization started](2026-09-09-bt4-target-temperature-horizon.md#materialization-started--september-9)
 under its separate preparation plan. Copy completion provides no new reclaimed
 capacity and does not establish that the full 100M workflow fits.
@@ -53,17 +55,17 @@ capacity and does not establish that the full 100M workflow fits.
 ### G50T05 copy and reclamation complete — September 9 update
 
 G50T05's external copy completed with outer exit zero in **2,944.11 seconds**.
-The [copy review](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/g50t05/independent_completion_review.json)
+The [copy review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/g50t05/independent_completion_review.json)
 records **713,331 verified members**, **11,936,466,856 logical source-file bytes**
 and a **13,294,694,400-byte archive** with matching local/external SHA-256
 `a50bebaac1b58074787ff9d1e9e4ce1db230ef94ca016722bb3a5b4788a9b208`.
 Its source-retained status describes that completed-copy stage, before reclamation.
 
 The separate removal completed in **79.90 seconds**, outer exit zero. The
-[independent terminal review](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/g50t05/independent_reclamation_completion_review.json)
+[independent terminal review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/g50t05/independent_reclamation_completion_review.json)
 verified **2,309 unique removed shard directories and 4,618 ordered journal
 records**, the exact bound list, unchanged hashes/stamps of both original local
-summaries, and the external archive identity. The [lossless evidence bundle](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/g50t05-copy-reclamation.tar.gz)
+summaries, and the external archive identity. The [lossless evidence bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/g50t05-copy-reclamation.tar.gz)
 retains the completion, source checks, command and removal journal/list. No transfer,
 delete, payload hash replay or restore test was performed for this publication.
 
@@ -82,7 +84,7 @@ observations, not reserved allocations; the earlier 359/372/383 GiB figures belo
 are historical. Do not add any of the three reclamations again to this baseline.
 The active V50 rewrite and raw label queue can consume space afterward.
 
-[The updated storage objective and exact manifest](evidence/bt4-bootstrap/full-wdl-v50-storage-manifest.json)
+[The updated storage objective and exact manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/full-wdl-v50-storage-manifest.json)
 keep continual transfers **and verified reclamation** part of bootstrap completion.
 A 150 GiB reserve is still only an operating floor. Account for continued raw/common
 data, policy/value labels, selected recipes, rewrite/transfer temporaries and
@@ -102,17 +104,17 @@ G20T05's complete copy and external readback finished in **2,917.96 seconds
 (48.63 minutes)** with outer exit zero. The archive contains **713,331 verified
 members**, occupies **13,155,164,160 bytes**, and has matching local/external
 SHA-256 `bec3436aea9b7da55e4f3832a080bd9dca929658f2a3e8c02c1c8e732df07e28`.
-The [copy review](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05/independent_copy_review.json)
+The [copy review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05/independent_copy_review.json)
 records **11,796,945,040 logical source-file bytes**. Its source-retained status
 belongs to the copy-completion stage, before the separate reclamation below.
 
 After fresh exact source-membership/stamp and consumer checks, reclamation
 removed **2,309 shard directories in 86.35 seconds**, outer exit zero. The
-[independent terminal review](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05/independent_reclamation_completion_review.json)
+[independent terminal review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05/independent_reclamation_completion_review.json)
 verified all **4,618 ordered intent/removal journal records**, the exact shard
 list, both retained original summary hashes/stamps and unchanged external archive
-identity. The [completion receipt](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05/reclamation.completed.json)
-and [lossless copy/removal bundle](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05-copy-reclamation.tar.gz)
+identity. The [completion receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05/reclamation.completed.json)
+and [lossless copy/removal bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g20t05-copy-reclamation.tar.gz)
 preserve the command, source checks, journal and earlier binding evidence. The
 [operator result](https://github.com/jjoshua2/DeepFin/pull/597#issuecomment-5595278607)
 was recorded before this publication; no removal or payload rehash was repeated here.
@@ -124,10 +126,10 @@ activity prevents attributing that entire difference to this removal. These are
 terminal observations, not currently reserved capacity. Do not add the earlier
 G20T1 recovery again to a post-reclamation free-space baseline.
 
-G50T05's [reviewed copy preparation](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g50t05/independent_preparation_review.json)
-then [launched at 23:24 local time](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g50t05/operator.actual_start.json).
+G50T05's [reviewed copy preparation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g50t05/independent_preparation_review.json)
+then [launched at 23:24 local time](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g50t05/operator.actual_start.json).
 This is **launch evidence only: its source is retained, with no completed copy
-or reclamation claim**. The [frozen launch bundle](../../scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g50t05-copy-launch.tar.gz)
+or reclamation claim**. The [frozen launch bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_g20t05_g50_v1/g50t05-copy-launch.tar.gz)
 reuses the verified copy path with a four-hour inclusive deadline, CPUs 0,1,
 two numeric threads, low priority, GPU hidden, a 24 GiB sampled staging cap and
 150 GiB reserve. The cap is not an expected output size or an allocation already
@@ -147,7 +149,7 @@ after full WDL completion and archive release; disjoint affinities do not allow
 simultaneous lock-owning recipe rewrites. Continued archive staging and label
 growth require current headroom at the next allocation. The 150 GiB floor is
 not proof that all raw/common/recipe/temporary data for 100M fit. Exact original
-snapshot/member hashes are in the [publication manifest](evidence/bt4-bootstrap/storage-g20t05-g50-manifest.json).
+snapshot/member hashes are in the [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/storage-g20t05-g50-manifest.json).
 This storage update changes no scientific verdict or training selection.
 
 ### Historical copy-completion snapshot — G20T1 source retained
@@ -161,7 +163,7 @@ bytes reclaimed = 0**. Removal of
 the verified staging tar is distinct from recovering space occupied by the
 original dataset. The complete archive retains the source and recipe evidence.
 
-The [independent completion review](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/independent_review.curated.json)
+The [independent completion review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/independent_review.curated.json)
 passed the copy/content chain. Before reclamation, compare current source-entry
 stamps and exact shard membership with the saved manifest, check current
 consumers/dependencies and external identity, and retain the two top-level
@@ -170,20 +172,20 @@ and those summaries, not every current source entry. Its **12,171,591,409 logica
 source bytes** are not a measurement of allocated space that removal will recover. File contents and recorded member metadata were
 verified; ACL/xattrs were captured but not independently compared, and no restore
 test is claimed. The original process visibility limitations remain in the
-[copy receipt](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/verified.json).
-The [byte-exact full review](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/independent_completion_review.json),
-[outer completion](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/operator.actual_complete.json)
-and [snapshot manifest](evidence/bt4-bootstrap/storage-objective-v50-manifest.json)
+[copy receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/verified.json).
+The [byte-exact full review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/independent_completion_review.json),
+[outer completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/g20t1/operator.actual_complete.json)
+and [snapshot manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/storage-objective-v50-manifest.json)
 retain exact source hashes. The earlier preparation below remains historical.
 
 ### Completed G20T1 reclamation and next copy — September 8, 22:21 snapshot
 
 After the archive content review, current source stamps/membership and consumer
 checks, G20T1 reclamation completed with **2,309 shard directories removed** and
-both original top-level summaries retained. Its [completion receipt](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t1/reclamation.completed.json)
-and [outer completion](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t1/operator.actual_complete.json)
+both original top-level summaries retained. Its [completion receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t1/reclamation.completed.json)
+and [outer completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t1/operator.actual_complete.json)
 record exit zero and **86.49 seconds**. The exact removal list, metadata/consumer
-checks, removal journal and operator source are preserved in the [compact evidence bundle](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t1-reclamation.tar.gz).
+checks, removal journal and operator source are preserved in the [compact evidence bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t1-reclamation.tar.gz).
 The parent counted 2,309 unique journal removals and checked retained summaries;
 the separate independent terminal review is pending at this draft snapshot.
 
@@ -195,10 +197,10 @@ logical archive size and observed free-space change are distinct measurements.
 The verified external archive and checkpoint/training/schedule/arena evidence
 remain; restoring shards later requires admission for the next consumer.
 
-G20T05's [copy operator started](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t05/operator.actual_start.json)
-at 22:21 local time after [preparation review](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t05/parent_preparation_review.json).
+G20T05's [copy operator started](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t05/operator.actual_start.json)
+at 22:21 local time after [preparation review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t05/parent_preparation_review.json).
 This snapshot claims **launch only**, with source retained and no completed
-transfer or reclamation result. The [frozen launch bundle](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t05-copy-launch.tar.gz)
+transfer or reclamation result. The [frozen launch bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/g20t05-copy-launch.tar.gz)
 retains the exact helper, wrapper, plan and start records: four hours inclusive,
 CPUs 0,1, low priority, GPU hidden, a 24 GiB sampled staging ceiling and 150 GiB
 reserve. It reuses the reviewed copy/verification path without changing loaders.
@@ -210,7 +212,7 @@ pools, including anchor material; they are not a wholesale deletion list. Preser
 checkpoint, holdout and live dependency exclusions. Its **85.32 GB total tar size
 is not a measure of recoverable allocated source space**.
 This publication adds no inventory, transfer, removal or payload recheck. Exact
-snapshot and member hashes are in the [publication manifest](evidence/bt4-bootstrap/v50-training-storage-progress-manifest.json).
+snapshot and member hashes are in the [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/v50-training-storage-progress-manifest.json).
 
 ### Account for the next value rewrite
 
@@ -224,15 +226,15 @@ metadata prelude and final admission are outside that timeout. No six-hour
 end-to-end bound is claimed. Full WDL-bank completion and a final bound launch
 remain pending; the original V10 plan stays untouched.
 
-The [preparation review](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/parent_preparation_review.json),
-[author receipt](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/preparation_receipt.json)
-and [lossless prepared plan](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/plan.prepared.json.gz)
+The [preparation review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/parent_preparation_review.json),
+[author receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/preparation_receipt.json)
+and [lossless prepared plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/plan.prepared.json.gz)
 are banked with the snapshot manifest. This preparation does not establish that
 V50 plus the growing 100M workflow can coexist without further reclamation.
 
 ## What the measured sizes imply
 
-[Complete worker-progress snapshots](../../scratchpad/storage_scaling_20260908/publication/raw_density.json) cover 36,025,871 G10 raw rows: 28,526,032 from run06 and 7,499,839 from run07. Their closed compressed files occupy 92.05 GB logically, approximately 2,555 bytes per raw row. Open tails and subsequent generation are excluded; no raw payload was read.
+[Complete worker-progress snapshots](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/raw_density.json) cover 36,025,871 G10 raw rows: 28,526,032 from run06 and 7,499,839 from run07. Their closed compressed files occupy 92.05 GB logically, approximately 2,555 bytes per raw row. Open tails and subsequent generation are excluded; no raw payload was read.
 
 | Component | Observed basis | Projection or consequence |
 | --- | --- | --- |
@@ -246,16 +248,16 @@ The original capacity snapshot used 5,276,543 prepared common rows; the [current
 
 ## Archive evidence and the next storage decision
 
-The [38-receipt refresh](../../scratchpad/storage_scaling_20260908/publication/archive_refresh.json) matches every previously recorded receipt hash and every tar's size and mtime. The tars total 85.32 GB. This reuses the [earlier full-content verification](2026-09-07-storage-archive.md); it is **not** a new payload checksum or restore test. Twenty-six archived source pools remain local, with prior dependency exclusions still relevant. No leftover staged tar duplicates were found in the two known staging locations.
+The [38-receipt refresh](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/archive_refresh.json) matches every previously recorded receipt hash and every tar's size and mtime. The tars total 85.32 GB. This reuses the [earlier full-content verification](2026-09-07-storage-archive.md); it is **not** a new payload checksum or restore test. Twenty-six archived source pools remain local, with prior dependency exclusions still relevant. No leftover staged tar duplicates were found in the two known staging locations.
 
 This record recommends no deletion of historical checkpoint or holdout candidates and no relocation of identity-pinned inputs. The small candidates inspected would not materially solve the scale constraint. The inventory left raw sources, derived corpora, policy/value sidecars, checkpoints, openings and frozen runtimes untouched. The later retention section refines which completed recipe payloads need remain on fast storage. Archive free space does not qualify direct training over 9p, and moving existing inputs can invalidate their path and storage-identity receipts.
 
-Before committing the larger scale experiment, account for the actual retained raw, common and recipe working set, including temporary publication space and concurrent growth. Then qualify a staged-data/recipe-retention approach or suitable additional working storage. This is a change to the scale plan, not an approved storage implementation. The inventory performed no move, deletion, payload hashing, full-disk recursive scan or I/O benchmark. The [publication manifest](../../scratchpad/storage_scaling_20260908/publication/manifest.json) binds the compact projections and original evidence identities.
+Before committing the larger scale experiment, account for the actual retained raw, common and recipe working set, including temporary publication space and concurrent growth. Then qualify a staged-data/recipe-retention approach or suitable additional working storage. This is a change to the scale plan, not an approved storage implementation. The inventory performed no move, deletion, payload hashing, full-disk recursive scan or I/O benchmark. The [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/manifest.json) binds the compact projections and original evidence identities.
 
 
 ## First storage measure: archive completed unselected recipe payloads
 
-The [consumer-source review](../../scratchpad/storage_scaling_20260908/publication/retention_feasibility_v1/receipt.json), bound to main `d53c749`, identifies a practical first measure before changing loaders: archive completed unselected recipe shards while keeping their checkpoint and lineage evidence locally. The reviewed checkpoint/arena consumers read checkpoints, completion receipts, run summaries and saved realized schedules; they do not reopen the training shard payloads. Existing role and protocol restrictions still apply.
+The [consumer-source review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/retention_feasibility_v1/receipt.json), bound to main `d53c749`, identifies a practical first measure before changing loaders: archive completed unselected recipe shards while keeping their checkpoint and lineage evidence locally. The reviewed checkpoint/arena consumers read checkpoints, completion receipts, run summaries and saved realized schedules; they do not reopen the training shard payloads. Existing role and protocol restrictions still apply.
 
 Completed G20T1, G20T05, G50T05 and top-tie payloads can become cold once no active job or selected producer needs them. C20 and H20 payloads are likewise optional for checkpoint evaluation, conditional on no further training or materialization needing them. **Keep the full original SF and B100 corpora for current value/horizon work, and active SoftSF10 through training and realized-schedule verification.**
 
@@ -263,20 +265,20 @@ Keep each policy recipe's `derive_targets_summary.json` and `bt4_policy_mix_summ
 
 The complete archive must retain shard metadata and payloads for reconstruction. A later byte-exact restore at original paths can preserve the current horizon content/path digest, but changed inode/ctime can invalidate separate storage snapshots. Re-admit restored data for its next consuming job without rewriting historical receipts or repeating completed matches.
 
-At this earlier retention-review snapshot, archive copy, content verification and local removal had **not** been executed; the later G20T1 copy and reclamation are recorded above. A [six-directory metadata-size attempt](../../scratchpad/storage_scaling_20260908/publication/retention_feasibility_v1/candidate_size_inventory_attempt.json) reached its 55-second cap without totals, so aggregate savings remain unmeasured. The existing 13.59-GiB B100 measurement is not a measured size for every recipe and does not establish that the 100M pipeline fits.
+At this earlier retention-review snapshot, archive copy, content verification and local removal had **not** been executed; the later G20T1 copy and reclamation are recorded above. A [six-directory metadata-size attempt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/retention_feasibility_v1/candidate_size_inventory_attempt.json) reached its 55-second cap without totals, so aggregate savings remain unmeasured. The existing 13.59-GiB B100 measurement is not a measured size for every recipe and does not establish that the 100M pipeline fits.
 
-The separate [sharing review](../../scratchpad/storage_scaling_20260908/publication/retention_feasibility_v1/sharing_limit.json) rules out ordinary hardlinks as a drop-in change to pinned data: creating or removing a link changes the shared inode's ctime, which existing storage receipts bind. A new family linked before qualification could be investigated, but is unqualified. Its 74.2% common-array observation is from **one B100 shard**, not a corpus-wide savings estimate; archival remains the first measure.
+The separate [sharing review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_scaling_20260908/publication/retention_feasibility_v1/sharing_limit.json) rules out ordinary hardlinks as a drop-in change to pinned data: creating or removing a link changes the shared inode's ctime, which existing storage receipts bind. A new family linked before qualification could be investigated, but is unqualified. Its 74.2% common-array observation is from **one B100 shard**, not a corpus-wide savings estimate; archival remains the first measure.
 
 
 ## Original G20T1 preparation snapshot — before launch
 
-At the original preparation snapshot, the first concrete archive step was **PREPARED, NOT LAUNCHED**: a [frozen plan](../../scratchpad/bt4_joint20/G20T1_cold_archive_v1/plan.json) for the complete G20T1 corpus (18,910,484 rows, 2,309 shards), including top-level summaries and shard provenance. The [independent review](../../scratchpad/bt4_joint20/G20T1_cold_archive_v1/independent_review.json) passed. This is a snapshot of one operational use of the existing archive helper, not a new shared archive framework or a change to the historical recipe verdict.
+At the original preparation snapshot, the first concrete archive step was **PREPARED, NOT LAUNCHED**: a [frozen plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/G20T1_cold_archive_v1/plan.json) for the complete G20T1 corpus (18,910,484 rows, 2,309 shards), including top-level summaries and shard provenance. The [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/G20T1_cold_archive_v1/independent_review.json) passed. This is a snapshot of one operational use of the existing archive helper, not a new shared archive framework or a change to the historical recipe verdict.
 
-The [operator command](../../scratchpad/bt4_joint20/G20T1_cold_archive_v1/operator_command.json) is for a later G10-free window, using the existing nonblocking shared preparation lock. It is not queued. The strict four-hour deadline includes prelude and cleanup; CPU affinity is 0,1 with two numeric threads, low priority and GPU hidden. The 24-GiB tar ceiling and sampled aggregate staging limit are bounds, not measured corpus size; sampling may transiently overshoot. The local reserve is 150 GiB, with additional admission headroom and destination-space checks specified in the plan. Four hours is a failure ceiling, not a completion estimate.
+The [operator command](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/G20T1_cold_archive_v1/operator_command.json) is for a later G10-free window, using the existing nonblocking shared preparation lock. It is not queued. The strict four-hour deadline includes prelude and cleanup; CPU affinity is 0,1 with two numeric threads, low priority and GPU hidden. The 24-GiB tar ceiling and sampled aggregate staging limit are bounds, not measured corpus size; sampling may transiently overshoot. The local reserve is 150 GiB, with additional admission headroom and destination-space checks specified in the plan. Four hours is a failure ceiling, not a completion estimate.
 
 Execution would inventory the source progressively, verify every tar member and its contents against that inventory, compare external readback and local archive digests, and recheck source stability. **The full source remains in place even after success.** Existing attempts refuse, with no automatic resume; failures retain source and partial archive state. Only the verified local staging tar can be removed after successful external readback. ACL/xattrs are captured but not independently compared, and no restore test is claimed.
 
-The [publication manifest](../../scratchpad/bt4_joint20/G20T1_cold_archive_v1/publication_manifest.json) binds the exact helper, wrapper, command, plan and review evidence. Six focused disposable checks passed before a separately reviewed absolute-tool-path correction; their original source/result and correction supplement are preserved. This publication ran only link, hash and hygiene checks. No dataset inventory, copy, transfer, deletion or launch has occurred in this preparation.
+The [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/G20T1_cold_archive_v1/publication_manifest.json) binds the exact helper, wrapper, command, plan and review evidence. Six focused disposable checks passed before a separately reviewed absolute-tool-path correction; their original source/result and correction supplement are preserved. This publication ran only link, hash and hygiene checks. No dataset inventory, copy, transfer, deletion or launch has occurred in this preparation.
 
 ## 2026-09-11: legacy run04/run05 external copies verified
 
@@ -384,7 +386,7 @@ The source manifest remains at
 SHA256 `4331ace78c550937a6a77fe70360ba6030cbf447cbe7528eebc3fb5dc2dc0305`.
 Restore into a fresh directory and verify the archived identities before renewed
 source admission. Retained summaries alone are insufficient for training.
-[Compact completed receipts and review pins](evidence/e0legacy-archive-reclaimed-20260912.json)
+[Compact completed receipts and review pins](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/e0legacy-archive-reclaimed-20260912.json)
 record both operations; this storage recovery establishes no new playing result
 or proof that the full 100M working set fits.
 
@@ -427,7 +429,7 @@ All runs, checkpoints, optimizer state and receipts remain; the current Downside
 original SF/B100/C and active G10 inputs are outside this operation.
 
 **At the launch snapshot, copy completion was unread and source bytes reclaimed were 0.** The
-[compact actual-launch evidence](evidence/tactical100-archive-launched-20260913.json)
+[compact actual-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/tactical100-archive-launched-20260913.json)
 contains exact command, source/destination and review pins. Preparation's initial
 sandbox mount check failed before the census because its view was read-only;
 the retained host attempt confirmed writable E: and completed the single census.
@@ -481,7 +483,7 @@ experiment; validate restored contents and the intended consumer before reuse.
 ACL/xattrs were captured but not independently compared. Later metadata stability
 is not a new content-integrity proof against undetected storage corruption.
 
-[Compact completed copy and reclamation evidence](evidence/tactical100-archive-reclaimed-20260913.json)
+[Compact completed copy and reclamation evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/tactical100-archive-reclaimed-20260913.json)
 pins the copy, metadata eligibility, exact removal list, independent reviews,
 completion and journal. This publication reviewed those saved records, a single
 final directory listing and archive/summary metadata only; it repeated no payload
@@ -501,7 +503,7 @@ The parent launched the copy-and-verify **outer command at 2026-09-13 15:01:45.3
 
 The intended destination is `/mnt/e/chess_derived_archive_20260908/Downside300_v1/qtemp_0.0005_hist_20m_bt4_sf_downside300w05_v1.tar`. The operation must verify all original members/content/metadata, source stability and full external readback before any separately reviewed exact shard reclamation. All source remains in place during this copy. Both root summaries, all checkpoints and receipts, current SF/B100/C/Ceres100/G10 inputs and the adjacent `.writing.interrupted-20260912T182105Z` partial remain protected. Failure preserves partial artifacts without an automatic retry.
 
-**At this launch snapshot, archive verification was pending and source bytes reclaimed were 0.** The [compact plan and actual-launch evidence](evidence/downside300-archive-launched-20260913.json) contains the full plan, census summary, bounds, review and immutable outer argv/deadline. This publication consumed only saved small records; it did not poll the archive, repeat inventories or read payloads. The parent owns terminal review and any later verified reclamation.
+**At this launch snapshot, archive verification was pending and source bytes reclaimed were 0.** The [compact plan and actual-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/downside300-archive-launched-20260913.json) contains the full plan, census summary, bounds, review and immutable outer argv/deadline. This publication consumed only saved small records; it did not poll the archive, repeat inventories or read payloads. The parent owns terminal review and any later verified reclamation.
 
 
 ## September 13: Downside300 archive verified and 2,309 shards reclaimed
@@ -516,7 +518,7 @@ The prepared remover reuses the reviewed Tactical100 method with only corpus, su
 
 **The parent then executed the reviewed removal, finishing with exit 0 in 65.064 seconds at 2026-09-13T15:55:53.113015+00:00 (session50379).** The completed receipt reports exactly **2,309 shards removed**, unchanged checksums and metadata for both retained summaries, and unchanged external archive identity. Independent completion review `36d11094…` verified all **2,309 intent/removal journal pairs**, terminal success, the final two-summary directory and the preserved adjacent interrupted directory. Filesystem free space increased from **204,214,566,912 to 218,763,730,944 bytes**, a **14,549,164,032-byte** change. This is a concurrent whole-filesystem observation, distinct from the prior **14,552,358,912-byte** selected-shard allocation; it is not isolated attribution. Both root summaries, all checkpoints/optimizer state/runs/match banks/scientific receipts, every other corpus and the adjacent `.writing.interrupted-20260912T182105Z` directory remain protected. Restore from `/mnt/e/chess_derived_archive_20260908/Downside300_v1/qtemp_0.0005_hist_20m_bt4_sf_downside300w05_v1.tar`: verify the full SHA-256 above and extract into a fresh empty directory before qualifying reuse; do not overwrite retained or active paths.
 
-[Compact completed-copy and reclamation evidence](evidence/downside300-archive-reclaimed-20260913.json) preserves both terminal results, the full verification receipt, independent reviews and fresh scoped qualification. The exact removal list and source manifest remain local pinned bulk metadata. No archive was repeated and no payloads, models or active jobs were polled for this publication.
+[Compact completed-copy and reclamation evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/downside300-archive-reclaimed-20260913.json) preserves both terminal results, the full verification receipt, independent reviews and fresh scoped qualification. The exact removal list and source manifest remain local pinned bulk metadata. No archive was repeated and no payloads, models or active jobs were polled for this publication.
 
 
 ## September 13: Ceres100 cold archive copy launched; source retained
@@ -533,7 +535,7 @@ A fresh host fd/cwd observation found no visible references to the exact source.
 
 The parent launched the exact **outer copy command at 2026-09-13T20:37:01.476691+00:00**, with an absolute deadline of **2026-09-13T23:37:01.476691+00:00** (exec **52568**, sole observer **779**). This is an invocation receipt, not a completed archive. **Verification is pending and source bytes reclaimed are zero at this snapshot.** The planned destination is `/mnt/e/chess_derived_archive_20260908/Ceres100_v1/qtemp_0.0005_hist_20m_ceres_policy_C100T05.tar`. No archive checksum or restore-ready claim exists yet. Copying preserves all source bytes; a later separately qualified reclamation would remove only the exact shard directories and retain `derive_targets_summary.json` and `ceres_target_mix_summary.json`, all checkpoints and neighboring partials.
 
-[Compact actual-launch evidence](evidence/ceres100-archive-launched-20260913.json) pins the immutable launch, final plan, census summary and independent review. Preparing this publication read saved small records only; it did not repeat the census, hash payloads, or poll the archive or training.
+[Compact actual-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres100-archive-launched-20260913.json) pins the immutable launch, final plan, census summary and independent review. Preparing this publication read saved small records only; it did not repeat the census, hash payloads, or poll the archive or training.
 
 ## September 13: Ceres100 external copy verified
 
@@ -554,7 +556,7 @@ metadata includes file mode, ownership and modification time.
 At copy completion the original corpus was still online. Exact shard reclamation
 requires the subsequent fresh source/consumer qualification and reviewed remover;
 root summaries, all runs/checkpoints, source teachers and neighboring partials
-remain protected. [Completion evidence](evidence/ceres100-archive-completed-20260913.json)
+remain protected. [Completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres100-archive-completed-20260913.json)
 preserves the actual copy proof and independent review. Copy completion alone
 does not establish reclaimed SSD space.
 
@@ -573,7 +575,7 @@ Observed filesystem free space changed from **182,973,345,792** to
 whole-filesystem observation, not an isolated measurement of reclamation;
 it is intentionally separate from the shard allocation total.
 
-[Final evidence](evidence/ceres100-archive-completed-20260913.json) retains the
+[Final evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres100-archive-completed-20260913.json) retains the
 copy verification, exact removal receipt and preserved-summary identities.
 Independent completion review reconciled all 2309 intent/removal pairs and
 confirmed the two retained summary identities and unchanged archive stat. The
@@ -617,7 +619,7 @@ The saved host preparation observed writable E: through 9p and no visible scoped
 source consumers; opaque PID30 and other-user processes were explicitly disclosed.
 That copy-only observation is not removal qualification. The initial sandbox mount
 check failed on its read-only view before the host check succeeded.
-[Compact launch evidence](evidence/softsf10-archive-launched-20260913.json)
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/softsf10-archive-launched-20260913.json)
 retains the actual invocation and frozen bindings. Any later reclamation requires
 verified external completion and a fresh exact-shard assessment.
 
@@ -632,4 +634,4 @@ The reviewed reclaimer then completed with parent-observed exit 0 in approximate
 
 At **2026-09-14T00:56:01.099887+00:00**, the parent launched the H20T05 copy-only operation after fresh resource checks: 199,012,872,192 free disk bytes and 86,348,681,216 available RAM bytes. The registered three-hour operation uses CPU0,1, two threads, a 14 GiB tar cap, 48 GiB available RAM, and 177.4 GiB startup/162 GiB running disk requirements. Disk reservation includes 8 GiB for the selected raw derivation and 4 GiB for other writers. Source remains in place during copy and verification; no H20 completion or reclamation is claimed here.
 
-[Compact completed/launch evidence](evidence/softsf-reclaimed-h20-launched-20260913.json) binds both independent reviews, the exact reclamation result, and an immutable H20 launch snapshot. Bulk manifests and journals remain external to Git.
+[Compact completed/launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/softsf-reclaimed-h20-launched-20260913.json) binds both independent reviews, the exact reclamation result, and an immutable H20 launch snapshot. Bulk manifests and journals remain external to Git.

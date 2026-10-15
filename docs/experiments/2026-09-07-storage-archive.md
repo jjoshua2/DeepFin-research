@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-07-storage-archive.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-07-storage-archive.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Storage archive and qualified local retirement
 
 The September 6–7 storage operation completed **38 queued salvage archives,
@@ -8,13 +10,13 @@ separate manual Zarr pilot and the DRIFT directory-copy pilot. Copy completion d
 not authorize removing every original: only separately qualified local retirements
 were performed.
 
-The [completion snapshot](../../scratchpad/storage_audit_20260906/archive_completion.json)
-and [transfer record](../../scratchpad/storage_audit_20260906/transfer_status.json)
-record the final queue state. The [publication manifest](../../scratchpad/storage_audit_20260906/publication_manifest.json)
+The [completion snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/archive_completion.json)
+and [transfer record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/transfer_status.json)
+record the final queue state. The [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/publication_manifest.json)
 links 69 byte-identical compact artifacts with their original paths, sizes and
 SHA256 values. They include all 38 successful archive receipts, completed cleanup
 receipts, independent reviews, dependency preservation, and the external drive's
-[original restore instructions](../../scratchpad/storage_audit_20260906/publication_originals/RESTORE.md).
+[original restore instructions](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/publication_originals/RESTORE.md).
 These are dated provenance, not live process status or runnable continuation plans.
 The publication copied compact evidence; it did not repeat the tar payload readback.
 
@@ -34,8 +36,8 @@ preserved. Three separately reviewed archives—`recover_ckpt751_20260711`,
 `scaleup_512x16_window_20260707`, and `swap_512x16_20260711`—subsequently stored each
 regular path independently. Their contents and ordinary metadata were verified,
 but restoration does **not** recreate inode sharing. All three originals remain
-local. See their [review](../../scratchpad/storage_audit_20260906/hardlink_copy_v1/independent_review.json),
-[qualification](../../scratchpad/storage_audit_20260906/hardlink_copy_v1/qualification.json),
+local. See their [review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/hardlink_copy_v1/independent_review.json),
+[qualification](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/hardlink_copy_v1/qualification.json),
 and successful receipts listed in the publication manifest.
 
 GNU tar captured ACLs and xattrs; those attributes were not independently compared.
@@ -46,11 +48,11 @@ assumed complete. The explicitly verified DRIFT pilot is the documented exceptio
 
 | Operation | Completed evidence and interpretation |
 | --- | --- |
-| DRIFT pilot | [`DRIFT_20260728_postC17_iter192`](../../scratchpad/storage_audit_20260906/pilot_retired.json) was verified against its directory copy under `/mnt/e/chess_backup_20260827/salvage/`; its original path now links to that external copy. |
-| Manual Zarr pilot | [`pre_audit_deploy_20260726`](../../scratchpad/storage_audit_20260906/zarr_pilot/cleanup_completed.json) was separately verified and removed; its tar is under `chess_archive_20260906/manual_pilot/`. |
-| Three checkpoint pools | [`apf_endpoint_checkpoint_000297_20260818`](../../scratchpad/storage_audit_20260906/small_checkpoint_cleanup_v1/apf_endpoint_checkpoint_000297_20260818.completed.json), [`f_only_readout_iter487_20260819`](../../scratchpad/storage_audit_20260906/small_checkpoint_cleanup_v1/f_only_readout_iter487_20260819.completed.json), and [`iter118_pre_value_easy_drop`](../../scratchpad/storage_audit_20260906/small_checkpoint_cleanup_v1/iter118_pre_value_easy_drop.completed.json) were separately qualified and removed. |
-| Nine large pools | The [fixed allowlist](../../scratchpad/storage_audit_20260906/large_salvage_cleanup_v1/plan.json), [independent review](../../scratchpad/storage_audit_20260906/large_salvage_cleanup_v1/independent_review.json), and [parent completion observation](../../scratchpad/storage_audit_20260906/large_salvage_cleanup_v1/parent_completion_observation.json) cover all nine completed removals. Their per-pool completion receipts are in the publication manifest. |
-| Superseded derived partial | [`qtemp_0.0005_hist_20m_bt4_global_G20T1.interrupted_reboot_20260905`](../../scratchpad/storage_audit_20260906/abandoned_G20T1_cleanup_v1/completed.json) was discarded after separate dependency and exact layout qualification. Metadata and lineage survive; **there is no payload archive of this partial**. Its complete replacement and original inputs remain local. |
+| DRIFT pilot | [`DRIFT_20260728_postC17_iter192`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/pilot_retired.json) was verified against its directory copy under `/mnt/e/chess_backup_20260827/salvage/`; its original path now links to that external copy. |
+| Manual Zarr pilot | [`pre_audit_deploy_20260726`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/zarr_pilot/cleanup_completed.json) was separately verified and removed; its tar is under `chess_archive_20260906/manual_pilot/`. |
+| Three checkpoint pools | [`apf_endpoint_checkpoint_000297_20260818`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/small_checkpoint_cleanup_v1/apf_endpoint_checkpoint_000297_20260818.completed.json), [`f_only_readout_iter487_20260819`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/small_checkpoint_cleanup_v1/f_only_readout_iter487_20260819.completed.json), and [`iter118_pre_value_easy_drop`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/small_checkpoint_cleanup_v1/iter118_pre_value_easy_drop.completed.json) were separately qualified and removed. |
+| Nine large pools | The [fixed allowlist](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/large_salvage_cleanup_v1/plan.json), [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/large_salvage_cleanup_v1/independent_review.json), and [parent completion observation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/large_salvage_cleanup_v1/parent_completion_observation.json) cover all nine completed removals. Their per-pool completion receipts are in the publication manifest. |
+| Superseded derived partial | [`qtemp_0.0005_hist_20m_bt4_global_G20T1.interrupted_reboot_20260905`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/abandoned_G20T1_cleanup_v1/completed.json) was discarded after separate dependency and exact layout qualification. Metadata and lineage survive; **there is no payload archive of this partial**. Its complete replacement and original inputs remain local. |
 
 The nine large pools were `bt4heads_iter112_20260817`, `f_only_midpoint_20260818`,
 `post_quarantine_20260801`, `pre_abandonfix_20260724`, `pre_aot_deploy_20260714`,
@@ -78,7 +80,7 @@ reclaimed-space claim.
 
 The configured `bt4heads_iter100_20260815` restart seed, mutable `rolling`, ANCHOR,
 and the linked `armB_launch_base_20260814` / `pre_policy_adapter_20260812` pair remain
-local. The [dependency record](../../scratchpad/storage_audit_20260906/linked_pool_dependencies.json)
+local. The [dependency record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/storage_audit_20260906/linked_pool_dependencies.json)
 shows that `armB_launch_base` points into `pre_policy_adapter` replay shards.
 `pre_pairing_20260819` was also retained because production YAML names it as a
 historical revert point. Other copied originals have not been implicitly cleared

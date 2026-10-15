@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-06-bt4-bootstrap-results.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-06-bt4-bootstrap-results.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 bootstrap: completed global and SF-close screens
 
 Recorded September 6, 2026. The bootstrap research supports restarting RL in roughly
@@ -130,7 +132,7 @@ completed results. Keep the long-term aim of a strong approximately 100M-positio
 bootstrap and eventual RL restart distinct from this 20M comparison. Fresh
 confirmation at 400 simulations and actual RL benefit remain unmeasured.
 
-The [prepared TailRL integration notes](../../scratchpad/tailrl_bootstrap_v1/offline_integration_notes.json)
+The [prepared TailRL integration notes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/tailrl_bootstrap_v1/offline_integration_notes.json)
 are now published unchanged (SHA256 `bedb08efaa044231aba79faad3cd6883258806b5ffd26bdc12b7de41504df06f`),
 against PR #517 head `f759e52ec95c02c47d0a424c1467769e0a5c67fd`. They are
 **read-only preparation, with no implementation or training queued**. They identify

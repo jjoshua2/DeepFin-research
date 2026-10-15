@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-12-ceres-source-block-cache.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-12-ceres-source-block-cache.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres source-read cache
 
 A bounded CPU benchmark supports caching decoded source blocks before future
@@ -37,7 +39,7 @@ against the historical 579.5-second chunk, but that is an unmatched extrapolatio
 not a measured collector speedup. It does not explain the entire residual or
 justify claims of 14× faster labeling.
 
-[Compact evidence](evidence/ceres-source-cache-20260912.json) records the plan,
+[Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-source-cache-20260912.json) records the plan,
 source/chunk metadata, identical decoded digest, code hash, terminal receipt and
 local artifact paths. No source data or model was rewritten.
 

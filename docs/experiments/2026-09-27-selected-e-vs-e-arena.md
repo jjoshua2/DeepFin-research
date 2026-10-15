@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-27-selected-e-vs-e-arena.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-27-selected-e-vs-e-arena.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Selected-E versus E: seed-121 strict arena readout (2026-09-27)
 
 **Decision: PASS the preregistered noninferiority gate.** The selected one-teacher-per-row policy/value target candidate finished the same 58,090,688-row, 113,459-update seed-121 training horizon as the saved original-E reference. Their fixed 576-pair, 1,152-game, color-swapped arena completed without truncation or resumed pairs. Candidate-minus-E paired Elo was **−3.016**, with a normal 95% paired interval **[−17.737, +11.694]**. Its lower bound exceeds the preregistered **−20 Elo** margin, so the exact precommitted rule advances the recipe to a *future real one-teacher annotation-cost screen*. No annotation-rate or cost saving was measured here.

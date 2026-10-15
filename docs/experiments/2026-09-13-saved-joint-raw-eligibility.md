@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-13-saved-joint-raw-eligibility.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-13-saved-joint-raw-eligibility.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Saved joint raw-label eligibility expansion
 
 Status: the 512-shard audit and actual exclusion-loader qualification completed. Derivation of 4,219,426 eligible rows launched; completion and training admission remain pending.
@@ -12,7 +14,7 @@ The existing audit now accepts a separately named pinned receipt selection. Ever
 
 Actual execution must preserve source/physical-offset diagnostics, distinguish no-result rows from required baseline rejections, and report whole-shard collateral valid rows. Partial progress or failure is not eligibility admission. Future derivation depends on the actual audit and a separate resource decision. The prior 184-shard audit took 1,300.442 seconds for 1,527,153 raw rows; linear scaling suggests about 60 minutes here, not a throughput guarantee.
 
-[Compact evidence](evidence/saved-joint-raw-eligibility-20260913.json) pins the inventory, exact selection and disjointness assessment without copying giant receipt rosters into main. The original raw shards, sidecars and existing training corpora remain unchanged.
+[Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/saved-joint-raw-eligibility-20260913.json) pins the inventory, exact selection and disjointness assessment without copying giant receipt rosters into main. The original raw shards, sidecars and existing training corpora remain unchanged.
 
 The final selection manifest passed the actual metadata-only admission function for all 512 receipts / 4,249,935 raw rows. It explicitly binds source IDs to snapshots; the original draft is retained. This check did not read raw shards or establish baseline eligibility.
 
@@ -24,7 +26,7 @@ The actual plan is `a138c9e7…`, command `8a38a750…`, and independent operato
 
 The audit retains the exact **512 shards / 4,249,935 raw rows**, CPU **8–9**, two threads, hidden GPU, nice 19 and idle I/O, **48/32-GiB startup/running available RAM**, **150-GiB disk floor**, and **1-GiB aggregate allocated metadata ceiling**. The auditor’s diagnostic ceiling is separately 512 MiB. The **7,200-second inclusive** allocation uses outer TERM at 7,160 seconds with 40 seconds for cleanup and a shared internal deadline of at most 7,140 seconds. The saved child received a 7,094-second hard allowance within that deadline. Existing STOP checks and authenticated owned-process cleanup apply. Sampled RAM and output checks are bounds with sampling limitations, not measured peak-use guarantees.
 
-[Compact launch evidence](evidence/saved-joint-raw-audit-launched-20260913.json) preserves the start receipts, source/selection pins and single saved process observation. No audit result, derivation, new teacher evaluation, value mixture or training admission is reported at this snapshot. The active training and SF generation remain separate.
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/saved-joint-raw-audit-launched-20260913.json) preserves the start receipts, source/selection pins and single saved process observation. No audit result, derivation, new teacher evaluation, value mixture or training admission is reported at this snapshot. The active training and SF generation remain separate.
 
 ## Completed audit
 
@@ -40,7 +42,7 @@ The 88 required exclusions comprise **87 rows** with both a phase-zero support `
 
 Whole-shard rejection would retain only **3,881,445** eligible rows, discarding another **337,981** eligible rows with defective neighbors. Source-qualified physical-offset exclusion drafts preserve the exact 54 run06 and 34 run07 required exclusions. At the audit-completion snapshot, the exclusion loader accepted only the legacy collector-completion route with at most 192 shards, so these drafts were not yet runnable derivation admission. The subsequent reviewed extension and actual qualification below resolve that limitation without fabricating a collector receipt or weakening a selector.
 
-[Compact completion evidence](evidence/saved-joint-raw-audit-completed-20260914.json) pins the actual completion, diagnostics, independent review and both source-specific selection/exclusion drafts. The result establishes eligibility of physical source rows, not unique chess positions, independent games, a materialized corpus or training admission. No new teacher evaluation was performed.
+[Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/saved-joint-raw-audit-completed-20260914.json) pins the actual completion, diagnostics, independent review and both source-specific selection/exclusion drafts. The result establishes eligibility of physical source rows, not unique chess positions, independent games, a materialized corpus or training admission. No new teacher evaluation was performed.
 
 ## Qualified exclusion loader and actual derivation launch
 
@@ -56,4 +58,4 @@ The allocation is **10,800 seconds inclusive**, with a shared 10,740-second inte
 
 The operator requires **48/32 GiB startup/running available RAM**, retains the **150-GiB running free-disk floor**, and samples an **8-GiB aggregate output cap** including partials and metadata. Two named prior 8,192-row shard metadata samples imply roughly 2.73 GiB for the expected outputs; this is not a full-output measurement. Startup reserves 150 GiB plus 8 GiB output, 4 GiB other writers and only the remaining potential SoftSF staging growth. Actual free space was **176,176,648,192 bytes**, above **175,474,421,760 required bytes**; the supervisor recorded **1,528,246,272 bytes** of remaining SoftSF allowance. Already allocated staging bytes are not counted twice. The completed Ceres SDK lane has no additional reservation. Sampled guards are not instantaneous peak guarantees.
 
-[Compact qualification and launch evidence](evidence/saved-joint-exclusion-derive-launched-20260914.json) preserves these receipts. A completed derivative and its later qualifications are still required before downstream use or training admission.
+[Compact qualification and launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/saved-joint-exclusion-derive-launched-20260914.json) preserves these receipts. A completed derivative and its later qualifications are still required before downstream use or training admission.

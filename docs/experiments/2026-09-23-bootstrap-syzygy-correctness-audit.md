@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-23-bootstrap-syzygy-correctness-audit.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-23-bootstrap-syzygy-correctness-audit.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Bootstrap and evaluation Syzygy correctness audit — September 23
 
 Status: IN PROGRESS. The user requires correct tablebase adjudication and search
@@ -7,7 +9,7 @@ No active training runtime or existing data has been changed.
 
 ## Confirmed existing-experiment evidence
 
-The [small-file audit](evidence/bootstrap-syzygy-audit-20260923/factorial-small-file-audit.json)
+The [small-file audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/factorial-small-file-audit.json)
 rechecks the four factorial game banks, their receipts, bound plans, initial-state
 and summary files. All checked hashes match. Each match has 256 games with 128
 paired openings, both colors, and the same opening identities across matches.
@@ -46,7 +48,7 @@ not the historical replacement-sampled control; held-out purity remains unknown.
 
 The parent held only the queued E-D item under the scheduler's `gpu.lock`,
 read back the result, and preserved every other item and all original plan files.
-The [hold receipt](evidence/bootstrap-syzygy-audit-20260923/pending-eval-hold.json)
+The [hold receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/pending-eval-hold.json)
 records before/after hashes. E training remains running; the held second seed
 remains held. Corrected evaluation will use fresh identities and a preregistered
 protocol rather than relabel old results.
@@ -90,7 +92,7 @@ coverage; raw teacher heads and historical experiments are preserved. A future
 BT4 outcome/stepper patch is in progress. SF persistent schema/resume integration
 and Ceres generation remain unqualified; neither is covered by an arena-only fix.
 
-A [bounded real-table smoke](evidence/bootstrap-syzygy-audit-20260923/real-tablebase-smoke.json)
+A [bounded real-table smoke](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/real-tablebase-smoke.json)
 opened the actual configured pair (1,000 WDL and 1,000 DTZ material entries) and
 verified four valid three-man fixtures through the new shared helper: winning and
 losing reset-clock KQK, drawn KBK, and a positive-clock KQK boundary that remains
@@ -99,7 +101,7 @@ coverage, search integration, or a production-generation qualification.
 
 ## Bounded source-outcome check
 
-The [raw-source prefix audit](evidence/bootstrap-syzygy-audit-20260923/bootstrap-terminal-sample.json)
+The [raw-source prefix audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/bootstrap-terminal-sample.json)
 read 6,153 rows from the first worker shard of each of run03/run06/run07, stopping
 at 12 distinct games per source. Among these 36 games, 27 carry Syzygy terminal
 FENs. All 27 have clock zero, raw WDL in {-2,0,+2}, and the stored game result
@@ -109,7 +111,7 @@ corpus-wide error rate, establish all material availability, or prove membership
 of every sampled game in the accepted 58M rows. The bounded audit script is banked
 beside the result; no source data was modified.
 
-A separate [real six-man entry](evidence/bootstrap-syzygy-audit-20260923/real-sixman-entry.json)
+A separate [real six-man entry](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/real-sixman-entry.json)
 checks a legal seven-piece b2xc3 capture from clock 70. It reaches six pieces at
 clock zero and the shared helper agrees with the real WDL/DTZ loss verdict for
 Black. This qualifies one actual capture boundary, not the whole generation path.
@@ -153,14 +155,14 @@ bootstrap/evaluation routes have adopted it.
 
 ## Actual search and engine capability checks
 
-A [16-simulation compiled Gumbel CPU fixture](evidence/bootstrap-syzygy-audit-20260923/actual-c-search-smoke.json)
+A [16-simulation compiled Gumbel CPU fixture](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/actual-c-search-smoke.json)
 used a synthetic zero evaluator and the actual local Syzygy pair. From the
 seven-piece capture-boundary position it recorded eight eligible probes/eight
 hits and a winning root value near 1. The test exercised the actual native tree
 and shared rule-aware leaf probe, supplementing the fake-tree unit tests. It
 used no GPU or production network; production arena qualification is separate.
 
-The [installed Stockfish UCI advertisement](evidence/bootstrap-syzygy-audit-20260923/stockfish-uci-capabilities.json)
+The [installed Stockfish UCI advertisement](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/stockfish-uci-capabilities.json)
 reports support for Syzygy50MoveRule (default true), ProbeDepth (default 1) and
 ProbeLimit (default 7). This confirms the current binary's advertised capability
 and defaults, not historical effective values or realized search hits. The future
@@ -232,7 +234,7 @@ teacher predictions or the running E recipe.
 
 The separately reviewed operation is now queued as
 `factorial58_sffree_20260923_E_D_rule50`, after the active E training job.
-The [registration receipt](evidence/bootstrap-syzygy-audit-20260923/ed-rule50-registration.json)
+The [registration receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/ed-rule50-registration.json)
 records the atomic queue edit; every pre-existing item was preserved, including
 the original held E_D and second-seed holds. The serial supervisor waits for E;
 the operation additionally requires successful complete E/D donor receipts
@@ -299,4 +301,4 @@ pilot and its independent review, and the experimental BT4 generation/writer
 integration. New pilot launches require their own frozen admission; restoring
 workers does not imply a new training run or deployment of unmerged fixes.
 
-The [independent recovery receipt](evidence/bootstrap-syzygy-audit-20260923/reboot-factorial-readout.json) banks the exact preregistration quote, input hashes and recomputed statistics.
+The [independent recovery receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/reboot-factorial-readout.json) banks the exact preregistration quote, input hashes and recomputed statistics.

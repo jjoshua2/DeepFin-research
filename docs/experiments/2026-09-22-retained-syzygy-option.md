@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-22-retained-syzygy-option.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-22-retained-syzygy-option.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Explicit retained-Syzygy corpus option — September 22
 
 The corpus generator can now forward an explicit retained-tablebase request to
@@ -45,12 +47,12 @@ cleanup, bool validation, legacy Namespace compatibility and both resume changes
 The existing generator suite was also exercised; focused final static and
 independent review results are recorded in the PR.
 
-Independent parent review approved the frozen source: [receipt](evidence/retained-syzygy-option-20260922/retain-option-parent-review-20260922.json).
+Independent parent review approved the frozen source: [receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/retained-syzygy-option-20260922/retain-option-parent-review-20260922.json).
 Its protocol/thread/reaping suite passed 81 tests, with one pre-existing
 PDEATHSIG expectation failure reproduced on unchanged main in this host environment.
 Author focused tests passed 14. Final scoped static checks pass with zero findings.
 Whole-repository Ruff/Vulture passed and 14 type errors match the established
 baseline; an additional bool-guard warning sampled during the whole check was
 removed by the subsequently validated object-typed helper. Complete logs and
-[validation accounting](evidence/retained-syzygy-option-20260922/validation.json)
+[validation accounting](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/retained-syzygy-option-20260922/validation.json)
 are banked; whole-repository lint is not represented as green.

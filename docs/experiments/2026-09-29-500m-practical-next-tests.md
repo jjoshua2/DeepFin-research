@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-500m-practical-next-tests.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-500m-practical-next-tests.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 500M reassessment and practical next tests
 
 The current candidate remains cheap BT4/Ceres policy and value labels, an explicit
@@ -89,7 +91,7 @@ to inventing a second codec. CSR is an exploratory geometry comparison, not an
 implemented trainer format. One-shot CPU timings and this old cohort do not
 establish cold-drive throughput or production pack size. The screen is
 self-reviewed with exact parse/decode and compression round trips; no independent
-payload rerun is claimed. [Compact evidence](evidence/2026-09-29-policy-target-storage-screen.json)
+payload rerun is claimed. [Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-policy-target-storage-screen.json)
 records the source hash, counts, sizes, timing observations and limitations.
 
 ## Capacity decision

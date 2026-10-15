@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-28-ceres-sink-10pct-screen.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-28-ceres-sink-10pct-screen.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres v11 nested sink: independent source-only 10% screen
 
 Question and predeclared engineering threshold: can a reviewable replacement for redundant sink work save at least 10% of the measured 1,704.563-second Ceres source stage, while retaining strict row, history, legal/feed, WDL/DTZ and publication proofs? This is a read-only receipt and source screen against the accepted run11 baseline; it has no new registered timing or statistical strength claim.

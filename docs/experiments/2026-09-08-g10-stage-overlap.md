@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-g10-stage-overlap.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-g10-stage-overlap.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # G10 adapter/rank overlap preparation
 
 ## Adoption status — September 8
@@ -17,7 +19,7 @@ Final common-input qualification still waits for both producers and retains all
 source, survivor-complement and unchanged-storage checks. Existing manifests
 remain serial by default. This is implemented tooling, not an operational launch.
 
-The [banked timing analysis](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_stage_overlap_readiness_v1/readiness.json)
+The [banked timing analysis](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_stage_overlap_readiness_v1/readiness.json)
 measured adapter stages at 1,000.30/1,003.46 seconds and rank stages at
 679.01/673.85 seconds in two completed source lanes. Each averaged approximately
 one CPU core. Replacing their serial sum with the larger duration would shorten
@@ -25,7 +27,7 @@ those historical lane critical paths by approximately 25%, **if neither stage
 slowed down under concurrent execution**. This is an idealized estimate, not a
 measured speedup or a promise for different rows or host load.
 
-The [independent dependency assessment](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_adapter_rank_overlap_design_v1.json)
+The [independent dependency assessment](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_adapter_rank_overlap_design_v1.json)
 found no producer dependency after the snapshot and adapter-manifest creation.
 The pair shares its lane's existing two-core affinity, two numeric threads,
 priority and GNU timeout process group. One polling loop owns both wrappers;
@@ -40,6 +42,6 @@ it does not limit resident memory. Shared-disk contention and memory interaction
 remain unmeasured. No active runtime was changed and no new corpus processing,
 teacher inference, policy mixing or training was launched for this change.
 
-See the [runner guide](../common_input_batch.md) for the manifest and ownership
+See the [runner guide](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/common_input_batch.md) for the manifest and ownership
 contract. A later separately frozen batch can opt in and record actual resource
 costs; this note selects no recipe or GPU experiment.

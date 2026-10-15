@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bootstrap-training-horizon-readiness.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bootstrap-training-horizon-readiness.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Bootstrap training-horizon readiness
 
 The next horizon comparison should train two selected target families from scratch
@@ -43,7 +45,7 @@ the executed continuity assertions are supported by source and traceback. These
 limits are recorded in the independent review; no training was repeated to polish
 the result.
 
-The [evidence manifest](evidence/bt4-bootstrap/training-horizon-runtime-manifest.json)
+The [evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/training-horizon-runtime-manifest.json)
 binds original commands, logs, producer and independent reviews, probe sources and
 completed summaries. Tiny generated weights and fixture payloads remain host-local.
 

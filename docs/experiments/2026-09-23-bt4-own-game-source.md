@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-23-bt4-own-game-source.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-23-bt4-own-game-source.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 own-game teacher source, September 23
 
 The question was whether an ordinary generated-game bank could retain its
@@ -21,10 +23,10 @@ The revised audit producer SHA was
 The CPU-only audit **passed**. It replayed all saved games through the frozen
 strict verifier, matched every returned fact against the original terminal,
 checked the summary and CUDA provider proof, and found the bank tree unchanged
-before and after. The [audit receipt](evidence/bt4-own-game-source-20260923/ordinary_retry01_audit_v2.json)
+before and after. The [audit receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-own-game-source-20260923/ordinary_retry01_audit_v2.json)
 has SHA `aa7d3f8fb01bc6ca5a4403622effbfbcf1c311e9bf5ff209032d5022ff0db625`.
 The adapter then published one 752-row Zarr source from that exact receipt. Its
-[manifest](evidence/bt4-own-game-source-20260923/manifest.json) has SHA
+[manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-own-game-source-20260923/manifest.json) has SHA
 `02c5036714541a5a24c85fdbd2f41f2185e872c58c1a1094d701b412e92ffd4a`.
 The source output is `/tmp/bt4-own-label-reuse-20260923/ordinary_retry01_source_v2`.
 The source carries separate `bt4_policy`, `bt4_wdl_raw`, saved input `x`,

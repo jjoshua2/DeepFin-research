@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-tri-source-selected-target-pipeline.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-tri-source-selected-target-pipeline.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Three-source selected-target diagnostic pipeline
 
 The bounded BT4, Ceres and Stockfish-origin replay now has a complete,
@@ -173,7 +175,7 @@ next production gates are directly indexed source generation at scale, an
 actual external-loader screen, and an independently registered matched
 training/arena comparison on a representative unique-position bank.
 
-The [compact evidence manifest](evidence/2026-09-29-tri-source-selected-target-pipeline.json)
+The [compact evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-tri-source-selected-target-pipeline.json)
 records source packet, producer receipt and independent-audit SHA-256 identities,
 stage geometry, measured resources and the limits of each measurement. Bulk
 source archives, raw-head tapes and ZIP shards are not included in this PR.

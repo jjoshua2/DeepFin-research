@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-07-bt4-hybrid-endpoints.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-07-bt4-hybrid-endpoints.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Adaptive bootstrap exploration: H20 first
 
 Registered September 7, 2026, after the [fresh C/E confirmation](2026-09-07-bt4-fresh-confirmation.md)
@@ -31,7 +33,7 @@ pairs, preserving both colors. This does not resolve a change in relative score
 with more search. Subtracting the two full-bank Elo estimates would compare
 different samples and is not this interaction estimate.
 
-The [completed-bank review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/independent_review.json)
+The [completed-bank review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/independent_review.json)
 independently recomputed every C400 game and the C100 opening-aligned scores,
 checked exact pair/color identities, full search settings, checkpoint lineage,
 training/schedule receipts and terminal process state. It agrees with the original
@@ -40,19 +42,19 @@ separate numerical/accounting review, not a new independent implementation revie
 of that launcher. The publication author is that same reviewer; publication review
 is supplied separately on the PR.
 
-The C400 [completion](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/complete.json)
+The C400 [completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/complete.json)
 closed at **08:05:25 UTC**, charging **2,794.09 seconds / 0.7761 GPU hours**.
-The [package receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/package.complete.json)
+The [package receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/package.complete.json)
 records **17,651.51 seconds / 4.9032 GPU hours** for training and all three arenas,
 within the original nine-hour cap. The earlier `process.json` retains its
 pre-readout `complete:false`; `process_complete:true`, exit zero and the separate
 qualified `complete.json` establish completion. The arena, timeout and coordinator
 were absent in the subsequent read-only host observation.
 
-The [evidence manifest](evidence/bt4-bootstrap/h20-c400-package-manifest.json)
-binds the [compressed final game bank](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/arena.games.jsonl.gz),
-[aligned pair scores](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/independent_calculation/aligned_pairs.csv.gz),
-[bootstrap replicates](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/independent_calculation/bootstrap_replicates.npy.gz),
+The [evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-c400-package-manifest.json)
+binds the [compressed final game bank](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/arena.games.jsonl.gz),
+[aligned pair scores](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/independent_calculation/aligned_pairs.csv.gz),
+[bootstrap replicates](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/C400/independent_calculation/bootstrap_replicates.npy.gz),
 and exact calculation source, receipts and original registration. Original bytes
 and compressed hashes are recorded. Earlier launch snapshots remain historical.
 
@@ -74,27 +76,27 @@ for the registered selected-move-set construction at a shared 20% global BT4
 dose, conditional on the previously verified outside-set target equality within
 storage tolerance.
 
-The [independent review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/independent_review.json)
+The [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/independent_review.json)
 recomputed the completed bank and checked both checkpoint identities, complete
 realized search dictionaries, book, paired openings, execution settings and
 training/schedule provenance. Prior temperature was 1.0 for both networks.
-The [completion receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/complete.json)
+The [completion receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/complete.json)
 records **2,595.36 seconds / 0.7209 charged GPU hours**, ending at **07:13:10 UTC**,
 within the 90-minute cap. Three games reached the registered 300-ply limit; none
 was cut short by the wall-time cap. The earlier process receipt retains `complete:false`
 from before scientific qualification; `complete.json` separately records the
 subsequent successful qualification.
 
-The [readout](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/readout.json)
-and [losslessly compressed game bank](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/arena.games.jsonl.gz)
+The [readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/readout.json)
+and [losslessly compressed game bank](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/H20_G100/arena.games.jsonl.gz)
 are published with original and compressed hashes in the
-[evidence manifest](evidence/bt4-bootstrap/h20-g100-increment-launch-manifest.json).
+[evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-g100-increment-launch-manifest.json).
 These results concern one seed-zero epoch on reused development openings. They
 do not measure seed variation, remove adaptive-selection uncertainty, establish
 search scaling or authorize production promotion. The historical-control
 limitations below remain unchanged.
 
-The [C400 launch snapshot](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/C20T05.s400.process.snapshot.json)
+The [C400 launch snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/C20T05.s400.process.snapshot.json)
 records the next registered probe starting at **07:18:51 UTC**: H20 versus C20T05,
 400 simulations, 500 games / 250 paired openings, prior temperature 1.0, and the
 same 90-minute cap. Arena PID 316336 is owned by timeout 316335 and coordinator
@@ -111,16 +113,16 @@ nominal 95% interval uses the standard error of opening-pair mean scores followe
 by the Elo transform. The estimate exceeds the registered +15 Elo threshold and
 its lower bound exceeds zero: **promising for this primary cell**.
 
-The [independent review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/H20_C100/independent_review.json)
+The [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/H20_C100/independent_review.json)
 recomputed the raw bank and checked the complete search dictionaries, checkpoint
 identities, paired openings and qualified training/schedule provenance. Both sides
 used prior temperature 1.0. The arena completed at 06:24:22 UTC in **2,410.62 seconds
 / 0.6696 charged GPU hours**, within its 90-minute cap. Two games reached the
 registered 300-ply limit; neither was truncated by the wall-time cap.
-The [readout](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/H20_C100/readout.json)
-and [losslessly compressed game bank](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/H20_C100/arena.games.jsonl.gz)
+The [readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/H20_C100/readout.json)
+and [losslessly compressed game bank](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/H20_C100/arena.games.jsonl.gz)
 are published with the original and compressed hashes in the
-[evidence manifest](evidence/bt4-bootstrap/h20-c100-g10-increment-manifest.json).
+[evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-c100-g10-increment-manifest.json).
 
 This is one seed-zero epoch on reused development openings. The interval measures
 match sampling, not training-seed variation or adaptive-selection uncertainty.
@@ -129,7 +131,7 @@ It does not establish search scaling, a universal recipe winner or production
 promotion, and it selected no new training arm. At this C100 snapshot, H20/G100 and H20/C400
 were still needed to complete the package; the later G100 result above supersedes
 that status. The
-[next-arena launch snapshot](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/G20T05.s100.process.snapshot.json)
+[next-arena launch snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c100_increment_publication_v1/G20T05.s100.process.snapshot.json)
 records H20/G20T05 at 100 simulations starting at **06:29:55 UTC**; its outcomes
 were not read for this record. The optimized labeler's
 [first completed group](2026-09-07-bt4-label-legal-reuse.md#first-optimized-group-completed--september-8)
@@ -137,10 +139,10 @@ is a separate preparation milestone.
 
 ## Qualified training completed — September 8
 
-The [completed process receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/training.process.json)
+The [completed process receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/training.process.json)
 records **9,851.44 seconds / 2.7365 charged GPU hours**, within the registered
 4.5-hour training cap. The trainer started at 02:53:54 UTC and exited zero at
-05:38:06 UTC. Its [complete trainer summary](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/training.summary.json.gz)
+05:38:06 UTC. Its [complete trainer summary](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/training.summary.json.gz)
 records all **18,910,484 rows**, **36,935 steps/loss calls** and **420 windows**
 with finite losses and mean gradient norms, zero nonfinite skips and zero transient
 CUDA retries. Sampling seed zero, batch size 512 and window size 88 are unchanged.
@@ -151,22 +153,22 @@ The final checkpoint is `checkpoint.pt`, SHA256
 This identity is recorded in the trainer summary; this documentation pass did not
 rehash the checkpoint or rescan the corpus. The mid-run checkpoint was not selected.
 
-The separate CPU [schedule stage](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/schedule.process.complete.json)
+The separate CPU [schedule stage](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/schedule.process.complete.json)
 then exited zero in **303.22 seconds**, within its 30-minute cap. The
-[realized report](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/realized_schedule.json.gz)
+[realized report](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/realized_schedule.json.gz)
 verifies actual staging and matching source metadata. Its canonical hash is
 `dc687fc333295dee565d19bb4f20da5aa95479dba3aacc5499c22a4004acc64f`, matching
 the registered source/C schedule; physical order hash
 `7349d7287be32b5ec0119c45ace5ef4e3e9762c52675401a942fdf6347983192` matches
 the completed trainer summary. The resulting
-[qualified receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/training.complete.json)
+[qualified receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/training.complete.json)
 now records `complete:true` and binds the final checkpoint, summary and schedule.
 
 The verifier does not decode feature/target payloads; their preservation relies
 on the separately qualified mixer provenance. Its plan hashes cover game choices
 and shard paths, not within-game row offsets; row-order equivalence remains a
 code-backed inference. The earlier
-[05:41:29 pending snapshot](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/schedule.process.snapshot.json)
+[05:41:29 pending snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/schedule.process.snapshot.json)
 is preserved unchanged, as is the training process receipt's pre-qualification
 `complete:false` flag. The later qualified receipt supplies the completed status.
 
@@ -178,15 +180,15 @@ not a newly validated historical control or evidence of strength. The existing
 H20/C100, H20/G100 and H20/C400 comparisons remain the deciding package; no new
 training recipe is selected here.
 
-The [first-arena process snapshot](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/C20T05.s100.process.snapshot.json)
+The [first-arena process snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/C20T05.s100.process.snapshot.json)
 records the registered H20/C20T05 comparison starting at **05:44:12 UTC**:
 1,000 games, 100 simulations per side and prior temperature 1.0 on both sides,
 with arena PID 304943 under timeout 304942 and coordinator 288450. The
-[B100 handoff receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/B100.handoff.json)
+[B100 handoff receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/B100.handoff.json)
 records the matching live first-arena identities at **05:44:24 UTC**, when waiter
 PID 301740 transitioned to the unchanged reviewed CPU materialization supervisor.
-The [initial materialization status](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/B100.materialization.status.snapshot.json)
-records `RUNNING`. The [05:46:08 host observation](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/transition_observation.json)
+The [initial materialization status](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/B100.materialization.status.snapshot.json)
+records `RUNNING`. The [05:46:08 host observation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/training_completion_publication_v1/transition_observation.json)
 confirms mixer PID 304973 on CPUs 0–1 at nice 19 beneath the reviewed materializer.
 This establishes actual startup, not a completed B100 corpus. The separate four-hour
 CPU allowance and existing resource guards apply. The same observation confirms
@@ -194,7 +196,7 @@ the qualified optimized labeler adopted its runtime and was waiting for the GPU;
 it establishes no new optimized inference or throughput result. No game scores
 were read in that launch snapshot; B100 training remains unselected.
 
-The [completion evidence manifest](evidence/bt4-bootstrap/h20-training-completion-manifest.json)
+The [completion evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-training-completion-manifest.json)
 binds exact process, summary, qualified completion, schedule and handoff bytes, retaining
 the earlier pending-stage snapshot. The summary and schedule are losslessly
 compressed with both original and compressed hashes retained. Earlier recovery,
@@ -209,19 +211,19 @@ The validated 2,292-shard prefix was reused through the reviewed process proof,
 without another prefix payload scan. Full empirical aggregates remain unavailable;
 the analytic mass-error bound is 0.000545, below `2^-10`. The suffix's 133,623 changed
 rows and measured mass drift are a non-inertness witness, not population estimates.
-See the [completed recovery readout](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_recovery_v1/completed_readout.json).
+See the [completed recovery readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_recovery_v1/completed_readout.json).
 
 The first post-recovery qualifier rejected four intentional native-library
 symlinks before producing a qualification receipt. A narrowly reviewed v2 accepts
 only those exact runtime aliases, checking canonical targets, content hashes and
 link/target stability; corpus inputs still require regular files. No binary or
-corpus payload changed. The [correction record](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_recovery_v1/qualification_alias_correction.json)
+corpus payload changed. The [correction record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_recovery_v1/qualification_alias_correction.json)
 retains the failed execution and original qualifier bytes. The corrected qualifier
 passed in **8.15 seconds**, binding the final summaries, transitive C/SF/BT4/rank
 lineage, complete validation stamps and stable metadata.
 
-The [dataset qualification](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20.dataset_qualification.json)
-and [prospective schedule](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20.prospective_schedule.json.gz)
+The [dataset qualification](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20.dataset_qualification.json)
+and [prospective schedule](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20.prospective_schedule.json.gz)
 passed before training. H20 and the completed C anchor share canonical schedule
 `dc687fc333295dee565d19bb4f20da5aa95479dba3aacc5499c22a4004acc64f`:
 18,910,484 rows, 97,968 games, 36,935 batches, seed zero and batch 512. H20's schedule
@@ -229,14 +231,14 @@ was prospective at launch; the later training-completion snapshot above records
 the completed realized checks.
 
 The coordinator launched at 02:48:37 UTC; its surviving timeout supervisor started
-the actual trainer at **02:53:54 UTC**. The [process snapshot](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/completed_readiness_publication_v1/H20.training.process.snapshot.json),
+the actual trainer at **02:53:54 UTC**. The [process snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/completed_readiness_publication_v1/H20.training.process.snapshot.json),
 captured at **02:56:44 UTC**, records coordinator 288450, timeout 288561 and trainer
 288562, with training incomplete. It binds the original Python 3.10 / Torch 2.11
 CUDA runtime, seed-zero epoch and 4.5-hour training cap. That historical receipt establishes the actual start; the later completion
 snapshot above supersedes its training status, without adding an arena result. The registered H20/C100, H20/G100 and
 H20/C400 package remains unchanged; no follow-up candidate was added.
 
-The [completed-readiness manifest](evidence/bt4-bootstrap/completed-readiness-manifest.json)
+The [completed-readiness manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/completed-readiness-manifest.json)
 publishes completion, correction, qualification, schedule, independent reviews and
 launch evidence alongside the separately completed G10 common-input preparation.
 Large text records use lossless gzip with original and compressed hashes. Earlier
@@ -250,7 +252,7 @@ handoff was armed and waiting (PID 301740). **Bulk materialization had not launc
 and B100 had not been selected for training.** H20's complete registered comparison
 package remains the next deciding evidence.
 
-The [B100 audit](../../scratchpad/bt4_joint20/B100_preparation_v1/audit_B100T05.json.gz)
+The [B100 audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/audit_B100T05.json.gz)
 completed in **8.37 seconds** on the existing **4,000-position FEN-only BT4 cache**,
 with global alpha 1 and teacher temperature 0.5. Treatment invariants passed.
 Candidate-minus-original-SF expected deep-SF regret was **−0.32 cp [−2.79, +2.13]**;
@@ -260,10 +262,10 @@ unresolved at this precision. Neither result measures playing strength, search
 scaling or a trained recipe; the cached teacher is not the history-aware teacher
 used for eventual corpus materialization. No teacher inference or GPU work ran.
 The legacy audit's `training_permitted` field records descriptive tool admission,
-not a new training decision. The [completed receipt](../../scratchpad/bt4_joint20/B100_preparation_v1/completed_readout.json)
+not a new training decision. The [completed receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/completed_readout.json)
 retains exact input pins, timing and limitations.
 
-The [bulk plan and independent review](../../scratchpad/bt4_joint20/B100_preparation_v1/materialization/independent_review.json)
+The [bulk plan and independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/materialization/independent_review.json)
 prepare the same 18,910,484 original SF/history rows and 2,309 shards. The policy
 becomes legal-normalized sharpened BT4; all SF value and non-policy fields remain
 from the original source. The normal mixer retains full source/history/teacher
@@ -280,7 +282,7 @@ Failures and partial outputs are retained without automatic retry. Bulk copying
 and compression can contend with H20's prefetch, so launch timing is reserved for
 a suitable arena-phase I/O window rather than inferred safe from hidden CUDA.
 
-The [armed receipt](../../scratchpad/bt4_joint20/B100_preparation_v1/arena_handoff_v1/armed.json)
+The [armed receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/arena_handoff_v1/armed.json)
 records a maximum four-hour wait for H20's **first `C20T05.s100` arena**. The gate
 requires both original training handles absent, qualified completed training and
 schedule, and a live arena whose PID identity, command, working directory and
@@ -292,16 +294,16 @@ reviewed B100 materializer, whose separate four-hour allowance and the resource
 guards above then apply. This is a start-time gate, not a guarantee that the arena
 will overlap the entire CPU build.
 
-The [independent pre-arm review](../../scratchpad/bt4_joint20/B100_preparation_v1/arena_handoff_v1/independent_review.json)
+The [independent pre-arm review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/arena_handoff_v1/independent_review.json)
 passed, including a real-host refusal while the training handles remained present.
 Six disposable fixtures cover acceptance, live training, wrong ancestry/command,
-reused owner and STOP. The [new evidence manifest](evidence/bt4-bootstrap/b100-arena-handoff-manifest.json)
+reused owner and STOP. The [new evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-arena-handoff-manifest.json)
 preserves all eight compact originals, including prepared plans and the later
 arming receipt. It establishes an armed waiter, not a completed handoff or corpus.
 After execution replaces the waiter, the materializer's own/parent STOP paths
 apply; the handoff-only STOP no longer controls it.
 
-The [readiness and handoff manifest](evidence/bt4-bootstrap/b100-readiness-labeler-handoff-manifest.json)
+The [readiness and handoff manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-readiness-labeler-handoff-manifest.json)
 contains the full losslessly compressed audit, exact command/runtime bindings,
 supervisor fixtures and unlaunched plan. It also links the separate labeler-runtime
 qualification below; neither record selects another training experiment.
@@ -310,8 +312,8 @@ qualification below; neither record selects another training experiment.
 
 The original mixer reached its registered GNU timeout after 14,370.09 seconds
 (exit 124). Its coordinator and two child PIDs were confirmed absent; the failed
-receipt was preserved and the partial retained for the separate continuation. The [timeout readout](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_timeout_v1/readout.json)
-and [all-shard metadata inventory](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_timeout_v1/shard_metadata.jsonl)
+receipt was preserved and the partial retained for the separate continuation. The [timeout readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_timeout_v1/readout.json)
+and [all-shard metadata inventory](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_timeout_v1/shard_metadata.jsonl)
 record 2,292 contiguous fully stamped shards / 18,776,064 rows. At that timeout
 snapshot, seventeen shards / 134,420 rows remained and the final corpus was not
 published. This was an operational
@@ -329,7 +331,7 @@ unavailable, including full-corpus entropy, changed-row counts and measured mass
 mean/max. The remaining shards provide a measured non-inertness witness, without
 being presented as a representative sample. The original final empirical
 normalization gate did not run. For this fixed normalized H20 arithmetic, the
-[independent recovery design review](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_recovery_minimal_design_review.json)
+[independent recovery design review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20_recovery_minimal_design_review.json)
 derives a conservative uniform float64 → float32 → float16 mass-error bound of
 0.000545 across at most 1,858 coordinates, including subnormal rounding. That is
 below the existing row and mean limit of `2^-10`. It is an analytic guarantee,
@@ -354,7 +356,7 @@ Malformed metadata, an unknown producing version, a live original PID, changed
 recipe and damaged suffix non-policy data refuse publication. These implementation
 tests preceded the separate host launch review and completed recovery recorded above; passing tests alone did not establish completion.
 
-The [recovery evidence manifest](evidence/bt4-bootstrap/h20-recovery-manifest.json)
+The [recovery evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-recovery-manifest.json)
 links exact original failure, validation logs, implementation/design reviews, CPU
 runtime import, preparation registration and launch bindings. The complete prefix
 metadata is losslessly gzip-compressed, with both compressed and original hashes
@@ -370,12 +372,12 @@ research goal does not require individual user approval.
 The implementation merged in [PR #527](https://github.com/jjoshua2/DeepFin/pull/527)
 after independent review, 69 mixer tests, 85 launcher/readout tests and whole-repository
 lint. Execution is frozen at `054042f990c0e1b86787ad1366ccb8abcacc6aab`; the live
-training runtime remains unchanged. The [publication manifest](evidence/bt4-bootstrap/h20-preparation-manifest.json)
+training runtime remains unchanged. The [publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/h20-preparation-manifest.json)
 links the complete audit, source identities and independent implementation/preparation
 reviews. Archived host commands and PIDs are historical evidence, not instructions
 to restart jobs.
 
-The actual [descriptive audit](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/audit_H20.json)
+The actual [descriptive audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/audit_H20.json)
 completed in 10.40 seconds with target invariants passing. Across the existing
 4,000-position bank, H20 minus original SF expected deep-SF regret was −5.10 cp
 (position-bootstrap 95% interval [−6.64, −3.67]); top-choice regret changed by
@@ -440,7 +442,7 @@ not acceptable. Its SF-agreement audit is descriptive: arithmetic, alignment,
 legal mass and non-policy preservation decide preparation fidelity; SF agreement
 does not replace the registered playing comparison.
 
-The [initial H20 feasibility receipt](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20.feasibility.json)
+The [initial H20 feasibility receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/H20.feasibility.json)
 (SHA256 `554fe4c09f73bce3bdb23269f96285a1c00d8b4cc4cf4eca1f5fcde431d9b6c3`)
 reused 128 banked training rows from 43 games. It reconstructed stored C and G20
 exactly, checked all 16 non-policy fields, and found H20/G20 outside differences

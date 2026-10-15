@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-10-bt4-sf-tactical-training.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-10-bt4-sf-tactical-training.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF tactical guidance for BT4 policy
 
 Status: training and the registered 256-game match completed. Tactical attenuation scored **−13.6 Elo versus B100, paired 95% interval [−52.4, +24.9]**, at 400 simulations. The result is unresolved; retain B100 and move to a different teacher-mixture question without extending this match. This updates the [earlier readiness record](2026-09-08-b100-tactical-policy-readiness.md).
@@ -44,6 +46,6 @@ The strict package reader checked the finished bank and checkpoint content. A se
 
 ## Evidence and next decisions
 
-[Compact launch and completion evidence](artifacts/b100-tactical-training-20260910.json) records qualification, completed training, realized schedule and checkpoint identities. Bulk corpus, logs and checkpoints remain outside Git. The completed bank, package contract and independently reproduced numerical readout are identified in that artifact.
+[Compact launch and completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/b100-tactical-training-20260910.json) records qualification, completed training, realized schedule and checkpoint identities. Bulk corpus, logs and checkpoints remain outside Git. The completed bank, package contract and independently reproduced numerical readout are identified in that artifact.
 
 Weighted teacher mixtures are the preferred next family for both heads. Ceres policy mixtures should initially keep value fixed; adding Ceres to SF/BT4 values should be tested with policy fixed. Next prepare a 50/50 BT4–Ceres policy mixture at teacher temperature 0.5 for each component, keeping SF values fixed. A later separate value candidate is 50% SF / 25% BT4 / 25% Ceres with policy fixed. Collection and producer qualification are still prerequisites; neither mixture has a trained strength result. These directions are not a mandatory queue.

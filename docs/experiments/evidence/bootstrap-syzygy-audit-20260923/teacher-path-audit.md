@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/teacher-path-audit.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/teacher-path-audit.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # A–E bootstrap teacher path and Syzygy audit — 2026-09-23
 
 Scope: read-only inspection of the frozen A–D target/training runtime `502cd02e072471c901255f3fdb580d6ea7b826d0`, frozen E builder `4ecf772963967cb9de53d6e9a2cd895172a41e15`, the 35 E cohort manifests, pinned base summaries, sample teacher attributes, source manifests, and D/E qualification receipts. No model, GPU, generation, or bulk row scan was run. PRs #841/#845/#846/#848/#851/#852 and the newer BT4 generator foundations are not in this used data path.

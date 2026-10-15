@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-09-bt4-target-temperature-horizon.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-09-bt4-target-temperature-horizon.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 target temperature, training horizon and search placement
 
 **T1 materialization and metadata qualification completed; two-epoch training
@@ -25,7 +27,7 @@ of unchanged arrays**. The cached 4,000-row FEN audit is descriptive, not a
 whole-corpus SF strength test. Saved rounding and zero tails remain part of the
 realized targets.
 
-[Compact completion and qualification identities](artifacts/v50-complete-t1-qualified-20260909/status.json)
+[Compact completion and qualification identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/v50-complete-t1-qualified-20260909/status.json)
 record the exact mix/derive summaries and metadata witness. The T1 two-epoch
 prospective planner has now started under its 1,800-second inclusive CPU bound,
 with 12 GiB address-space and 8 GiB working-memory limits. No planner result is
@@ -42,7 +44,7 @@ corpus and unsharpened float32 BT4 sidecars with **global alpha 1, teacher T=1**
 its target inventory is **18,910,484 rows / 2,309 shards**, with SF values and all
 other non-policy arrays preserved. These are requested output counts, not completed
 or qualified rows. The four-hour inclusive preparation bound remains unchanged.
-[Compact launch identities](artifacts/storage-t1-wdl-update-20260909/status.json)
+[Compact launch identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/storage-t1-wdl-update-20260909/status.json)
 bind the reviewed plan and actual operator/mixer starts. No teacher inference,
 two-epoch training or match launch is claimed by this preparation snapshot.
 
@@ -150,8 +152,8 @@ One seed and reused development openings limit generalization. Two passes over
 Separately, independently reviewed native BT4 WDL coverage totals **1,574,952
 selected G10 rows**: 526,376 from two common-increment sources plus two disjoint
 524,288-row common-large slices. This is value-data readiness, not a new trained
-control or full G10 coverage. [Current coverage identities](artifacts/storage-t1-wdl-update-20260909/status.json)
-bind the completed review; the [original registration](artifacts/bt4-target-temperature-horizon-20260909/registration.json)
+control or full G10 coverage. [Current coverage identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/storage-t1-wdl-update-20260909/status.json)
+bind the completed review; the [original registration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/bt4-target-temperature-horizon-20260909/registration.json)
 retains its earlier coverage snapshot. Operational paths and raw logs remain
 retained separately.
 
@@ -164,7 +166,7 @@ publishes explicit adapter provenance; policy-only defaults and direct-inference
 admission remain intact. The value consumer requires a pinned adapter manifest.
 No collection or frozen-runtime adoption follows from this merge.
 
-The [metadata coverage review](artifacts/storage-t1-wdl-update-20260909/status.json)
+The [metadata coverage review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/storage-t1-wdl-update-20260909/status.json)
 found **zero raw-WDL overlap with the current 9,298,514 frozen common-derived
 rows**. Their raw labels remain policy-only. A separate observed **3,137,424 newer
 raw rows** have native WDL; these are not yet qualified common-derived survivors.

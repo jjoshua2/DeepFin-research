@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-packed-trainer256.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-packed-trainer256.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 256-shard paired actual-trainer storage benchmark
 
 Status: corrected CPU qualification passed; GPU pair remains unlaunched. Packing finished
@@ -26,7 +28,7 @@ No GPU throughput result is claimed yet.
 
 These are cache-affected qualification observations with competing host work, not
 the GPU benchmark's deciding metric. The exact sequence and receipts are banked
-in [qualification evidence](evidence/packed-trainer256-20260921/qualification.json).
+in [qualification evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/packed-trainer256-20260921/qualification.json).
 This continues the 2026-09-20 storage-loader record. The previous 32-shard,
 262,144-row exact sampler passed full ordered tensor parity, but measured no
 training. PR #795 supplies ordinary packed-Zarr loading; it is an explicit

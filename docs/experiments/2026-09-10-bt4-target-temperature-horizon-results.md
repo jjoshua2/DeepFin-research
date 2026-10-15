@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-10-bt4-target-temperature-horizon-results.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-10-bt4-target-temperature-horizon-results.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 target temperature and horizon: completed comparison
 
 Both two-epoch trajectories and all three registered matches completed. The
@@ -5,7 +7,7 @@ relative horizon effect and the final sharpening-placement comparison remain
 unresolved. The matches used the frozen September 9 preregistration snapshot identified in
 the compact readout. The linked [registration record](2026-09-09-bt4-target-temperature-horizon.md)
 includes subsequent status updates and is unchanged by this report.
-The [compact readout](evidence/bt4-bootstrap/target-temperature-horizon-completed.json)
+The [compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/target-temperature-horizon-completed.json)
 binds the accepted results, checkpoints, source receipts and independent reviews.
 
 Each recipe used training seed 0, unchanged SF value supervision, and two
@@ -71,6 +73,6 @@ a bounded Ceres dual-value capability pilot are the next substantive directions;
 scale transfer and fresh-seed confirmation remain separate work.
 
 Bulk checkpoints and game banks remain outside Git. The compact readout lists
-exact retrieval identities under the [evidence convention](README.md#new-experiments-and-follow-ups);
+exact retrieval identities under the [evidence convention](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/README.md#new-experiments-and-follow-ups);
 no public bulk download URL is registered in this snapshot. It contains curated
 scientific metadata, not host paths or raw operational logs.

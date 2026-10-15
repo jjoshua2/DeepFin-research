@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-30-sf-dlite-d8-value-eligibility-amendment.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-30-sf-dlite-d8-value-eligibility-amendment.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # D-lite depth-8 value eligibility after full04 — 2026-09-30
 
 This is a prospective eligibility amendment to the [Selected-E D-lite value

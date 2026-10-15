@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-bt4-source-read.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-bt4-source-read.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 source read-ahead CPU screen
 
 ## Question and fixed protocol
@@ -9,7 +11,7 @@ The candidate reads a bounded storage/batch-aligned block of the five source
 columns and serves the same inference slices from memory. It changes no inference
 batch size, WDL calculation, source validation, output format or provenance checks.
 
-The [preregistered plan](evidence/2026-09-21-bt4-source-read/plan.json) fixes an
+The [preregistered plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-source-read/plan.json) fixes an
 ABBA baseline/candidate order on8,192 real rows on NVMe and on an already banked
 external ZIP shard. Success requires exact source/feed/batch-boundary hashes and
 at least15% median source-read improvement on one location. One600-second cap,
@@ -34,8 +36,8 @@ does not add ZIP source discovery/admission to the full BT4 producer.
 
 ## Readout
 
-[Raw runs](evidence/2026-09-21-bt4-source-read/runs.jsonl) and
-[completion](evidence/2026-09-21-bt4-source-read/complete.json) retain all8 runs.
+[Raw runs](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-source-read/runs.jsonl) and
+[completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-source-read/complete.json) retain all8 runs.
 All65,536 processed rows have the same source/feed/batch sequence digest across
 arms and locations. Each traversal makes64 batches of128, including the same
 float32 LC0 feed conversion and per-row feed hashing.
@@ -62,12 +64,12 @@ preparation use their existing frozen runtimes; neither was restarted or changed
 
 ## Review and checks
 
-[Independent review](evidence/2026-09-21-bt4-source-read/independent-review.json)
+[Independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-source-read/independent-review.json)
 approves the implementation and claims; the reviewer independently ran all28tests
 and recomputed the recorded timing/parity results. Focused basedpyright/vulture
 and final whole-repository Ruff pass. Whole-repository basedpyright reports14
 pre-existing diagnostics in six unchanged test files. Untouched main7939609c9
 reproduces those14 diagnostics in two bounded groups:
-[eleven](evidence/2026-09-21-bt4-source-read/baseline-typecheck.log) and
-[three](evidence/2026-09-21-bt4-source-read/baseline-typecheck-other.log).
+[eleven](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-source-read/baseline-typecheck.log) and
+[three](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-source-read/baseline-typecheck-other.log).
 No diagnostics affect this change.

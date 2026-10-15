@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-phase-de-20260927/independent-readout-review.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/factorial58-phase-de-20260927/independent-readout-review.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Independent D121/E121 phase arena readout review — 2026-09-27
 
 Verdict: PASS for artifact integrity and preregistered statistical readout. The primary phase hypothesis is INCONCLUSIVE, and the observed late-minus-early point estimate is opposite the preregistered negative prediction. No finding invalidated the completed 384-pair readout. This is a CPU-only readback of frozen artifacts, not an independent GPU rerun.

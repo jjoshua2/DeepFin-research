@@ -1,0 +1,255 @@
+# Research records
+
+New preregistrations and readouts belong here. Existing imported records retain their original filenames. Evidence and executable contracts still in DeepFin are linked at the imported source revision. This first phase does not migrate bulk data or qualification inputs.
+
+- [2026-09-05-bt4-global-search-scaling.md](2026-09-05-bt4-global-search-scaling.md) — source retained in DeepFin
+- [2026-09-05-bt4-joint-targets.md](2026-09-05-bt4-joint-targets.md) — source retained in DeepFin
+- [2026-09-05-tailrl-policy-coverage.md](2026-09-05-tailrl-policy-coverage.md) — main copy removed in the draft
+- [2026-09-06-bootstrap-research-roadmap.md](2026-09-06-bootstrap-research-roadmap.md) — main copy removed in the draft
+- [2026-09-06-bt4-bootstrap-results.md](2026-09-06-bt4-bootstrap-results.md) — source retained in DeepFin
+- [2026-09-06-bt4-direct-close-global.md](2026-09-06-bt4-direct-close-global.md) — source retained in DeepFin
+- [2026-09-06-bt4-global-dose50-preparation.md](2026-09-06-bt4-global-dose50-preparation.md) — source retained in DeepFin
+- [2026-09-06-bt4-sharpened-ties-screen.md](2026-09-06-bt4-sharpened-ties-screen.md) — source retained in DeepFin
+- [2026-09-06-tailrl-bootstrap.md](2026-09-06-tailrl-bootstrap.md) — main copy removed in the draft
+- [2026-09-07-bt4-fresh-confirmation.md](2026-09-07-bt4-fresh-confirmation.md) — source retained in DeepFin
+- [2026-09-07-bt4-hybrid-endpoints.md](2026-09-07-bt4-hybrid-endpoints.md) — source retained in DeepFin
+- [2026-09-07-bt4-label-legal-reuse.md](2026-09-07-bt4-label-legal-reuse.md) — source retained in DeepFin
+- [2026-09-07-g10-transfer-readiness.md](2026-09-07-g10-transfer-readiness.md) — source retained in DeepFin
+- [2026-09-07-storage-archive.md](2026-09-07-storage-archive.md) — source retained in DeepFin
+- [2026-09-08-b100-tactical-policy-readiness.md](2026-09-08-b100-tactical-policy-readiness.md) — source retained in DeepFin
+- [2026-09-08-bootstrap-next-value-and-policy-contrasts.md](2026-09-08-bootstrap-next-value-and-policy-contrasts.md) — source retained in DeepFin
+- [2026-09-08-bootstrap-storage-capacity.md](2026-09-08-bootstrap-storage-capacity.md) — source retained in DeepFin
+- [2026-09-08-bootstrap-training-horizon-readiness.md](2026-09-08-bootstrap-training-horizon-readiness.md) — source retained in DeepFin
+- [2026-09-08-bt4-adapter-single-pass.md](2026-09-08-bt4-adapter-single-pass.md) — source retained in DeepFin
+- [2026-09-08-bt4-g50-b100-dose-comparison.md](2026-09-08-bt4-g50-b100-dose-comparison.md) — source retained in DeepFin
+- [2026-09-08-bt4-pure-policy-endpoint.md](2026-09-08-bt4-pure-policy-endpoint.md) — source retained in DeepFin
+- [2026-09-08-bt4-target-geometry.md](2026-09-08-bt4-target-geometry.md) — source retained in DeepFin
+- [2026-09-08-ceres-teacher-readiness.md](2026-09-08-ceres-teacher-readiness.md) — source retained in DeepFin
+- [2026-09-08-faster-recipe-matches.md](2026-09-08-faster-recipe-matches.md) — source retained in DeepFin
+- [2026-09-08-g10-stage-overlap.md](2026-09-08-g10-stage-overlap.md) — source retained in DeepFin
+- [2026-09-08-sf-anchored-value-bootstrap.md](2026-09-08-sf-anchored-value-bootstrap.md) — source retained in DeepFin
+- [2026-09-08-soft-sf-qualified-training-sample.md](2026-09-08-soft-sf-qualified-training-sample.md) — source retained in DeepFin
+- [2026-09-08-value-collection-and-horizon-readiness.md](2026-09-08-value-collection-and-horizon-readiness.md) — source retained in DeepFin
+- [2026-09-09-b100-prior-calibration.md](2026-09-09-b100-prior-calibration.md) — source retained in DeepFin
+- [2026-09-09-bt4-target-temperature-horizon.md](2026-09-09-bt4-target-temperature-horizon.md) — source retained in DeepFin
+- [2026-09-10-bt4-sf-tactical-training.md](2026-09-10-bt4-sf-tactical-training.md) — source retained in DeepFin
+- [2026-09-10-bt4-target-temperature-horizon-results.md](2026-09-10-bt4-target-temperature-horizon-results.md) — source retained in DeepFin
+- [2026-09-11-adaptive-sf-value-selector.md](2026-09-11-adaptive-sf-value-selector.md) — source retained in DeepFin
+- [2026-09-11-avi-value-backup.md](2026-09-11-avi-value-backup.md) — main copy removed in the draft
+- [2026-09-11-b100-tactical300-transfer.md](2026-09-11-b100-tactical300-transfer.md) — main copy removed in the draft
+- [2026-09-11-ceres-weighted-bootstrap.md](2026-09-11-ceres-weighted-bootstrap.md) — source retained in DeepFin
+- [2026-09-11-deeper-sf-value-census.md](2026-09-11-deeper-sf-value-census.md) — source retained in DeepFin
+- [2026-09-11-g10-ceres-pilot.md](2026-09-11-g10-ceres-pilot.md) — source retained in DeepFin
+- [2026-09-11-g10-qualified-inventory.md](2026-09-11-g10-qualified-inventory.md) — source retained in DeepFin
+- [2026-09-11-g10-value-pilot-and-coverage.md](2026-09-11-g10-value-pilot-and-coverage.md) — source retained in DeepFin
+- [2026-09-11-sf-negative-constraints-screen.md](2026-09-11-sf-negative-constraints-screen.md) — source retained in DeepFin
+- [2026-09-11-tactical300-calibration.md](2026-09-11-tactical300-calibration.md) — main copy removed in the draft
+- [2026-09-11-teacher-adjudication-audit.md](2026-09-11-teacher-adjudication-audit.md) — main copy removed in the draft
+- [2026-09-12-ceres-materializer-batch-benchmark.md](2026-09-12-ceres-materializer-batch-benchmark.md) — source retained in DeepFin
+- [2026-09-12-ceres-source-block-cache.md](2026-09-12-ceres-source-block-cache.md) — source retained in DeepFin
+- [2026-09-12-conservative-research-recovery.md](2026-09-12-conservative-research-recovery.md) — source retained in DeepFin
+- [2026-09-12-sf-allmove-downside.md](2026-09-12-sf-allmove-downside.md) — source retained in DeepFin
+- [2026-09-13-bounded-raw-scale-labels.md](2026-09-13-bounded-raw-scale-labels.md) — source retained in DeepFin
+- [2026-09-13-ceres-cpu-semantics.md](2026-09-13-ceres-cpu-semantics.md) — source retained in DeepFin
+- [2026-09-13-ceres100-policy-preparation.md](2026-09-13-ceres100-policy-preparation.md) — source retained in DeepFin
+- [2026-09-13-combined35m-value-transfer.md](2026-09-13-combined35m-value-transfer.md) — source retained in DeepFin
+- [2026-09-13-native-bt4-value-endpoint.md](2026-09-13-native-bt4-value-endpoint.md) — source retained in DeepFin
+- [2026-09-13-saved-joint-raw-eligibility.md](2026-09-13-saved-joint-raw-eligibility.md) — source retained in DeepFin
+- [2026-09-14-downside-value-combination.md](2026-09-14-downside-value-combination.md) — main copy removed in the draft
+- [2026-09-14-pfs-frontier-advancement.md](2026-09-14-pfs-frontier-advancement.md) — main copy removed in the draft
+- [2026-09-16-bootstrap-status-audit.md](2026-09-16-bootstrap-status-audit.md) — main copy removed in the draft
+- [2026-09-16-ceres-collector-throughput.md](2026-09-16-ceres-collector-throughput.md) — main copy removed in the draft
+- [2026-09-17-audited-scale-bootstrap.md](2026-09-17-audited-scale-bootstrap.md) — main copy removed in the draft
+- [2026-09-17-bootstrap-scale58-preparation.md](2026-09-17-bootstrap-scale58-preparation.md) — main copy removed in the draft
+- [2026-09-17-bt4-label-throughput.md](2026-09-17-bt4-label-throughput.md) — main copy removed in the draft
+- [2026-09-17-v50-checkpoint-continuation.md](2026-09-17-v50-checkpoint-continuation.md) — main copy removed in the draft
+- [2026-09-18-v50-training-horizon.md](2026-09-18-v50-training-horizon.md) — main copy removed in the draft
+- [2026-09-19-58m-policy-value-factorial.md](2026-09-19-58m-policy-value-factorial.md) — main copy removed in the draft
+- [2026-09-19-ceres-audited-58m.md](2026-09-19-ceres-audited-58m.md) — main copy removed in the draft
+- [2026-09-19-workspace-storage.md](2026-09-19-workspace-storage.md) — main copy removed in the draft
+- [2026-09-20-expanded58m-readout.md](2026-09-20-expanded58m-readout.md) — main copy removed in the draft
+- [2026-09-20-factorial-prep-train-overlap.md](2026-09-20-factorial-prep-train-overlap.md) — main copy removed in the draft
+- [2026-09-20-packed-zarr-exact.md](2026-09-20-packed-zarr-exact.md) — source retained in DeepFin
+- [2026-09-20-preparation-overlap.md](2026-09-20-preparation-overlap.md) — main copy removed in the draft
+- [2026-09-20-sf-generation-throughput.md](2026-09-20-sf-generation-throughput.md) — main copy removed in the draft
+- [2026-09-20-storage-loader.md](2026-09-20-storage-loader.md) — source retained in DeepFin
+- [2026-09-20-zarr-zip-pilot.md](2026-09-20-zarr-zip-pilot.md) — main copy removed in the draft
+- [2026-09-21-500m-continuation.md](2026-09-21-500m-continuation.md) — main copy removed in the draft
+- [2026-09-21-bt4-cpu-prefetch.md](2026-09-21-bt4-cpu-prefetch.md) — main copy removed in the draft
+- [2026-09-21-bt4-pipeline-benchmark.md](2026-09-21-bt4-pipeline-benchmark.md) — main copy removed in the draft
+- [2026-09-21-bt4-raw-json-projection.md](2026-09-21-bt4-raw-json-projection.md) — main copy removed in the draft
+- [2026-09-21-bt4-source-read.md](2026-09-21-bt4-source-read.md) — main copy removed in the draft
+- [2026-09-21-ceres-history-reductions.md](2026-09-21-ceres-history-reductions.md) — main copy removed in the draft
+- [2026-09-21-overlay-validation-reuse.md](2026-09-21-overlay-validation-reuse.md) — main copy removed in the draft
+- [2026-09-21-packed-trainer256.md](2026-09-21-packed-trainer256.md) — main copy removed in the draft
+- [2026-09-21-sffree-targets.md](2026-09-21-sffree-targets.md) — source retained in DeepFin
+- [2026-09-22-bt4-outcome-policy.md](2026-09-22-bt4-outcome-policy.md) — main copy removed in the draft
+- [2026-09-22-exact-gather-cpu-screen.md](2026-09-22-exact-gather-cpu-screen.md) — main copy removed in the draft
+- [2026-09-22-factorial-readout-next24h.md](2026-09-22-factorial-readout-next24h.md) — main copy removed in the draft
+- [2026-09-22-host-overlap-runner.md](2026-09-22-host-overlap-runner.md) — main copy removed in the draft
+- [2026-09-22-native-async-lifecycle.md](2026-09-22-native-async-lifecycle.md) — main copy removed in the draft
+- [2026-09-22-native-async-search.md](2026-09-22-native-async-search.md) — source retained in DeepFin
+- [2026-09-22-native-batch-boundary.md](2026-09-22-native-batch-boundary.md) — main copy removed in the draft
+- [2026-09-22-native-buffer-reuse.md](2026-09-22-native-buffer-reuse.md) — source retained in DeepFin
+- [2026-09-22-native-cuda-backend.md](2026-09-22-native-cuda-backend.md) — main copy removed in the draft
+- [2026-09-22-native-multi-root.md](2026-09-22-native-multi-root.md) — source retained in DeepFin
+- [2026-09-22-packed-observer-retry.md](2026-09-22-packed-observer-retry.md) — main copy removed in the draft
+- [2026-09-22-packed-output-accounting.md](2026-09-22-packed-output-accounting.md) — main copy removed in the draft
+- [2026-09-22-retained-syzygy-option.md](2026-09-22-retained-syzygy-option.md) — main copy removed in the draft
+- [2026-09-22-scale-compute-budget.md](2026-09-22-scale-compute-budget.md) — main copy removed in the draft
+- [2026-09-22-sf-shallow-generation.md](2026-09-22-sf-shallow-generation.md) — main copy removed in the draft
+- [2026-09-22-sffree-E-admission.md](2026-09-22-sffree-E-admission.md) — main copy removed in the draft
+- [2026-09-23-async-cohort.md](2026-09-23-async-cohort.md) — source retained in DeepFin
+- [2026-09-23-bootstrap-syzygy-correctness-audit.md](2026-09-23-bootstrap-syzygy-correctness-audit.md) — source retained in DeepFin
+- [2026-09-23-bounded-completion-wait.md](2026-09-23-bounded-completion-wait.md) — source retained in DeepFin
+- [2026-09-23-bt4-output-adapter-foundation.md](2026-09-23-bt4-output-adapter-foundation.md) — main copy removed in the draft
+- [2026-09-23-bt4-own-game-source.md](2026-09-23-bt4-own-game-source.md) — main copy removed in the draft
+- [2026-09-23-bt4-root-output-reuse-foundation.md](2026-09-23-bt4-root-output-reuse-foundation.md) — main copy removed in the draft
+- [2026-09-23-bt4-root-policy-stepper.md](2026-09-23-bt4-root-policy-stepper.md) — main copy removed in the draft
+- [2026-09-23-bt4-root-policy-worker.md](2026-09-23-bt4-root-policy-worker.md) — main copy removed in the draft
+- [2026-09-23-bt4-root-worker-gpu-qualification.md](2026-09-23-bt4-root-worker-gpu-qualification.md) — main copy removed in the draft
+- [2026-09-23-bt4-verified-session-foundation.md](2026-09-23-bt4-verified-session-foundation.md) — main copy removed in the draft
+- [2026-09-23-cohort-deadlines.md](2026-09-23-cohort-deadlines.md) — source retained in DeepFin
+- [2026-09-23-fifo-cohort-integration.md](2026-09-23-fifo-cohort-integration.md) — source retained in DeepFin
+- [2026-09-23-fifo-runner-timing.md](2026-09-23-fifo-runner-timing.md) — source retained in DeepFin
+- [2026-09-23-generation-memory-loader-thp-audit.md](2026-09-23-generation-memory-loader-thp-audit.md) — main copy removed in the draft
+- [2026-09-23-loader-profile.md](2026-09-23-loader-profile.md) — main copy removed in the draft
+- [2026-09-23-numpy-thp-hotload.md](2026-09-23-numpy-thp-hotload.md) — main copy removed in the draft
+- [2026-09-23-numpy-thp-loader-proposal.md](2026-09-23-numpy-thp-loader-proposal.md) — main copy removed in the draft
+- [2026-09-23-optimization-work-plan.md](2026-09-23-optimization-work-plan.md) — main copy removed in the draft
+- [2026-09-23-overlay-hotload-diagnostic.md](2026-09-23-overlay-hotload-diagnostic.md) — main copy removed in the draft
+- [2026-09-23-sf-rule50-corpus-mode.md](2026-09-23-sf-rule50-corpus-mode.md) — main copy removed in the draft
+- [2026-09-24-arena-memory-screen.md](2026-09-24-arena-memory-screen.md) — source retained in DeepFin
+- [2026-09-24-bounded-search-arenas.md](2026-09-24-bounded-search-arenas.md) — source retained in DeepFin
+- [2026-09-24-chess-key-map-replay.md](2026-09-24-chess-key-map-replay.md) — source retained in DeepFin
+- [2026-09-24-chess-map-timing.md](2026-09-24-chess-map-timing.md) — source retained in DeepFin
+- [2026-09-24-live-cohort-lifecycle.md](2026-09-24-live-cohort-lifecycle.md) — source retained in DeepFin
+- [2026-09-24-numeric-map-screen.md](2026-09-24-numeric-map-screen.md) — source retained in DeepFin
+- [2026-09-25-live-cohort-recovery.md](2026-09-25-live-cohort-recovery.md) — source retained in DeepFin
+- [2026-09-25-live-model-composition.md](2026-09-25-live-model-composition.md) — source retained in DeepFin
+- [2026-09-25-native-service-profile.md](2026-09-25-native-service-profile.md) — source retained in DeepFin
+- [2026-09-26-measured-live-dispatch.md](2026-09-26-measured-live-dispatch.md) — source retained in DeepFin
+- [2026-09-26-move-cache-cost-screen.md](2026-09-26-move-cache-cost-screen.md) — source retained in DeepFin
+- [2026-09-27-500m-source-capacity.md](2026-09-27-500m-source-capacity.md) — main copy removed in the draft
+- [2026-09-27-bt4-batching-opportunity.md](2026-09-27-bt4-batching-opportunity.md) — main copy removed in the draft
+- [2026-09-27-ceres-selected-guard-cadence.md](2026-09-27-ceres-selected-guard-cadence.md) — main copy removed in the draft
+- [2026-09-27-ceres-v8-feed-store-screen.md](2026-09-27-ceres-v8-feed-store-screen.md) — main copy removed in the draft
+- [2026-09-27-factorial-strict-rule50-readout.md](2026-09-27-factorial-strict-rule50-readout.md) — main copy removed in the draft
+- [2026-09-27-factorial58-d-e-phase-arena.md](2026-09-27-factorial58-d-e-phase-arena.md) — main copy removed in the draft
+- [2026-09-27-selected-e-game-index-seam.md](2026-09-27-selected-e-game-index-seam.md) — main copy removed in the draft
+- [2026-09-27-selected-e-label-cost-kernel.md](2026-09-27-selected-e-label-cost-kernel.md) — main copy removed in the draft
+- [2026-09-27-selected-e-sparse-source-audit.md](2026-09-27-selected-e-sparse-source-audit.md) — main copy removed in the draft
+- [2026-09-27-selected-e-vs-e-arena.md](2026-09-27-selected-e-vs-e-arena.md) — main copy removed in the draft
+- [2026-09-28-500m-external-trainer-inventory.md](2026-09-28-500m-external-trainer-inventory.md) — main copy removed in the draft
+- [2026-09-28-ceres-sink-10pct-screen.md](2026-09-28-ceres-sink-10pct-screen.md) — main copy removed in the draft
+- [2026-09-28-owner-vs-fair-teacher-route-prereg-v4.md](2026-09-28-owner-vs-fair-teacher-route-prereg-v4.md) — main copy removed in the draft
+- [2026-09-28-owner-vs-fair-teacher-route-prereg.md](2026-09-28-owner-vs-fair-teacher-route-prereg.md) — main copy removed in the draft
+- [2026-09-28-selected-e-vs-d-direct-strict-readout.md](2026-09-28-selected-e-vs-d-direct-strict-readout.md) — main copy removed in the draft
+- [2026-09-28-sf-late-dose-metadata.md](2026-09-28-sf-late-dose-metadata.md) — main copy removed in the draft
+- [2026-09-28-sf-late-position-dose.md](2026-09-28-sf-late-position-dose.md) — main copy removed in the draft
+- [2026-09-29-500m-practical-next-tests.md](2026-09-29-500m-practical-next-tests.md) — main copy removed in the draft
+- [2026-09-29-500m-source-target-candidate.md](2026-09-29-500m-source-target-candidate.md) — main copy removed in the draft
+- [2026-09-29-ceres-live128-writer-abba.md](2026-09-29-ceres-live128-writer-abba.md) — main copy removed in the draft
+- [2026-09-29-ceres-root-feedonce.md](2026-09-29-ceres-root-feedonce.md) — main copy removed in the draft
+- [2026-09-29-ceres-saved-game-source-fixture.md](2026-09-29-ceres-saved-game-source-fixture.md) — main copy removed in the draft
+- [2026-09-29-ceres-saved-syzygy-source-fixture.md](2026-09-29-ceres-saved-syzygy-source-fixture.md) — main copy removed in the draft
+- [2026-09-29-ceres-saved32-writer-abba.md](2026-09-29-ceres-saved32-writer-abba.md) — main copy removed in the draft
+- [2026-09-29-ceres-stored-feed-batch.md](2026-09-29-ceres-stored-feed-batch.md) — main copy removed in the draft
+- [2026-09-29-dlite-scalar-value-plan.md](2026-09-29-dlite-scalar-value-plan.md) — main copy removed in the draft
+- [2026-09-29-e-vs-d-576-strict.md](2026-09-29-e-vs-d-576-strict.md) — main copy removed in the draft
+- [2026-09-29-full512-old-cohort-abba-cost.md](2026-09-29-full512-old-cohort-abba-cost.md) — main copy removed in the draft
+- [2026-09-29-full512-whole-bank-abba-cost.md](2026-09-29-full512-whole-bank-abba-cost.md) — main copy removed in the draft
+- [2026-09-29-full58820-batch-profiles.md](2026-09-29-full58820-batch-profiles.md) — main copy removed in the draft
+- [2026-09-29-s7-full16-recovered-selector.md](2026-09-29-s7-full16-recovered-selector.md) — main copy removed in the draft
+- [2026-09-29-sf-dlite-smallbank-path.md](2026-09-29-sf-dlite-smallbank-path.md) — main copy removed in the draft
+- [2026-09-29-sf-scalar-persistent-cost.md](2026-09-29-sf-scalar-persistent-cost.md) — main copy removed in the draft
+- [2026-09-29-tri-source-selected-target-pipeline.md](2026-09-29-tri-source-selected-target-pipeline.md) — main copy removed in the draft
+- [2026-09-29-zip128-external-trainer-screen.md](2026-09-29-zip128-external-trainer-screen.md) — source retained in DeepFin
+- [2026-09-30-ceres-active128-frozen-quality.md](2026-09-30-ceres-active128-frozen-quality.md) — main copy removed in the draft
+- [2026-09-30-ceres-direct-compact-synthetic-sink.md](2026-09-30-ceres-direct-compact-synthetic-sink.md) — main copy removed in the draft
+- [2026-09-30-ceres-owner-target-and-compact-order.md](2026-09-30-ceres-owner-target-and-compact-order.md) — main copy removed in the draft
+- [2026-09-30-ceres-run09-first-durable-chunk.md](2026-09-30-ceres-run09-first-durable-chunk.md) — main copy removed in the draft
+- [2026-09-30-ceres-saved19-threefold-gate.md](2026-09-30-ceres-saved19-threefold-gate.md) — main copy removed in the draft
+- [2026-09-30-ceres-source-phase-observation.md](2026-09-30-ceres-source-phase-observation.md) — main copy removed in the draft
+- [2026-09-30-ceres-wsl-recovery.md](2026-09-30-ceres-wsl-recovery.md) — main copy removed in the draft
+- [2026-09-30-dlite-paired-arena-resume.md](2026-09-30-dlite-paired-arena-resume.md) — main copy removed in the draft
+- [2026-09-30-full58820-corrected-selected-targets.md](2026-09-30-full58820-corrected-selected-targets.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-d8-first-target-eligibility-amendment.md](2026-09-30-sf-dlite-d8-first-target-eligibility-amendment.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-d8-full07-operational-readout.md](2026-09-30-sf-dlite-d8-full07-operational-readout.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-d8-label-operations.md](2026-09-30-sf-dlite-d8-label-operations.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-d8-value-eligibility-amendment.md](2026-09-30-sf-dlite-d8-value-eligibility-amendment.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-full07-cpu-placement.md](2026-09-30-sf-dlite-full07-cpu-placement.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-historical-donor-adapter.md](2026-09-30-sf-dlite-historical-donor-adapter.md) — main copy removed in the draft
+- [2026-09-30-sf-dlite-native-pair-auditor.md](2026-09-30-sf-dlite-native-pair-auditor.md) — main copy removed in the draft
+- [2026-09-30-sf-raw-zstd-frames.md](2026-09-30-sf-raw-zstd-frames.md) — main copy removed in the draft
+- [2026-09-30-tri-source-checkpointed-sort-foundation.md](2026-09-30-tri-source-checkpointed-sort-foundation.md) — main copy removed in the draft
+- [2026-09-30-tri-source-literal-uid-cursor.md](2026-09-30-tri-source-literal-uid-cursor.md) — main copy removed in the draft
+- [2026-09-30-tri-source-shared-verification.md](2026-09-30-tri-source-shared-verification.md) — main copy removed in the draft
+- [2026-09-30-tri-source-storage-checkpoints.md](2026-09-30-tri-source-storage-checkpoints.md) — main copy removed in the draft
+- [2026-09-30-tri-source-verification-rollover.md](2026-09-30-tri-source-verification-rollover.md) — main copy removed in the draft
+- [2026-10-01-bt4-one-game-npz-binding.md](2026-10-01-bt4-one-game-npz-binding.md) — main copy removed in the draft
+- [2026-10-01-sf-dlite-auditor-exit-wait.md](2026-10-01-sf-dlite-auditor-exit-wait.md) — main copy removed in the draft
+- [2026-10-01-sf-dlite-native-first3-and-exit-aware-wait.md](2026-10-01-sf-dlite-native-first3-and-exit-aware-wait.md) — main copy removed in the draft
+- [2026-10-04-arena-resume-result-validation.md](2026-10-04-arena-resume-result-validation.md) — main copy removed in the draft
+- [2026-10-04-indexed-bootstrap-dose-preparation.md](2026-10-04-indexed-bootstrap-dose-preparation.md) — main copy removed in the draft
+- [2026-10-10-local-arena-adapter-reuse.md](2026-10-10-local-arena-adapter-reuse.md) — source retained in DeepFin
+- [2026-10-10-shared-teacher-async-increment.md](2026-10-10-shared-teacher-async-increment.md) — main copy removed in the draft
+- [2026-10-12-frozen-iopt-diagnostic.md](2026-10-12-frozen-iopt-diagnostic.md) — main copy removed in the draft
+- [PREREGISTRATION.md](artifacts/2026-09-20-expanded58m-readout/PREREGISTRATION.md) — source retained in DeepFin
+- [2026-09-28-owner-vs-fair-teacher-route-v4-full-prereg.md](evidence/2026-09-28-owner-vs-fair-teacher-route-v4-full-prereg.md) — source retained in DeepFin
+- [2026-09-28-owner-vs-fair-teacher-route-v4-independent-review.md](evidence/2026-09-28-owner-vs-fair-teacher-route-v4-independent-review.md) — source retained in DeepFin
+- [ADOPTION.md](evidence/arena-adapter-reuse-20261010/ADOPTION.md) — source retained in DeepFin
+- [README.md](evidence/arena-adapter-reuse-20261010/README.md) — source retained in DeepFin
+- [bootstrap-route-matrix.md](evidence/bootstrap-syzygy-audit-20260923/bootstrap-route-matrix.md) — source retained in DeepFin
+- [teacher-path-audit.md](evidence/bootstrap-syzygy-audit-20260923/teacher-path-audit.md) — source retained in DeepFin
+- [README.md](evidence/bt4-bootstrap/README.md) — source retained in DeepFin
+- [README.md](evidence/bt4-label-legal-reuse/README.md) — source retained in DeepFin
+- [README.md](evidence/factorial-strict-rule50-20260927/README.md) — source retained in DeepFin
+- [protocol.md](evidence/factorial-strict-rule50-20260927/protocol.md) — source retained in DeepFin
+- [independent-readout-review.md](evidence/factorial58-phase-de-20260927/independent-readout-review.md) — source retained in DeepFin
+- [README.md](evidence/loader-profile-20260923/README.md) — source retained in DeepFin
+- [storage-AUDIT.md](evidence/workspace-storage-20260919/storage-AUDIT.md) — source retained in DeepFin
+- [sf_dlite_selected_e_value_prereg_20260930.md](sf_dlite_selected_e_value_prereg_20260930.md) — source retained in DeepFin
+- [value_head_arch.md](value_head_arch.md) — source retained in DeepFin
+- [varying_horizon_online_controller.md](varying_horizon_online_controller.md) — source retained in DeepFin
+- [README.md](../../scratchpad/bt4_joint20/B100_preparation_v1/arena_handoff_v1/README.md) — source retained in DeepFin
+- [README.md](../../scratchpad/bt4_joint20/B100_preparation_v1/materialization/README.md) — source retained in DeepFin
+- [original_preregistration.md](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/original_preregistration.md) — source retained in DeepFin
+- [README.md](../../scratchpad/bt4_joint20/G20T1_cold_archive_v1/README.md) — source retained in DeepFin
+- [README.md](../../scratchpad/bt4_joint20/confirmation_openings_v1/README.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/confirmation_registration_v1/preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/confirmation_seed1_E0T05_vs_C20T05_v1/preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/direct_close_global_run01/preregistration.md) — source retained in DeepFin
+- [recommendation.md](../../scratchpad/bt4_joint20/faster_arena_design_v1/recommendation.md) — source retained in DeepFin
+- [preparation.md](../../scratchpad/bt4_joint20/global_dose50_v1/preparation.md) — source retained in DeepFin
+- [preregistration.before_runtime_correction.md](../../scratchpad/bt4_joint20/global_run01/preregistration.before_runtime_correction.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/global_run01/preregistration.md) — source retained in DeepFin
+- [README.matched-schedule.md](../../scratchpad/bt4_joint20/global_run02/README.matched-schedule.md) — source retained in DeepFin
+- [calibration_preregistration.md](../../scratchpad/bt4_joint20/global_run03/calibration_preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/global_run03/preregistration.md) — source retained in DeepFin
+- [recipe_selection_after_global.md](../../scratchpad/bt4_joint20/global_run03/recipe_selection_after_global.md) — source retained in DeepFin
+- [preparation.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_batch_v1/preparation.md) — source retained in DeepFin
+- [wrapper_preparation.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/launch_publication_v1/artifacts/wrapper_preparation.md) — source retained in DeepFin
+- [qualification_contract.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_increment_v1/qualification_contract.md) — source retained in DeepFin
+- [preregistration_v2.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_common_worker01_v1/preregistration_v2.md) — source retained in DeepFin
+- [runner_preparation.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/G10_pipeline_pilot_v1/runner_preparation.md) — source retained in DeepFin
+- [original_prereg.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/c400_package_publication_v1/original_prereg.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/g100_increment_publication_v1/G10_parallel/preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/next_common_publication_v1/v1/preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/next_common_publication_v1/v2/preregistration.md) — source retained in DeepFin
+- [next_experiment_options.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/next_experiment_options.md) — source retained in DeepFin
+- [prereg.md](../../scratchpad/bt4_joint20/hybrid_endpoint_run01/prereg.md) — source retained in DeepFin
+- [README.md](../../scratchpad/bt4_joint20/publication_20260908_followup/soft-sf-bank-readiness/README.md) — source retained in DeepFin
+- [FIRST_CANDIDATE.md](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/FIRST_CANDIDATE.md) — source retained in DeepFin
+- [MATE_FOLLOWUP.md](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/MATE_FOLLOWUP.md) — source retained in DeepFin
+- [PLAN.md](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/PLAN.md) — source retained in DeepFin
+- [TRAINING_COMPARISON.md](../../scratchpad/bt4_joint20/publication_20260908_storage_objective_v1/v50/TRAINING_COMPARISON.md) — source retained in DeepFin
+- [README.md](../../scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/schedule/README.md) — source retained in DeepFin
+- [STORAGE_OBJECTIVE.md](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/STORAGE_OBJECTIVE.md) — source retained in DeepFin
+- [scheduling_amendment.md](../../scratchpad/bt4_joint20/sf_close_run02/preparation/scheduling_amendment.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/sf_close_run02/preregistration.md) — source retained in DeepFin
+- [confirmation_selection_draft.md](../../scratchpad/bt4_joint20/sharpened_ties_run01/confirmation_selection_draft.md) — source retained in DeepFin
+- [confirmation_selection_revised.md](../../scratchpad/bt4_joint20/sharpened_ties_run01/confirmation_selection_revised.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/sharpened_ties_run01/preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/preregistration.md) — source retained in DeepFin
+- [preregistration.md](../../scratchpad/bt4_joint20/target_geometry_v1/preregistration.md) — source retained in DeepFin

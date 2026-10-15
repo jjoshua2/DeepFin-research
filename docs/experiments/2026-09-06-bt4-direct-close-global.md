@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-06-bt4-direct-close-global.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-06-bt4-direct-close-global.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Direct SF-close versus global sharpened BT4
 
 Registered September 6, 2026 after the SF-close three-budget screen completed.

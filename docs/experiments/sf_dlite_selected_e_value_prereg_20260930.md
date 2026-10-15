@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/sf_dlite_selected_e_value_prereg_20260930.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/sf_dlite_selected_e_value_prereg_20260930.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # D-lite Selected-E main-value screen: preregistration
 
 Status: frozen before the 2,048-row transport pilot; pilot labels are unadmitted and there is no full target, training, or Elo credit. Freeze

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/workspace-storage-20260919/storage-AUDIT.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/workspace-storage-20260919/storage-AUDIT.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Factorial storage boundary audit
 
 PASS: Future target outputs/ ancestor symlink: real producer build, preparation verify_cohort, all B/C/D qualification and load_shard_arrays consumption. PASS: Ceres bank ancestor symlink: actual producer/verify/cache with mocked inference, plus real driver launch/completion discovery using fake Ceres worker. This is a storage-path test, not GPU qualification. Full executable fixture and output retained beside this note.

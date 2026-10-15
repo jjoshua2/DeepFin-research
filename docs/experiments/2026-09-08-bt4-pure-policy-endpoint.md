@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bt4-pure-policy-endpoint.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bt4-pure-policy-endpoint.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Pure BT4 policy endpoint versus H20
 
 **Completed: B100 beat H20 in the registered shallow sequential screen and the protected 400-simulation probe. This is same-seed development evidence; the search-scaling interaction remains unresolved.**
@@ -54,7 +56,7 @@ operator, retaining the original runtime, models, settings, book, opening prefix
 timeouts and package accounting. Its reader also used the original Python 3.10
 arithmetic; PR #566 was not inserted into the running experiment. The original
 failure and both successful readouts remain available in the
-[completed evidence manifest](evidence/bt4-bootstrap/b100-two-budget-results-manifest.json),
+[completed evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-two-budget-results-manifest.json),
 including losslessly compressed game banks, process records and launch bindings.
 Bulk weights and source corpora retain the external identities in the training
 publication below.
@@ -65,27 +67,27 @@ publication below.
 The pure sharpened-BT4 **policy** endpoint completed all **18,910,484 rows,
 36,935 updates and 420 windows**, with seed zero and batch 512. Every window had
 finite loss and mean gradient norm, with **zero nonfinite skips and CUDA retries**.
-The [training completion](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/training/training.complete.json)
+The [training completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/training/training.complete.json)
 binds the final checkpoint `b30ab345d0cf3acfb51bea6c90a91aef3c1dd5edb78da3c92d3a504fb2735d62`.
 The training charge was **9,258.994 seconds (2h34m19s)**, within its 4.5-hour cap.
 This establishes completed training, not improved playing strength. SF-derived
 value targets and all non-policy fields remained unchanged.
 
-The [realized schedule](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/training/realized_schedule.json.gz)
+The [realized schedule](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/training/realized_schedule.json.gz)
 completed its CPU verification in **274.70 seconds** and matches H20's canonical
 schedule `dc687fc333295dee565d19bb4f20da5aa95479dba3aacc5499c22a4004acc64f`.
-The [independent launch review](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/independent_launch_review.json)
+The [independent launch review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/independent_launch_review.json)
 checked the compact training summary, full window accounting, final checkpoint
 receipt, schedule and arena binding. Historical purity, committed-config and
 sampler limitations remain; this is a seed-zero development comparison.
 The full training summary and checkpoint remain external, with locations and hashes
-in the [evidence catalog](evidence/bt4-bootstrap/b100-completion-arena-launch-manifest.json).
+in the [evidence catalog](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-completion-arena-launch-manifest.json).
 
-The [arena operator receipt](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/root_arena_operator_launch.json)
+The [arena operator receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/root_arena_operator_launch.json)
 records coordinator **368555** starting at **12:26:02 UTC**. The
-[100-simulation process snapshot](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/startup/low/process.json)
+[100-simulation process snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/startup/low/process.json)
 records timeout supervisor **368593** and arena **368594** starting at **12:26:07 UTC**.
-The [frozen launch manifest](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/B100_H20.launch_manifest.json)
+The [frozen launch manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/B100_H20.launch_manifest.json)
 compares B100 with H20's registered final checkpoint using the allocation below:
 100-simulation ordered-prefix GSPRT, first 128 pairs then 64-pair steps, capped at
 500 pairs; followed by the fixed 128-pair 400-simulation probe on the same opening
@@ -102,16 +104,16 @@ Python 3.13 CPU environment does not replace that model/search runtime.
 
 ### Preserved preparation failure and correction
 
-The [v2 CPU preparation failure](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/forced_opening/actual_cpu_preparation.log)
+The [v2 CPU preparation failure](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/forced_opening/actual_cpu_preparation.log)
 was a reader eligibility error: registered opening **55** has a legal, valid,
 nonterminal 16-ply history with exactly one legal move. The reader incorrectly
 required at least two, a condition appropriate to the capacity diagnostic rather
 than this match. [PR #564](https://github.com/jjoshua2/DeepFin/pull/564) removed only
 that restriction; history, legality, terminal and uniqueness checks remain.
-Its [independent review](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/forced_opening/independent_review.json)
+Its [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/forced_opening/independent_review.json)
 and passing local tests/static checks are retained; all PR checks passed.
 
-The [successful v3 preparation](../../scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/qualified_preparation.json)
+The [successful v3 preparation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_b100_completion_20260908/arena/qualified_preparation.json)
 uses the **byte-identical 500-opening panel**, SHA256
 `b4f1d16b488ff9efa0c466706b74595559a807c99a0e4ca75379a4d0745cfb6c`,
 including opening 55 and the exact first-128 prefix. No replacement opening,
@@ -124,32 +126,32 @@ playing-strength observation.
 
 B100 training started at **09:09:09 UTC** (05:09:09 local), after the completed
 H20 package and the selected endpoint registration. The
-[startup process snapshot](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/training.process.snapshot.json)
+[startup process snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/training.process.snapshot.json)
 records trainer **336571**, timeout supervisor **336570** and coordinator **336548**.
-The [startup log prefix](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/training.startup.prefix.log)
+The [startup log prefix](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/training.startup.prefix.log)
 confirms all **2,309 shards** were staged and the model was created on CUDA.
 That snapshot established startup only; the completed-epoch evidence is recorded above.
 
-The [frozen training manifest](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/B100.training_manifest.json)
+The [frozen training manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/B100.training_manifest.json)
 uses the merged schema-3 training-only coordinator, commit
 `edf646fdfdcb395c57f9a4fca36865149f031622`. The actual trainer remains the qualified
 wise-cloud `7ec2615` runtime: Python 3.10.12, Torch 2.11.0+cu128, CUDA 12.8 and
 NumPy 1.26.2. Seed zero, batch 512, 16 planning/loading workers, 88-step windows,
 optimizer and training command remain matched to H20; only corpus and output paths
-change. The [runtime qualification](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/runtime_qualification.json)
-and [root launch review](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/root_launch_review.json)
+change. The [runtime qualification](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/runtime_qualification.json)
+and [root launch review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/root_launch_review.json)
 bind actual imports, native hashes, original source/configuration and the new corpus.
 
-The [prospective schedule](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/schedule/B100.prospective_schedule.json.gz)
+The [prospective schedule](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/schedule/B100.prospective_schedule.json.gz)
 verified **18,910,484 rows, 36,935 batches and 97,968 games** against the original
 source/C witnesses. Its canonical hash remains `dc687fc333295dee565d19bb4f20da5aa95479dba3aacc5499c22a4004acc64f`.
 The CPU-only verification took **483.57 seconds**, with peak RSS **699 MiB**, on
 CPUs 6–7 with CUDA hidden. This proves the prospective input schedule; at that startup snapshot, post-training staging, finite windows and realized counters
 were still pending. The completed qualification is recorded above.
 
-The [launch consistency check](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/launch_consistency_check.json)
+The [launch consistency check](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/launch_consistency_check.json)
 compared recorded child argv/runtime and source pins with the root prelaunch
-review and manifest. The earlier [operator receipt](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/operator_launch.json)
+review and manifest. The earlier [operator receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/operator_launch.json)
 correctly retained `training_started:false` when it only knew the coordinator had
 started; the later process snapshot supplies trainer-start evidence. Historical
 preparation statuses and the [original selected registration](../../scratchpad/bt4_joint20/B100_preparation_v1/training_launch_publication_v1/original_preregistration.md)
@@ -163,7 +165,7 @@ package cap **7.5 GPU hours**. Their manifests/runtime/readout still require sep
 qualification. The separately registered capacity probe is outside that package
 cap. That startup record claimed no training completion, promotion or playing result.
 
-The [launch evidence manifest](evidence/bt4-bootstrap/b100-training-launch-manifest.json)
+The [launch evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-training-launch-manifest.json)
 binds these 15 compact artifacts and lossless schedule compression. The full
 2,309-shard metadata inventory, corpus summaries and operator source remain external
 with explicit hashes. No full corpus replay or training-window outcome read was

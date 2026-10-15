@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-17-audited-scale-bootstrap.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-17-audited-scale-bootstrap.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Audited expansion of the35M bootstrap
 
 Status: historical September 17 implementation and CPU preparation plan.

@@ -1,7 +1,9 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/loader-profile-20260923/README.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/loader-profile-20260923/README.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Prepared overlay hot-load diagnostic
 
-The pinned [plan](prepared-hotload-plan.json) and
-[`scripts/benchmark_overlay_hotload.py`](../../../../scripts/benchmark_overlay_hotload.py)
+The pinned [plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/loader-profile-20260923/prepared-hotload-plan.json) and
+[`scripts/benchmark_overlay_hotload.py`](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/benchmark_overlay_hotload.py)
 are held for any future quiet CPU slot. No comparison has run with this revised
 runner and plan. The `check` command
 verifies the runner, Python and package versions, both clean source commits and

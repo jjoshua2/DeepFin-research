@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-23-generation-memory-loader-thp-audit.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-23-generation-memory-loader-thp-audit.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 stepper capacity and loader THP audit — September 23, 2026
 
 This is a read-only source/capacity audit. No game, model inference, loader A/B,

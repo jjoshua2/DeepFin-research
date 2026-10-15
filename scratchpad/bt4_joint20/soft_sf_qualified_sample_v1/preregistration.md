@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/preregistration.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/preregistration.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Qualified Soft-SF training sample, 2026-09-08
 
 Prepared before payload/target inspection. Bank 4,096 preselected rows: partition

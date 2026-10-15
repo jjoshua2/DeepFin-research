@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-30-sf-dlite-historical-donor-adapter.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-30-sf-dlite-historical-donor-adapter.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # D-lite historical donor adaptation: reviewed CPU source packet
 
 Status: prepared and CPU-reviewed source packet. No D-lite training, target
@@ -14,7 +16,7 @@ uses a different row-order route. The patch here adds donor admission to the
 research patch so the historical branch's unrelated commits do not become a
 development PR.
 
-Decompress [adapter-v3.patch.gz](evidence/sf-dlite-historical-donor-adapter-20260930/adapter-v3.patch.gz)
+Decompress [adapter-v3.patch.gz](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-dlite-historical-donor-adapter-20260930/adapter-v3.patch.gz)
 and apply the resulting patch
 to an isolated checkout at historical commit
 `502cd02e072471c901255f3fdb580d6ea7b826d0`. The patch SHA-256 is

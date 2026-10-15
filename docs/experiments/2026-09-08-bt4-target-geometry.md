@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bt4-target-geometry.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bt4-target-geometry.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 target geometry: stored ties and a raw-cp control
 
 The fixed training sample shows that C's selected set can be much wider than three
@@ -16,7 +18,7 @@ This is **one shard, not a representative sample of the 18,910,484-row corpus**.
 Its mean SF/C entropies, 0.7472/0.6603 nats, differ from the full-corpus
 0.5690/0.5155. No additional positions, inference, corpus scan or gameplay were run.
 
-The already published [C corpus summary](../../scratchpad/bt4_joint20/publication_originals/data/nnue_derived/armB/qtemp_0.0005_hist_20m_bt4_sfclose_C20T05/bt4_policy_mix_summary.json)
+The already published [C corpus summary](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_originals/data/nnue_derived/armB/qtemp_0.0005_hist_20m_bt4_sfclose_C20T05/bt4_policy_mix_summary.json)
 reports 8,174,861 rows with multiple selected moves (43.229%), 4,951,025 with a set
 wider than the stored SF maxima (26.181%), and 3,434,000 with multiple stored SF
 maxima (18.159%). Those counts already answer how often C can redistribute mass;
@@ -71,7 +73,7 @@ Storage removes tiny tails with little entropy change. Banked BT4 raw/T=0.5 have
 mean entropy 2.1871/1.3286 and mean support 27.58 each; these are their existing
 teacher distributions, not newly float16-materialized candidates. Complete top-one
 concentration, tail, support and per-row results are in the
-[compressed readout](../../scratchpad/bt4_joint20/target_geometry_v1/readout.json.gz).
+[compressed readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/target_geometry_v1/readout.json.gz).
 
 The registered SF evaluation strata use rank-one d9 effective cp: below −200,
 inclusive [−200,200], above 200. Any legal move in the existing mate band
@@ -97,7 +99,7 @@ T=10 is closest to C's sample mean entropy and T=20 to SF's among the four teste
 values. This is a descriptive comparison, **not a final temperature choice**.
 A raw-cp control would test score-to-policy mapping as well as tail width. A later
 training comparison must keep value/history arrays fixed and use matched runtimes;
-[current main supports uninterrupted multiple epochs](../toolchains.md#uninterrupted-offline-game-epochs),
+[current main supports uninterrupted multiple epochs](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/toolchains.md#uninterrupted-offline-game-epochs),
 but its objective normalization differs from the frozen H20 runtime.
 
 The full 18.91M-row raw-score join remains unqualified. The old corpus lacks the
@@ -106,12 +108,12 @@ shuffle/join checks provide a route, but the top-eight rank sidecar and rounded 
 probabilities cannot reconstruct all-legal raw scores. No full control corpus was
 created here.
 
-The [evidence manifest](evidence/bt4-bootstrap/target-geometry-manifest.json) binds
+The [evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/target-geometry-manifest.json) binds
 original and published hashes, including the losslessly compressed readout,
-[analysis script](../../scratchpad/bt4_joint20/target_geometry_v1/analyze.py),
-[prelaunch semantic review](../../scratchpad/bt4_joint20/target_geometry_v1/prelaunch_review.json),
-[execution receipt](../../scratchpad/bt4_joint20/target_geometry_v1/execution.json),
-and [completed independent review](../../scratchpad/bt4_joint20/target_geometry_v1/independent_review.json)
+[analysis script](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/target_geometry_v1/analyze.py),
+[prelaunch semantic review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/target_geometry_v1/prelaunch_review.json),
+[execution receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/target_geometry_v1/execution.json),
+and [completed independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/target_geometry_v1/independent_review.json)
 (PASS).
 The once-only process exited zero in 0.723 seconds (0.269 seconds in the analysis
 body), with GPU hidden, two CPUs and low priority. Existing NPZ/raw training banks
@@ -133,7 +135,7 @@ renormalized raw-cp targets at 10, 20, 40 and 80 cp have mean entropies 0.543010
 repeating the target calculation. Ten cp is the exploratory nearest value, but
 one selected shard does not establish representative corpus statistics or strength.
 
-The [bank-readiness evidence](evidence/bt4-bootstrap/soft-sf-bank-readiness-manifest.json)
+The [bank-readiness evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/soft-sf-bank-readiness-manifest.json)
 preserves the inspection plan, original bank pins, source inspection and result.
 The inspection body took 3.149 seconds with GPU hidden and two low-priority CPU
 cores. A representative source-qualified training sample and the full raw-score

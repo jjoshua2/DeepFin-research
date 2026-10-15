@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-16-bootstrap-status-audit.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-16-bootstrap-status-audit.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Bootstrap evidence and scale-readiness audit — September 16
 
 This audit supersedes interpretations in the local autonomous-loop recap where they
@@ -151,7 +153,7 @@ labeling, fleet restart or queue alteration occurred during this audit. GitHub m
 was still at PR #753 when inspected: the recent autonomous results had not been
 published there.
 
-[Compact audit evidence](evidence/bootstrap-status-audit-20260916.json) retains
+[Compact audit evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-status-audit-20260916.json) retains
 bank summaries and hashes of the local reports/inventory sources. Bulk game logs
 remain at the listed local paths. The original results are preserved.
 
@@ -184,7 +186,7 @@ other writers. Existing CPU adapter and generator jobs retain their original
 The batch wrapper is [PR #759](https://github.com/jjoshua2/DeepFin/pull/759): five
 focused tests passed and separate wrapper/plan reviews passed. Frozen code and
 input identities, source cohorts, limits and queue adoption are recorded in the
-[overnight evidence](evidence/bootstrap-overnight-20260916.json). The supervisor
+[overnight evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-overnight-20260916.json). The supervisor
 advances from saved completion receipts without conversational polling. On failure
 it preserves completed blocks and leaves a terminal record for diagnosis.
 
@@ -222,7 +224,7 @@ metadata were rebound and verified, as were source/command pins. The previously
 reviewed RAM, disk, output and sequential failure-stop controls remain in force.
 The CPU adapter completed successfully before reboot and is not repeated.
 
-[Recovery evidence](evidence/bootstrap-reboot-20260916.json) records the exact
+[Recovery evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-reboot-20260916.json) records the exact
 queue and launch identities. Activation does not claim completion of the batch.
 
 CPU generation also resumed for 12 hours at the existing 2+1 concurrency, with
@@ -261,6 +263,6 @@ Ceres coverage of every new row is not a gate on the first SF/BT4 transfer. Roug
 training corpus. Additional existing native labels should be reused before new
 teacher inference. No 50–60M training has launched at this readout.
 
-[Evening evidence](evidence/bootstrap-evening-20260916.json) retains the queue,
+[Evening evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-evening-20260916.json) retains the queue,
 review and match records. Previously qualified and partially written outputs
 remain preserved.

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-bt4-raw-json-projection.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-bt4-raw-json-projection.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Raw BT4 JSON input projection (2026-09-21)
 
 ## Preregistration
@@ -81,7 +83,7 @@ comparison against both baseline logs is banked in
 could not discover host dependencies and is preserved separately. Focused type
 checking passed with zero diagnostics; `uv lock --check --offline` passed.
 
-[Compact qualification receipt](evidence/2026-09-21-bt4-raw-json-projection.json)
+[Compact qualification receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-raw-json-projection.json)
 contains the paired measurements, ordered hashes and supporting artifact hashes.
 
 

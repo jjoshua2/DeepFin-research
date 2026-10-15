@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-20-storage-loader.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-20-storage-loader.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # External storage and BT4 labeling efficiency — 2026-09-20
 
 ## Question
@@ -102,7 +104,7 @@ experiments remain in status counts but are not all treated as current incidents
 
 All16shards (131,072rows) completed. All four exact-sampler passes produced the
 same tensor-sequence digest, and all packed NPZ decodes matched original shard
-array digests. [Full receipts](evidence/storage-loader-20260920/sampler-and-npz.json).
+array digests. [Full receipts](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/storage-loader-20260920/sampler-and-npz.json).
 
 | Medium | Pass | Planning seconds | Consume seconds including digest | Positions/second including digest |
 | --- | --- | ---: | ---: | ---: |
@@ -129,7 +131,7 @@ Twelve sampled derived shards across four cohorts used635–707bytes/row. A clos
 raw G10 shard used2,569bytes/row. These are selected samples, not corpus-wide bounds.
 At unchanged density,500M derived rows would occupy roughly318–354GB decimal;
 the raw corpus would add roughly1.28TB before other teachers, variants, metadata
-allocation, and checkpoint retention. [Samples](evidence/storage-loader-20260920/size-samples.json).
+allocation, and checkpoint retention. [Samples](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/storage-loader-20260920/size-samples.json).
 
 This supports keeping raw history on the external drive while potentially fitting
 an entire selected500M training representation in a1TB NVMe budget. The exact

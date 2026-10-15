@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-22-native-batch-boundary.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-22-native-batch-boundary.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Native fixed-batch boundary qualification
 
 ## Preregistration — September 22, 2026
@@ -128,7 +130,7 @@ into PR1 accounting and preserve linear buffer lifetime through asynchronous wor
 
 ## Evidence and reproduction
 
-Commands and contracts: [batch backend README](../../native/bend_engine/batch_backend/README.md).
+Commands and contracts: [batch backend README](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/native/bend_engine/batch_backend/README.md).
 Artifact **10714064067**, `deepfin-pr3a-batch-qualification`, contains source patch
 and manifest, JUnit results, binding/transport/helper/model/singleton reports,
 compiler and executable identities, and the exported batch-four sidecar. Retention

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-20-packed-zarr-exact.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-20-packed-zarr-exact.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Packed Zarr exact-sampler qualification — 2026-09-20
 
 ## Question and decision
@@ -13,7 +15,7 @@ The implementation was frozen at
 qualification. It reads ZIP_STORED archives with unchanged Zarr compressed chunks,
 explicit lazy-store ownership, archive mutation checks, and existing array/codec
 validation. Global directory replay discovery and training defaults are unchanged.
-See [the API and limitations](../packed_zarr.md).
+See [the API and limitations](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/packed_zarr.md).
 
 ## Matched readout
 
@@ -32,7 +34,7 @@ Every ordered batch tensor matched. Both sequence hashes are
 The representation/path-sensitive corpus and plan hashes intentionally differ;
 matching row semantics does not permit replacing storage underneath an old plan.
 
-The complete [raw receipt](artifacts/2026-09-20-packed-zarr/nvme-vs-external.json)
+The complete [raw receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-packed-zarr/nvme-vs-external.json)
 contains timing precision, plan parameters and fingerprints. Its host-relative
 location is `<artifact-root>/operations/packed-exact-qualification-20260920/nvme-vs-external.json`.
 The published receipt copies redact only the maintainer home-root label; the
@@ -50,7 +52,7 @@ batch512, with the same remaining sampler settings:
 
 All ordered tensors again matched, SHA256
 `2bccddc7bef89b6b223af16bcdab8b31dad16698cab3badb8a26adc7e1fc6585`.
-The [batch512 receipt](artifacts/2026-09-20-packed-zarr/batch512.json) records the
+The [batch512 receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-packed-zarr/batch512.json) records the
 complete settings and measurements.
 
 ## Interpretation and limits

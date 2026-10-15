@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-12-sf-allmove-downside.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-12-sf-allmove-downside.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # One all-move SF downside candidate
 
 Status: Downside300 completed the registered one-epoch training with matched realized schedule. The fixed 256-game / 400-simulation comparison against B100 completed at +17.66 Elo [−17.97, +53.66], unresolved under the registered rule. Peak reported RSS was 11.950 GiB, with no demonstrated reduction from the earlier 16/16-worker runs.
@@ -77,7 +79,7 @@ bounded operator. It consumed 8,371 physical rows (179 without results), emitted
 2,513 mate-domain rows; mate-domain targets were unchanged. No stored support
 losses occurred. All sixteen nonpolicy arrays retained their source bytes, verified
 through 273 copied-file hashes; the saved policy digest and normalized-mass checks
-also passed. [Compact evidence](evidence/sf-allmove-downside-pilot-20260912.json)
+also passed. [Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-allmove-downside-pilot-20260912.json)
 contains all aggregate producer diagnostics and exact source/output/receipt pins.
 
 The producer took 13.57 seconds with 518,204 KiB peak RSS; the complete operator,
@@ -100,7 +102,7 @@ The allocation is 43,200 seconds inclusive: the enclosing timeout sends TERM at 
 
 The pilot's inner-producer and process-wall extrapolations suggested roughly 6.16–8.70 hours, but startup, raw-row mix, compression and I/O differ across the corpus. Twelve hours is an allocation, not a throughput guarantee. Stop on the first integrity or resource failure, preserve partial output, and do not automatically restart or extend the budget.
 
-On successful producer exit, a bounded final check verifies complete counts, the original full layout, published recipe metadata and producer proof coverage. It inherits the producer's raw/q-policy, source-state and copied-byte verification rather than rescanning every payload. [Compact launch evidence](evidence/sf-allmove-downside-full-launch-20260912.json) retains the exact preregistration, command, plan, source review and actual launch snapshot. Full completion has not been observed for this record; a prepared corpus would still require a separately selected training comparison. The active Ceres value training is unchanged.
+On successful producer exit, a bounded final check verifies complete counts, the original full layout, published recipe metadata and producer proof coverage. It inherits the producer's raw/q-policy, source-state and copied-byte verification rather than rescanning every payload. [Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-allmove-downside-full-launch-20260912.json) retains the exact preregistration, command, plan, source review and actual launch snapshot. Full completion has not been observed for this record; a prepared corpus would still require a separately selected training comparison. The active Ceres value training is unchanged.
 
 ## Relationship to earlier SF targets
 
@@ -184,7 +186,7 @@ An initial parent observation around 18:38:50 UTC saw producer RSS 270,240 KiB,
 label coordinator RSS 620,740 KiB, about 94 GiB WSL memory available, no swap use
 and GPU usage 3,003 MiB / 3%. These are startup samples, not peaks; collector
 inference had not yet been observed. Neither launch proves completed labels or
-a completed corpus. [Compact launch evidence and receipt pins](evidence/reboot-conservative-restarts-20260912.json)
+a completed corpus. [Compact launch evidence and receipt pins](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/reboot-conservative-restarts-20260912.json)
 preserve the interruption and independent static reviews.
 
 The restarted label controller found all 6,957 closed shards already caught up.
@@ -221,7 +223,7 @@ This is preparation only. Actual corpus completion, qualification, prospective
 schedule and final isolated-runtime admission still precede launch. No active
 runtime or training job is changed by this amendment.
 
-[Memory observations and frozen-sampler fixture evidence](evidence/downside-training-memory-20260912.json)
+[Memory observations and frozen-sampler fixture evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/downside-training-memory-20260912.json)
 retain the completed RSS receipts and the synthetic 16/16 versus 2/2 ordered-row
 comparison. These checks do not measure full-training memory savings.
 
@@ -275,7 +277,7 @@ and unused. The next step is the already registered one-epoch comparison using t
 planner and two loader workers, after final frozen runtime/manifest and host
 readiness checks. Training had not launched at that completion snapshot.
 
-[Compact completion, qualification and schedule evidence](evidence/sf-allmove-downside-completed-20260912.json)
+[Compact completion, qualification and schedule evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-allmove-downside-completed-20260912.json)
 includes exact external artifact pins, complete small receipts, the independent
 readout and scope limitations. No new playing-strength conclusion follows from
 successful data preparation.
@@ -306,7 +308,7 @@ reported approximately **84 GiB available memory**, **zero swap use**, **211 GiB
 free disk**, and **3,752 MiB GPU usage / 7% utilization**. These are startup
 observations, not training peaks or proof of aggregate host-memory safety.
 
-The [compact launch evidence](evidence/sf-allmove-downside-training-launch-20260913.json)
+The [compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-allmove-downside-training-launch-20260913.json)
 pins the actual manifest, memory runtime `442dd35ec…`, final independent review
 and immutable host/trainer launch snapshot. Parent root **6338**, sole observer
 **215**, owns completion. No completed model, realized schedule or playing-strength
@@ -379,7 +381,7 @@ applications reported. Parent root **41700**, sole observer **260**, owns the
 match completion; the publication did not read progress or outcomes. Prepared
 package `c52c5b74…` and final operator `7109a0b4…` bind the actual checkpoints.
 
-[Combined training completion and actual match-launch evidence](evidence/downside-trained-match-launched-20260913.json)
+[Combined training completion and actual match-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/downside-trained-match-launched-20260913.json)
 contains exact receipt, schedule, checkpoint and operator identities, independent
 reviews and the historical validity limitations. **No playing result yet.** Apply
 the registered paired interval after all pairs finish; an unresolved interval does
@@ -409,7 +411,7 @@ the separately saved launch and training qualifications. Independent review
 `8819ebeb…` checked those external bindings, the actual command/runtime, complete
 process exit and saved pair-score arithmetic, with no findings. The arena took
 1,046.171 seconds (17.44 minutes), below its registered cap.
-[Compact completed-match evidence](evidence/downside-fixed400-result-20260913.json)
+[Compact completed-match evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/downside-fixed400-result-20260913.json)
 retains the exact identities and reader limitations.
 
 Next allocation: prepare a matched original-SF-value versus SF50/native-BT450-value
@@ -460,4 +462,4 @@ The registered first-shard check completed with process exit 0: **8,192 retained
 
 The existing supervisor completed saved policy digest/mass checks and verification of 275 copied-file proofs, including all sixteen non-policy arrays and physical-row provenance. SF values remain intact. Independent compact review verified the actual command, counts, summary bindings and completed checks without repeating payload reads. The summary's raw limit 266,491 and no-result count 4,400 are inherited full-source derivation counts, not pilot reads or pilot exclusions.
 
-[Completed pilot evidence](evidence/g10-downside-pilot-completed-20260913.json) preserves the exact plan, terminal, summary and reviews. No full rewrite or training has been selected by this pilot result, and the output remains unadmitted for training.
+[Completed pilot evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-downside-pilot-completed-20260913.json) preserves the exact plan, terminal, summary and reviews. No full rewrite or training has been selected by this pilot result, and the output remains unadmitted for training.

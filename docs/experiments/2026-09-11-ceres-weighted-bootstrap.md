@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-11-ceres-weighted-bootstrap.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-11-ceres-weighted-bootstrap.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Weighted Ceres bootstrap preparation
 
 Status: both registered B100CeresV25 fixed-400 comparisons completed: +6.79 Elo [-32.26, +46.01] versus B100 and +25.83 [-10.06, +62.29] versus B100V50. Both remain unresolved. Keep B100 with original SF values as incumbent and retain CeresV25 as a competitive alternative. No automatic extra games or dose sweep.
@@ -60,12 +62,12 @@ chunks received saved-array checks; 106 unchanged qualified chunks reused their
 pinned prior evidence. In-progress output is excluded. This is label
 qualification, not completed mixture training or playing-strength evidence.
 
-[Compact snapshot15 evidence](evidence/ceres-snapshot15-20260911.json) pins the
+[Compact snapshot15 evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-snapshot15-20260911.json) pins the
 completed snapshot (`ca515de4a06cb2c60bb5ee822643eb81bca7409aa40c5a8071b17eaf353ab48c`),
 its snapshot14 predecessor, and the unchanged audit helpers. The publication check
 matched all 126 terminal chunk receipt hashes and checked the reused review chain
 and exact coverage without repeating array verification. The earlier
-[snapshot14 milestone](evidence/ceres-three-quarter-20260911.json) remains preserved.
+[snapshot14 milestone](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-three-quarter-20260911.json) remains preserved.
 
 Collection continues. The last host process observation at 23:00 UTC found driver
 276374 and child 554254 collecting shards 2064–2079; those rows are outside this
@@ -91,7 +93,7 @@ The failed earlier invocation remains excluded. The original collection driver r
 host process was gone. Root session 47292 returned no captured exit code, so the
 completion claim rests on the driver receipt. Collection has ended.
 
-[Compact final coverage evidence](evidence/ceres-full-coverage-20260912.json)
+[Compact final coverage evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-full-coverage-20260912.json)
 pins snapshot 16 (`a156bef0bb4d997cffde3d9b06e49c23c0d1c45274c76d7363d2e21fbf9430a0`),
 the terminal driver, unchanged auditors and snapshot 15 ancestry. Bulk per-shard
 records remain at the pinned host paths. Earlier progress snapshots above are
@@ -300,7 +302,7 @@ scale preparation, not full-source or training admission, and it does not repair
 the separate malformed adaptive-SF baseline outside the qualified prefix. No
 additional GPU unit was queued.
 
-The [compact progress evidence](evidence/ceres-concurrent-preparation-20260912.json)
+The [compact progress evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-concurrent-preparation-20260912.json)
 retains launch, baseline, the complete co-run checkpoint and native-WDL completion
 pins. Successful materialization and existing corpus admission still precede any
 registered training; there is no new playing-strength result.
@@ -326,19 +328,19 @@ Bulk labels, executable manifests, logs and receipts remain in the host experime
 
 ## CeresB50 corpus completed
 
-The original batch-128 producer completed the full registered corpus in 5.57 hours. The separate frozen qualifier passed in 529.91 seconds with 381,260 KiB peak RSS, checking all 2,309 shard layouts, recipe attributes, and stable producer-bound source/teacher/output identities. It inherited the completed producer’s payload checks rather than decoding the corpus again. [Completion evidence](evidence/ceres-b50-training-handoff-20260912.json) binds the published summaries, actual COMPLETE receipt, qualification plan, and terminal.
+The original batch-128 producer completed the full registered corpus in 5.57 hours. The separate frozen qualifier passed in 529.91 seconds with 381,260 KiB peak RSS, checking all 2,309 shard layouts, recipe attributes, and stable producer-bound source/teacher/output identities. It inherited the completed producer’s payload checks rather than decoding the corpus again. [Completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-b50-training-handoff-20260912.json) binds the published summaries, actual COMPLETE receipt, qualification plan, and terminal.
 
 The prospective schedule passed in 421.83 seconds: 18,910,484 rows and 36,935 batches match the frozen canonical seed-zero epoch. The independently reviewed training manifest retains Python 3.10.12, NumPy 1.26.2, Torch 2.11.0+cu128, batch 512, and 16/16 plan/load workers. The coordinator launched at 07:56:06 UTC and the actual trainer stage started three seconds later; its log reached 176 of 36,935 steps at this launch snapshot. The operator inherited CPUs 0–31, preserving the historical worker layout. Training has a 16,200-second cap and the enclosing operator a 21,630-second cap; the parent owns its completion observer. There is no completed model or playing result yet. The fixed recipe remains equal sharpened BT4/Ceres policy with original SF values; this preparation establishes corpus readiness, not a stronger network.
 
 ## Value corpus completed
 
-B100CeresV25 materialization completed at 2026-09-12 09:19:35.364403 UTC, after 4.39 hours. The full 18,910,484-row, 2,309-shard corpus passed the existing qualifier in 722.56 seconds with 384,284 KiB peak RSS. The actual value-lane producer map and original SF/B100/BT4/Ceres lineage are retained in [compact evidence](evidence/ceres-value-training-readiness-20260912.json).
+B100CeresV25 materialization completed at 2026-09-12 09:19:35.364403 UTC, after 4.39 hours. The full 18,910,484-row, 2,309-shard corpus passed the existing qualifier in 722.56 seconds with 384,284 KiB peak RSS. The actual value-lane producer map and original SF/B100/BT4/Ceres lineage are retained in [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-value-training-readiness-20260912.json).
 
 This prepares the registered 50% SF / 25% BT4 / 25% Ceres value mixture with unchanged B100 policy. Its prospective schedule passed in 463.960 seconds, matching all 18,910,484 rows and 36,935 batches of the canonical epoch. The final schema-3 manifest binds the actual 17-entry value-lane producer map, completed qualification, and schedule; the reviewed host operator preserves the 16,200-second training budget and 21,630-second outer bound. At that snapshot, value training had not launched and no playing result was claimed. At that value-readiness snapshot, the earlier CeresB50 training launch remained the latest policy-training observation.
 
 ## Policy epoch completed
 
-CeresB50 completed the registered epoch with 11,055.006 seconds of charged training-stage time. Its realized schedule matches canonical `dc687fc3…`; checkpoint `5d7e1e81…` is bound to the completed training receipt and summary. [Compact completion evidence](evidence/ceres-b50-completed-match-20260912.json) retains the actual operator terminal, realized schedule, and independent review.
+CeresB50 completed the registered epoch with 11,055.006 seconds of charged training-stage time. Its realized schedule matches canonical `dc687fc3…`; checkpoint `5d7e1e81…` is bound to the completed training receipt and summary. [Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-b50-completed-match-20260912.json) retains the actual operator terminal, realized schedule, and independent review.
 
 The historical `valid_control=false` flag remains: there is no held-out purity receipt, architecture/trainer assumptions use committed pins rather than a fresh live-file comparison, and game-epoch sampling differs from the replacement-sampled historical control. This qualifies the registered matched-epoch comparison, not a continuation of that older control protocol.
 
@@ -350,7 +352,7 @@ CeresB50 scored 51.758% over the registered 128 swapped pairs (256 games) agains
 
 The arena itself exited successfully and saved all games, but its enclosing operator exited 1 when the strict reader rejected a command observation. The saved child command exactly matched the recorded timeout supervisor argv, including its 5,370-second TERM deadline, 30-second KILL grace and exact workload suffix. This is consistent with sampling between fork and exec; the actual post-exec argv was not retrospectively observed. Original receipts and game banks remain unchanged.
 
-The durable capture fix defers only that exact inherited wrapper for a bounded observation window, retaining unexpected commands for strict rejection. Missing observations remain possible; explicit null observations remain invalid. An explicit reader option admits this exact supervised snapshot only after supervisor/child identities, hard budget and elapsed time checks; all checkpoint, opening-history, settings, pair-completeness and score checks remain. The separately reviewed CPU recovery passed in 4.875 seconds with 235,824 KiB peak RSS, without model inference or game reruns. [Compact evidence](evidence/ceres-b50-match-recovered-value-launch-20260912.json) binds the original failure, unchanged process/bank, revised reader, completed result and independent review.
+The durable capture fix defers only that exact inherited wrapper for a bounded observation window, retaining unexpected commands for strict rejection. Missing observations remain possible; explicit null observations remain invalid. An explicit reader option admits this exact supervised snapshot only after supervisor/child identities, hard budget and elapsed time checks; all checkpoint, opening-history, settings, pair-completeness and score checks remain. The separately reviewed CPU recovery passed in 4.875 seconds with 235,824 KiB peak RSS, without model inference or game reruns. [Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-b50-match-recovered-value-launch-20260912.json) binds the original failure, unchanged process/bank, revised reader, completed result and independent review.
 
 B100CeresV25's coordinator launched at 11:45:43 UTC and its actual trainer at 11:45:58 UTC after the policy match ended. It uses the already qualified 50% SF / 25% BT4 / 25% Ceres value target and fixed B100 policy, with the registered 16,200-second training and 21,630-second outer limits. This is a launch observation, not a completed value model or playing result. The capture correction does not change this already-running frozen training runtime.
 
@@ -358,7 +360,7 @@ B100CeresV25's coordinator launched at 11:45:43 UTC and its actual trainer at 11
 
 B100CeresV25 completed its registered epoch with 10,028.655 seconds of charged training-stage time. Checkpoint `3e2653d0…` is bound to the actual completed training receipt, run summary and realized canonical schedule `dc687fc3…`: 18,910,484 rows, 36,935 updates and 420 windows. The fixed value recipe remains 50% SF / 25% BT4 / 25% Ceres with unchanged B100 policy.
 
-The same three historical `valid_control=false` limitations remain: no held-out purity receipt, committed architecture/trainer assumptions rather than a fresh live-file comparison, and game-epoch sampling rather than historical replacement sampling. Completion qualifies the registered matched-epoch comparison; it does not establish playing strength or erase those limitations. [Compact evidence](evidence/ceres-value-completed-match-20260912.json) binds the actual terminal, training receipt, summary, realized schedule and independent review.
+The same three historical `valid_control=false` limitations remain: no held-out purity receipt, committed architecture/trainer assumptions rather than a fresh live-file comparison, and game-epoch sampling rather than historical replacement sampling. Completion qualifies the registered matched-epoch comparison; it does not establish playing strength or erase those limitations. [Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-value-completed-match-20260912.json) binds the actual terminal, training receipt, summary, realized schedule and independent review.
 
 Both registered controls remain B100 and B100V50, each over 128 swapped opening pairs (256 games), 400 simulations and prior temperature 1.0. Both comparisons remain required regardless of the first result. Bounded CPU preparation uses CPUs 2–3 to avoid the active downside producer on 4–5; no training or arena algorithm changes follow from that scheduling choice. Both actual CPU packages passed: candidate and controls each have 61,444,448 parameters and matching architecture, with CUDA uninitialized during preparation. Their stages took 127.598 and 118.547 seconds. No value result has been read.
 
@@ -373,7 +375,7 @@ The same completed B100CeresV25 checkpoint played both registered controls, rega
 | B100: original SF values | 50.977% | +6.79 | [-32.26, +46.01] | 23 / 21 / 41 / 24 / 19 |
 | B100V50: 50% SF / 50% BT4 values | 53.711% | +25.83 | [-10.06, +62.29] | 19 / 28 / 50 / 15 / 16 |
 
-Both stages and strict finalizers exited successfully. Arena wall times were 1,467.783 and 1,481.827 seconds. Actual child command observations matched the requested commands; no saved-receipt exception or game rerun was needed. Independent reviews checked completed receipt bindings and all retained pair-score arithmetic without repeating model or game-bank reads. [Combined evidence](evidence/ceres-value-fixed400-results-20260912.json) includes both complete readouts, identities and reviews.
+Both stages and strict finalizers exited successfully. Arena wall times were 1,467.783 and 1,481.827 seconds. Actual child command observations matched the requested commands; no saved-receipt exception or game rerun was needed. Independent reviews checked completed receipt bindings and all retained pair-score arithmetic without repeating model or game-bank reads. [Combined evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-value-fixed400-results-20260912.json) includes both complete readouts, identities and reviews.
 
 The positive estimates do not establish a gain or equivalence. The B100 comparison tests replacing half of the original SF value supervision with the registered BT4/Ceres mixture. The B100V50 comparison replaces half its BT4 contribution with the fixed Ceres dual-head contribution, holding the 50% SF share and B100 policy fixed. Neither result alone establishes the best teacher weighting. These share a candidate checkpoint and reused development panel; they are not independent seed replications, and results against different opponents are not pooled into one Elo. The historical-control limitations recorded at epoch completion remain.
 

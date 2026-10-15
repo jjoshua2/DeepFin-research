@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-30-sf-dlite-d8-label-operations.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-30-sf-dlite-d8-label-operations.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Selected-E D-lite depth-8 CPU label operations — 2026-09-30
 
 This is a dated operational amendment to the [frozen value-screen preregistration](sf_dlite_selected_e_value_prereg_20260930.md).

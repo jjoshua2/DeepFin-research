@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bootstrap-next-value-and-policy-contrasts.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bootstrap-next-value-and-policy-contrasts.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Next bootstrap contrasts: value first, selective SF policy use
 
 September 8, 2026 local time; the dose analysis completed September 9 UTC.
@@ -95,7 +97,7 @@ comparison remains fixed 128 pairs after a valid low outcome. Each arena stage
 retains its 5,400-second ceiling. **No arena outcome or strength verdict is
 reported in this snapshot.**
 
-[Compact scientific evidence](artifacts/v50-complete-t1-qualified-20260909/status.json)
+[Compact scientific evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/v50-complete-t1-qualified-20260909/status.json)
 binds training, schedule, independent review, CPU preparation and launch identities.
 The startup passages below remain historical snapshots.
 
@@ -129,7 +131,7 @@ Training completion, its realized schedule and the registered B100 comparison
 remain pending. This is separate from the later two-epoch temperature experiment;
 no checkpoint quality or strength claim follows from successful startup.
 
-[Compact status and source identities](artifacts/v50-training-g10-status-20260909/status.json)
+[Compact status and source identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/v50-training-g10-status-20260909/status.json)
 bind the completed rewrite, qualification, prospective schedule, training manifest
 and startup snapshot. Operational paths and raw logs are retained separately.
 The earlier launch and preparation passages below are historical snapshots,
@@ -138,10 +140,10 @@ superseded by this update where they describe work as pending.
 ## Earlier V50 rewrite launch — before the reboot
 
 
-The [actual start receipt](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50/operator.actual_start.json)
+The [actual start receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50/operator.actual_start.json)
 records the CPU rewrite launch at **00:26 local time**, with finalized launch SHA
 `a87711f699bff5e5e7be54618619c352a6f82da2bcb656186b8222dc7cb80268`.
-Its [frozen launch/capture bundle](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50-rewrite-launch.tar.gz)
+Its [frozen launch/capture bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50-rewrite-launch.tar.gz)
 binds the actual completed full WDL bank and the reviewed alpha producer. This is
 **rewrite launch evidence only**: no completed V50 dataset qualification, training,
 or arena result is claimed. Earlier preparation-only passages and V10 plans remain
@@ -156,8 +158,8 @@ supervisor metadata preparation and finalization are outside that timeout. The
 The 150 GiB free reserve remains required while raw labeling continues.
 
 The missing post-rewrite metadata step is now implemented and
-[independently reviewed](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50/independent_qualifier_review.json).
-The [exact qualifier/capture preparation](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50-post-rewrite-qualification-preparation.tar.gz)
+[independently reviewed](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50/independent_qualifier_review.json).
+The [exact qualifier/capture preparation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/v50-post-rewrite-qualification-preparation.tar.gz)
 requires genuine supervisor COMPLETE/exit zero, the finalized full WDL chain and
 actual typed V50 recipe admission before producing the exact receipt consumed by
 the frozen training finalizer. It refreshes all 2,309 attributes, 17 B100 layouts,
@@ -222,10 +224,10 @@ Actual corpus qualification and executable training/match manifests remain pendi
 
 ## V50 training and arena draft — September 8 evening update
 
-The [complete draft bundle](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50-training-arena-draft.tar.gz)
+The [complete draft bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50-training-arena-draft.tar.gz)
 now contains the original comparison registration, training and matched-arena
 proposals, exact prospective command allocation, finalizer and validation evidence.
-The [per-member manifest](evidence/bt4-bootstrap/v50-training-storage-progress-manifest.json)
+The [per-member manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/v50-training-storage-progress-manifest.json)
 pins the original bytes. **These are unlaunched drafts, not qualified executable
 training or match manifests.** The alpha coordinator is pinned to reviewed
 `5afc1e2f0923704b2bb8f1aa7ffe45cc15141757`; the original trainer and historical
@@ -244,15 +246,15 @@ its 300-second stage allocation is separate from the GPU-stage ceiling above.
 Parent review found that the first finalizer called launch freshness validation
 at the completed-training transition. Successful training creates the state/run
 directories, so that call would always refuse arena preparation. The corrected
-[finalizer snapshot](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50/finalize.py.data)
+[finalizer snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50/finalize.py.data)
 compares the immutable draft and saved training manifest, preserves completion,
 input and checkpoint identity checks, and invokes the existing completed-training
 metadata admission. It does not claim to verify checkpoint contents before the
 later CPU preparation. Seven synthetic cases passed: existing completed outputs
 are accepted; altered profile, input pins, checkpoint path, summary hash, budget
-or saved manifest are refused. The [independent parent review](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50/completed_transition.parent_review.json)
+or saved manifest are refused. The [independent parent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50/completed_transition.parent_review.json)
 closed the finding. Original author evidence and the prior finalizer remain in
-the bundle, with the [correction receipt](../../scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50/completed_transition.author_validation.json)
+the bundle, with the [correction receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_v50_storage_v1/v50/completed_transition.author_validation.json)
 identifying the superseded hash. No operational corpus, schedule, model, training
 or arena was processed for this preparation.
 
@@ -323,12 +325,12 @@ or better play; no threshold is selected as optimal.
 
 ## Evidence and scope
 
-[Value/reverse-policy aggregates](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/value_policy_analysis/readout.json),
-[analysis plan](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/value_policy_analysis/analysis_plan.json)
+[Value/reverse-policy aggregates](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/value_policy_analysis/readout.json),
+[analysis plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/value_policy_analysis/analysis_plan.json)
 and lossless per-row outputs are bound in the
-[publication manifest](evidence/bt4-bootstrap/softsf-results-value-priorities-manifest.json).
-[Attenuation aggregates](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/readout.compact.json)
-and their [independent arithmetic review](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/independent_review.json)
+[publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/softsf-results-value-priorities-manifest.json).
+[Attenuation aggregates](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/readout.compact.json)
+and their [independent arithmetic review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/independent_review.json)
 are also included; the original 8,192 row-gap records remain externally pinned.
 All diagnostics reuse saved training banks; no engine search, teacher inference,
 corpus rewrite or training was performed for these new aggregates. The result

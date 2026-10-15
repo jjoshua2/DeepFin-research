@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-s7-full16-recovered-selector.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-s7-full16-recovered-selector.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Frozen S7 selector: recovered full16 analysis
 
 The frozen cheap selector `ply >= 80 && piece_count == 7` **missed its
@@ -23,7 +25,7 @@ credit stay zero. No raw archives were reread to repair that status.
 An independent metadata-only audit verified the exact claim, failure and
 quarantined-receipt hashes; all 16 shard identities and 681 game identities;
 row and deficit-mass sums; and the frozen metric, bootstrap and decision
-functions. Its [path-free public projection](evidence/2026-09-29-s7-full16-recovery-audit.json)
+functions. Its [path-free public projection](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-s7-full16-recovery-audit.json)
 (SHA-256 `619c1b896ebd6cb20f89cad7e372bd4611f3df3072bbf9f6a2b77da0eb033b2b`)
 records the exact lineage and limits; it removes only the local `run_root` and
 identifies the immutable full independent audit by SHA-256

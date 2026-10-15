@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-17-bootstrap-scale58-preparation.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-17-bootstrap-scale58-preparation.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Prepare a larger matched-recipe bootstrap from saved labels
 
 The next scale experiment should train the existing B100T0.5 policy/V50 value
@@ -108,7 +110,7 @@ Independent launch review passed and the CPU chain was launched; actual downstre
 completion remains outstanding at this snapshot. Even after the corpus/schedule receipt completes, full training
 admission and the matched experiment launch remain separate concrete steps.
 Frozen paths, hashes and exact selection counts are in the
-[compact evidence record](evidence/2026-09-17-bootstrap-scale58-preparation.json).
+[compact evidence record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-17-bootstrap-scale58-preparation.json).
 
 ## Completed cold-copy reclamation
 

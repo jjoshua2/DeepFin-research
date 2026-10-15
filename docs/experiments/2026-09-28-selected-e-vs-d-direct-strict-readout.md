@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-28-selected-e-vs-d-direct-strict-readout.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-28-selected-e-vs-d-direct-strict-readout.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Selected-E versus D direct strict six-man arena
 
 This record concerns the seed-121, one-epoch Selected-E checkpoint against the
@@ -65,6 +67,6 @@ wall time and qualify cross-source row identity/admission before committing a
 large corpus; a new training contrast needs an independently selected seed or
 new recipe, with its decision rule fixed before a new arena.
 
-The [compact evidence](evidence/2026-09-28-selected-e-vs-d-direct-strict.json)
+The [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-28-selected-e-vs-d-direct-strict.json)
 records the terminal identities, paired statistics and audit receipt without
 publishing checkpoints, full PGN, game log or host paths.

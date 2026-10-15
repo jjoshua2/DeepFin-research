@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-11-g10-ceres-pilot.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-11-g10-ceres-pilot.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # G10 Ceres first-four-shard convenience pilot
 
 Current collection status: **6,130,891 G10 rows / 751 shards are qualified**,
@@ -41,7 +43,7 @@ Bank both raw Ceres WDL heads for a later explicitly authenticated native-BT4-WD
 
 This pilot follows the [completed SF constraint diagnostic](2026-09-11-sf-negative-constraints-screen.md) and preserves the [registered Ceres training anchors](2026-09-11-ceres-weighted-bootstrap.md). To avoid CPU contention if collection overlaps final original-corpus qualification, run the existing CPU-only qualification on cores 2,3 and this pilot on its pinned cores 4,5. Target materialization retains cores 0,1. These are resource allocations, not changes to either teacher or verifier.
 
-Preparation and independent review passed without reading payloads or loading a model. The preparation snapshot below preceded the completed collection and qualification reported next. The [preparation receipt](evidence/g10-ceres-first4-prepared-20260911.json) pins the reviewed plan, adapter and driver. Both Ceres heads will be banked for future value work; their presence alone does not complete the missing native-BT4 join.
+Preparation and independent review passed without reading payloads or loading a model. The preparation snapshot below preceded the completed collection and qualification reported next. The [preparation receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-first4-prepared-20260911.json) pins the reviewed plan, adapter and driver. Both Ceres heads will be banked for future value work; their presence alone does not complete the missing native-BT4 join.
 
 ## Completed collection and saved qualification, September 12
 
@@ -59,7 +61,7 @@ invocation proofs. The adapter matched the original G10 source storage and its
 historically qualified source-column hashes without rereading source features,
 native BT4 values, model or library payloads.
 
-[Compact completion evidence](evidence/g10-ceres-first4-completed-20260912.json)
+[Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-first4-completed-20260912.json)
 pins the driver, reviewed preparation and actual saved qualification
 (`d82997934ae7b5a5dca31c1b9ce3588b854c4158bc98e5b9c5edc5d759d477d5`).
 The actual four-shard policy-consumer manifest has SHA256
@@ -107,11 +109,11 @@ rows, exact layout, policy aggregates and entropy/JS sums. Source-qualified
 game sufficient statistics remain available for all 167 ordinary game groups.
 Independent scientific review passed without rescanning the bank.
 
-The [full descriptive readout](evidence/g10-ceres-policy-readout-20260912.json)
-contains every fixed stratum and paired denominator. The [original audit summary](evidence/g10-ceres-policy-summary-20260912.json)
+The [full descriptive readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-policy-readout-20260912.json)
+contains every fixed stratum and paired denominator. The [original audit summary](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-policy-summary-20260912.json)
 preserves all original metrics, including unavailable values as null means with
 zero rows. Both are byte-identical copies of the completed host artifacts.
-[Compact progress evidence](evidence/g10-ceres-policy-progress-20260912.json)
+[Compact progress evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-policy-progress-20260912.json)
 pins terminal status, plans, reviews and the local bank. No new source scan,
 inference or bootstrap was used to prepare this publication.
 
@@ -176,10 +178,10 @@ errors also contribute. This readout therefore does not rank heads by search
 value quality. The subsequent Q-versus-draw decomposition below addresses this distinction;
 it remains agreement with the SF ruler and does not fit a new recipe.
 
-The [full value readout](evidence/g10-ceres-value-readout-20260912.json) preserves
+The [full value readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-value-readout-20260912.json) preserves
 all fixed strata, common paired differences and the near-zero tolerance. The
-[original machine summary](evidence/g10-ceres-value-summary-20260912.json) and
-readout are byte-identical host artifacts. [Compact execution and validation evidence](evidence/g10-ceres-value-progress-20260912.json)
+[original machine summary](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-value-summary-20260912.json) and
+readout are byte-identical host artifacts. [Compact execution and validation evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-value-progress-20260912.json)
 pins the actual bank, terminal, runtime and independent scientific review.
 
 The runtime is commit `21aec39249c17a44145a4435f2ca9abbcf93cb4e` on
@@ -218,9 +220,9 @@ Authentication and limits: original SF search_wdl hashes were witnessed now unde
 
 One initial attempt stopped after 6.07 seconds because the reader incorrectly required float16 for native WDL; actual accepted native WDL is float32. That attempt read the first SF value array but no native payload or retained bank. The corrected, independently reviewed attempt read 983,040 decoded value bytes plus one retained-bank pass, completed in 42.27 seconds at 395,704 KiB peak RSS, and exited zero (session16452). Total execution was 48.34 seconds, within the original 120-second budget. Both attempts are retained. No inference, fit, bootstrap or raw-source join ran.
 
-The [full Q/draw readout](evidence/g10-value-q-draw-readout-20260912.json)
+The [full Q/draw readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-q-draw-readout-20260912.json)
 is a byte-identical copy of the reviewed machine result, retaining all fixed
-strata and quantiles. [Compact provenance and execution receipts](evidence/g10-value-q-draw-progress-20260912.json)
+strata and quantiles. [Compact provenance and execution receipts](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-q-draw-progress-20260912.json)
 pin both attempts, the reviewed corrected plan, actual terminal and local Q/draw
 bank. Publication did not reread arrays or either row bank.
 
@@ -290,10 +292,10 @@ One bank-only readout exited zero in 9.50 seconds at 36,900 KiB, verified the ba
 hash, row uniqueness, exact four-shard layout and arithmetic reconstruction within
 3.33e-16. It performed no inference, source-array reread, bootstrap or training.
 
-The [full fixed-stratum readout](evidence/g10-policy-complementarity-readout-20260912.json)
-and [original audit summary](evidence/g10-policy-complementarity-summary-20260912.json)
+The [full fixed-stratum readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-policy-complementarity-readout-20260912.json)
+and [original audit summary](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-policy-complementarity-summary-20260912.json)
 are byte-identical copies of the completed artifacts. [Execution, validation and
-review evidence](evidence/g10-policy-complementarity-progress-20260912.json)
+review evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-policy-complementarity-progress-20260912.json)
 pins the plan, runtime and local move bank. Runtime `5375064b56714b6b16f3a6c552efe75c7855386d`
 is on open [PR #659](https://github.com/jjoshua2/DeepFin/pull/659), stacked on
 [PR #655](https://github.com/jjoshua2/DeepFin/pull/655). Sixteen focused tests,
@@ -352,7 +354,7 @@ Both value heads are retained in the authenticated shards. This establishes a
 complete same-row diagnostic bank, not a trained corpus, a new value comparison
 or playing strength. Existing four-shard scientific conclusions remain unchanged.
 
-[Compact completion evidence](evidence/g10-ceres-complete32-20260912.json)
+[Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-complete32-20260912.json)
 contains terminal records, counts, cumulative budget, preflight observations,
 independent review and exact local artifact identities. Bulk shards remain under
 `data/lc0/ceres_compact_sidecars/g10_run06_first4_v1/` and
@@ -412,7 +414,7 @@ cases, existing default validation and independent static review. A missing
 fresh output parent in the first default attempt and a preparation timestamp
 correction are recorded without implying data execution.
 
-[Compact launch evidence](evidence/g10-ceres-next96-launched-20260912.json)
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-next96-launched-20260912.json)
 pins the actual driver receipt, reviewed plans and exact command. Local state is
 `scratchpad/bt4_joint20/g10_ceres_run06_next96_v1/`; fresh outputs are under
 `data/lc0/ceres_compact_sidecars/g10_run06_next96_v1/`.
@@ -468,7 +470,7 @@ included in qualified coverage. Successful completion and saved-output
 qualification would raise G10 Ceres coverage to **1,845,004 rows**. No active observer was
 polled for this publication.
 
-[Compact completion and launch evidence](evidence/g10-ceres-run06-completed-run07-launched-20260912.json)
+[Compact completion and launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-run06-completed-run07-launched-20260912.json)
 contains exact terminal/start records, per-chunk proof summaries, resource bounds
 and artifact identities. Run07 state is
 `scratchpad/bt4_joint20/g10_ceres_run07_next96_v1/`; outputs are under
@@ -522,7 +524,7 @@ establish peaks or hard process-RSS quotas. No retry or automatic extension is
 allocated. Parent preflight reported 84 GiB available RAM, zero swap use, 227 GiB
 free SSD and GPU 2,933 MiB/9%. Existing CPU preparation and generation were preserved.
 
-[Compact completed-run07 and large-launch evidence](evidence/g10-ceres-run07-completed-large-launched-20260912.json)
+[Compact completed-run07 and large-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-run07-completed-large-launched-20260912.json)
 pins the terminal qualification, manifest, independent review, new plans and
 actual start. Large state is `scratchpad/bt4_joint20/g10_ceres_run06_large_v1/`,
 with fresh outputs under `data/lc0/ceres_compact_sidecars/g10_run06_large_v1/`.
@@ -558,7 +560,7 @@ training admission, representative G10 performance or a strength result. It does
 not repair the earlier adaptive-SF derivation, and the first4 scientific readouts
 remain unchanged. No additional Ceres collection is queued by this record.
 
-[Compact completion evidence](evidence/g10-ceres-run06-large-completed-20260913.json)
+[Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-run06-large-completed-20260913.json)
 pins the actual driver, qualification, policy manifest, source admission and
 compact completion review. Review checked all 16 completion receipt hashes,
 ordered shard/count agreement and the retained runtime proofs without repeating
@@ -602,7 +604,7 @@ cache, teacher fit or new inference method was adopted.
 Parent preflight reported 84 GiB available RAM, zero swap use, 213 GiB free SSD
 and GPU 2,953 MiB / 3%. Ongoing SF 2+1 generation was preserved. There is no new
 training admission, first4 diagnostic update, strength claim, retry or automatic
-extension. [Compact actual-launch evidence](evidence/g10-ceres-run07-large-launched-20260913.json)
+extension. [Compact actual-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-run07-large-launched-20260913.json)
 pins the driver start, exact plans/command and independent review. This publication
 read the saved start file once and did not poll collection, models, arrays or
 active observers.
@@ -630,7 +632,7 @@ is the driver duration; a separate qualifier duration is not claimed.
 
 Independent completion review read only the saved driver, invocation, manifest
 and qualification metadata. It did not reread payloads or rerun qualification.
-[Compact completion and handoff evidence](evidence/g10-ceres-complete-sf100-launched-20260913.json)
+[Compact completion and handoff evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-complete-sf100-launched-20260913.json)
 retains exact receipts. This is approximate-backend coverage, not native numerical
 parity, automatic training admission or a strength result. No more Ceres collection
 was queued; the GPU next went to the separately registered combined SF100 training
@@ -668,7 +670,7 @@ checks and driver default validation passed. An initial default rejected the
 missing output parent; creating only that empty directory resolved preparation
 before any inference attempt. Parent and independent preparation reviews passed.
 
-[Launch evidence](evidence/bounded-ceres-and-raw-audit-launched-20260913.json)
+[Launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bounded-ceres-and-raw-audit-launched-20260913.json)
 preserves exact commands, plan/review pins and immutable start samples, together
 with the concurrent [raw eligibility audit](2026-09-13-bounded-raw-scale-labels.md#actual-baseline-eligibility-audit-launched). Neither operation has a completed result in this launch snapshot.
 
@@ -685,7 +687,7 @@ The largest recorded device-memory sample was **5182 MiB**, below the sampled
 8-GiB threshold. This is not an instantaneous maximum or a controlled memory
 savings result. Approximate C3 I8/native-parity limitations remain unchanged.
 
-[Independent completion evidence](evidence/ceres-prefix-and-raw-audit-completed-20260913.json)
+[Independent completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-prefix-and-raw-audit-completed-20260913.json)
 reconciles driver, wrapper and collector receipts without repeating model or
 array validation. This establishes completed collection of the prefix; it does
 not itself increase the **5,866,975-row / 718-shard fully qualified coverage**
@@ -710,7 +712,7 @@ supports a roughly 1000-second planning estimate, not a guarantee.
 Parent and independent preparation reviews passed before launch. The actual
 start recorded no GPU compute applications, 88,902,627,328 bytes available RAM
 and 192,645,062,656 bytes free disk. The prior CPU, GPU, RAM, disk and ownership
-guards remain unchanged. [Launch evidence](evidence/ceres-prefix-and-raw-audit-completed-20260913.json)
+guards remain unchanged. [Launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-prefix-and-raw-audit-completed-20260913.json)
 pins the exact command, driver plan and review. No remaining-shard completion
 or expanded full-cohort qualification is claimed in this snapshot.
 
@@ -729,7 +731,7 @@ not a controlled throughput comparison. The fixed32 approximate C3 teacher,
 full legal policy and both raw value heads retain their existing semantics.
 Native Ceres parity remains unestablished.
 
-[Completion evidence](evidence/filtered-raw-derivation-launched-20260913.json)
+[Completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/filtered-raw-derivation-launched-20260913.json)
 binds the actual terminal and driver receipts and independent compact review.
 These establish collected sidecars, not full-cohort consumer qualification:
 the previously qualified **5,866,975 rows / 718 shards** remain unchanged in
@@ -752,7 +754,7 @@ or partial directories. Exact source/native bindings and the full ordered
 
 The policy-consumer manifest is
 `524e425f02cf54267b829dbebc52f30f7ddb3c01626455e155680cc9090e7328`.
-[Compact evidence](evidence/g10-ceres-batchv3-run06-qualified-20260913.json)
+[Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-batchv3-run06-qualified-20260913.json)
 preserves the actual terminal, manifest/report pins, per-shard audit results and
 independent completion review. The latter checked compact receipts and identity
 relationships without repeating saved-array checks.

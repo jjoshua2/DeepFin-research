@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-22-factorial-readout-next24h.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-22-factorial-readout-next24h.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Completed 58M factorial and next-day queue — September 22
 
 ## Decision and evidence
@@ -31,7 +33,7 @@ The two ways of estimating an interaction need not agree exactly because these
 are separate noisy head-to-head matches. Do not force Elo transitivity to infer
 an unplayed matchup, or count four matches as four independent training seeds.
 
-The [independent banked-data analysis](evidence/factorial-next24h-20260922/four-edge-readout.json)
+The [independent banked-data analysis](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-next24h-20260922/four-edge-readout.json)
 verifies completion, checkpoint lineage, game-bank hashes and shared opening
 identities. Its resampled single-edge intervals differ slightly from the original
 registered intervals shown in the table. The uncertainty covers opening-pair
@@ -111,12 +113,12 @@ storage retry fit the existing September 26 deadline. Prerequisites fail closed
 on incomplete training or invalid matches; a failed storage screen does not gate
 E training. The GPU lease serializes all of this work.
 
-The [final independent admission review](evidence/factorial-next24h-20260922/queue-admission-review.json)
+The [final independent admission review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-next24h-20260922/queue-admission-review.json)
 verifies all five descriptor/plan bindings, full-corpus E admission, paired
 initialization, exact-epoch/finite-loss gates, 14 second-seed admission checks and
 owned-child cleanup. A brief prelaunch hold reconciled a final gate amendment with
 its exact re-review; neither E job launched during that hold. The
-[registration receipt](evidence/factorial-next24h-20260922/queue-registration.json)
+[registration receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-next24h-20260922/queue-registration.json)
 records release of those two held entries and addition of the three replica
 entries, preserving every unrelated queue item and the active state.
 
@@ -132,7 +134,7 @@ SF-free result is sufficient for a practical cost/quality decision. D122, E122
 and E122-D122 are now held pending that decision. E121 training and E121-D121
 remain unchanged. This explicitly supersedes the fixed-replication allocation
 above; no result has been read to choose the amendment. The
-[hold receipt](evidence/factorial-next24h-20260922/second-seed-user-hold.json)
+[hold receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-next24h-20260922/second-seed-user-hold.json)
 verifies preservation of active work and all unrelated queue items.
 
 Cost clarification: the approximately 80-day d8 estimate described generation

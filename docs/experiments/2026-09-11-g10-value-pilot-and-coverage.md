@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-11-g10-value-pilot-and-coverage.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-11-g10-value-pilot-and-coverage.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Saved G10 values and neural-teacher coverage
 
 Status: original B100 T0.5 policy and fixed 50% original-SF / 50% native-BT4 WDL value products now cover all 20 accepted common G10 cohorts: 16,404,093 rows. The remaining 19 value writers completed, including the four-root run06-large mapping. Matched saved-SF derivations remain a separate 1,574,952-row subset. Training admission and playing strength remain unresolved.
@@ -8,7 +10,7 @@ The next SF value comparison reuses the recorded adaptive d10/d12 observations. 
 
 The accepted common G10 cohort contains 16,404,093 rows. Existing completed direct-derived BT4 WDL banks cover 1,574,952 rows. A metadata join identifies another 889,544 accepted survivors across 108 raw shards whose native WDL is already banked. They need the existing typed adapter to put those values into derived-row order. The prospective disjoint union is 2,464,496 rows; that total is not yet qualified training data.
 
-The raw banks contain 15,740,010 native-WDL physical rows at this snapshot. Most lie outside the currently accepted cohort, so the raw total must not be reported as available matched training coverage. Counts and source-receipt identity are retained in [compact evidence](evidence/g10-value-readiness-20260911/coverage.json).
+The raw banks contain 15,740,010 native-WDL physical rows at this snapshot. Most lie outside the currently accepted cohort, so the raw total must not be reported as available matched training coverage. Counts and source-receipt identity are retained in [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/coverage.json).
 
 The existing adapter already supports optional native WDL export and typed lineage. Reuse it; older recommendations to build a new adapter are stale. Partially covered batches need an explicit source-qualified subset. Do not silently drop uncovered rows from one experimental arm.
 
@@ -20,7 +22,7 @@ Ceres labeling and its registered policy/value experiments remain separate ongoi
 
 ## Completed pilot
 
-The frozen 128-row sample passed actual derivation, value writing and replay loading in 3.27 seconds. It exercised 102 d10 and 26 d12 selections. Row provenance and order matched between arms, and all 16 nonvalue arrays were byte-identical, including their compressed representation. The search-WDL target changed on 110 rows. See the [completed receipt](evidence/g10-value-readiness-20260911/pilot.json).
+The frozen 128-row sample passed actual derivation, value writing and replay loading in 3.27 seconds. It exercised 102 d10 and 26 d12 selections. Row provenance and order matched between arms, and all 16 nonvalue arrays were byte-identical, including their compressed representation. The search-WDL target changed on 110 rows. See the [completed receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/pilot.json).
 
 Two failed harness attempts remain preserved locally: v1 incorrectly passed the loader's `(arrays, metadata)` pair into the sample constructor; v2 reached the equality checks but parallel Blosc compression reordered identical logical blocks. Saved-output diagnosis confirmed identical decoded bytes for all nonvalue arrays. V3 corrected tuple unpacking and pinned Blosc to one thread; no scientific check was weakened. Parent-observed session 43345 terminated with exit code zero.
 
@@ -30,7 +32,7 @@ This purposive sample covers only three source-qualified games. It establishes i
 
 The original run06 increment batch now has a matching adaptive-SF derivation: all 262,079 retained rows, 32 shards, identical source-qualified row order/provenance and all 16 nonvalue arrays equal in decoded bytes. The 4,400 missing-result and 12 policy-support exclusions match the original derivation exactly. Stored search-WDL values changed on 180,584 rows (68.90%). Selection counts were 186,261 ordinary d10, 74,187 d12 and 1,631 complete single-move d10; no fallback occurred in this retained batch.
 
-Derivation took 474.91 seconds versus the historical baseline's 484.17 seconds; peak reported RSS was 874,160 KiB. The full derivation and array/provenance comparison took 564.34 seconds. This single timing shows the candidate is affordable on this batch, not a throughput improvement claim. The stage used two CPU cores, no GPU or teacher inference, and terminated successfully within its 40-minute limit. [Compact completed evidence](evidence/g10-value-readiness-20260911/matched-run06.json) pins the full local receipt.
+Derivation took 474.91 seconds versus the historical baseline's 484.17 seconds; peak reported RSS was 874,160 KiB. The full derivation and array/provenance comparison took 564.34 seconds. This single timing shows the candidate is affordable on this batch, not a throughput improvement claim. The stage used two CPU cores, no GPU or teacher inference, and terminated successfully within its 40-minute limit. [Compact completed evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/matched-run06.json) pins the full local receipt.
 
 Matching rows does not automatically authorize old teacher sidecars against a new source summary. The existing BT4 policy/WDL artifacts remain untouched and source-bound; an explicit identity bridge, target recipe and training schedule are still required. This is a data-preparation result, not a model-strength result.
 
@@ -52,7 +54,7 @@ The frozen raw hash, original provenance and full-history input key match. Phase
 
 The new validator correctly rejected that ambiguous baseline. The failed output and exact source record remain preserved; no fallback rule was loosened and no new search was run. The follow-up below established an exact frozen source prefix and used a fresh derivation; the failed output contained only worker spills, with no completed final shards. The failed whole stage remains failed even if a separately qualified subset is recovered. There is not yet a measured prevalence estimate for this defect.
 
-[Compact evidence](evidence/g10-value-readiness-20260911/run07-and-large-integrity.json) pins the completed run07 receipt, failure and exact-row diagnosis. At this failed-stage readout, only 526,376 matched rows had passed. The later exact-prefix result below supersedes that coverage count.
+[Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/run07-and-large-integrity.json) pins the completed run07 receipt, failure and exact-row diagnosis. At this failed-stage readout, only 526,376 matched rows had passed. The later exact-prefix result below supersedes that coverage count.
 
 ## Reusing native BT4 values without new inference
 
@@ -70,7 +72,7 @@ Fifty-nine focused tests, whole-repository Ruff/basedpyright/Vulture and indepen
 
 A read-only training audit found that `lc0_control_train.py` currently starts a fresh model and has no checkpoint-donor CLI. Its multi-epoch option does not resume B100. Trainer checkpoints contain optimizer/scheduler state, but the existing tolerant restore behavior and unsaved RNG state require an explicit continuation contract. A deliberately matched optimizer reset could also be valid if specified for both arms. Neither path is qualified for this G10 comparison yet. The targeted inventory found no materialized B100 policy product for these complete G10 increments.
 
-Finish data/consumer readiness and reassess expected value before adding a donor mode or allocating GPU time to a small G10 comparison. The registered Ceres comparisons retain priority. Relevant local evidence is pinned in [consumer readiness](evidence/g10-value-readiness-20260911/matched-consumer.json).
+Finish data/consumer readiness and reassess expected value before adding a donor mode or allocating GPU time to a small G10 comparison. The registered Ceres comparisons retain priority. Relevant local evidence is pinned in [consumer readiness](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/matched-consumer.json).
 
 ## Exact large-batch prefix completed
 
@@ -78,7 +80,7 @@ The fresh exact-prefix derivation passed for **1,048,576 retained rows in 128 sh
 
 Search WDL changed on 718,464 rows. The selected values comprise 748,128 ordinary d10, 293,877 d12, 6,564 single-move d10 and seven malformed-later-roster fallbacks to valid original d9 baselines. Those fallbacks are retained rows, not exclusions or successful deeper selections.
 
-Derivation took 1,934.20 seconds (32.24 minutes), with peak reported RSS 868,760 KiB. Including complete prefix matching, the stage took 2,287.40 seconds (38.12 minutes), within its 45-minute child and 60-minute total limits. Parent-observed session 86138 exited zero; independent completed-result review passed without repeating the payload scan. [Compact prefix result](evidence/g10-value-readiness-20260911/matched-prefix128.json) pins the receipts and source reference.
+Derivation took 1,934.20 seconds (32.24 minutes), with peak reported RSS 868,760 KiB. Including complete prefix matching, the stage took 2,287.40 seconds (38.12 minutes), within its 45-minute child and 60-minute total limits. Parent-observed session 86138 exited zero; independent completed-result review passed without repeating the payload scan. [Compact prefix result](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/matched-prefix128.json) pins the receipts and source reference.
 
 Together with the two increments, this completes matched derivation for **1,574,952 native-BT4-WDL-covered rows**. It does not make the whole original large batch valid: the previous full-stage failure and its malformed row remain preserved outside this prefix. No failed worker spills were reused, and no teacher inference was added.
 
@@ -92,7 +94,7 @@ All three existing producers exited zero. B100 policy materialization took 104.0
 
 Both value writers consumed the same actual post-publication B100 derive/policy hashes and original teacher metadata. Their source, native feed/content, provenance, nonvalue preservation and publication checks passed. All 32 paired output-shard WDL digests differ, confirming that the adaptive SF input reached the real output. This does **not** establish that every row differs: each writer's `changed_rows=262079` counter is relative to original B100, not to the other value product. Maximum stored WDL mass error was 0.0003662109375 for each product.
 
-Independent completed-receipt review passed without repeating payload checks. [Compact materialization evidence](evidence/g10-value-readiness-20260911/value-materialization-run06.json) records all source/output summary pins and timings. The products remain integration artifacts, not a qualified training comparison or evidence of stronger values. Further G10 expansion or donor-mode implementation is deferred until its expected value warrants compute; Ceres collection and its registered policy/value comparisons retain priority.
+Independent completed-receipt review passed without repeating payload checks. [Compact materialization evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/value-materialization-run06.json) records all source/output summary pins and timings. The products remain integration artifacts, not a qualified training comparison or evidence of stronger values. Further G10 expansion or donor-mode implementation is deferred until its expected value warrants compute; Ceres collection and its registered policy/value comparisons retain priority.
 
 ## Original run06 large native BT4 WDL coverage completed, September 12
 
@@ -112,7 +114,7 @@ teacher/source bindings, hashes and finite float32 probability mass. Maximum
 unit-mass error was 1.4804e-7. Independent receipt review passed without another
 array scan. No further GPU unit was launched.
 
-The [consolidated readiness inventory](evidence/g10-value-readiness-20260911/native-wdl-run06-complete.json)
+The [consolidated readiness inventory](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/native-wdl-run06-complete.json)
 pins all four completions and saved-output qualifications and matches their
 ordered union to the original source summary. This is not a consumer admission
 manifest: the existing historical native-WDL reader requires one complete cohort
@@ -127,7 +129,7 @@ strength comparisons retain priority; there is no new playing-strength result.
 
 ## Future generation: reject malformed candidate handoffs
 
-A preserved failure in worker 2, game 99518, ply 318 explains why the full-large adaptive-value derivation stopped beyond its accepted prefix. The exact frozen source row has valid, unique legal phase-zero d9 scores (best −625 cp). Later phases contain repeated moves at different ranks. A d10 block marked complete by its rank IDs produced the next `searchmoves` roster `c3g7 d2d3 d2d3 d2d3`. The historical latest-phase value composition then accepted a duplicated d2d3 observation at 0 cp. The adaptive selector correctly rejected that ambiguous baseline. See [the source-bound diagnosis](evidence/g10-value-readiness-20260911/roster-handoff-diagnosis.json).
+A preserved failure in worker 2, game 99518, ply 318 explains why the full-large adaptive-value derivation stopped beyond its accepted prefix. The exact frozen source row has valid, unique legal phase-zero d9 scores (best −625 cp). Later phases contain repeated moves at different ranks. A d10 block marked complete by its rank IDs produced the next `searchmoves` roster `c3g7 d2d3 d2d3 d2d3`. The historical latest-phase value composition then accepted a duplicated d2d3 observation at 0 cp. The adaptive selector correctly rejected that ambiguous baseline. See [the source-bound diagnosis](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/roster-handoff-diagnosis.json).
 
 The future generator now checks a preceding block before using it to request another search: contiguous ranks, the requested full width, finite effective scores, and unique legal moves. Explicit `searchmoves` must match the preceding request's roster exactly; an unrestricted numeric first rung may return a legal top-k subset of its requested width. A failure stops extension and adds `extension_stop_reason: invalid_candidate_roster` to the observed phase; at the G10 decision it also records that gate reason. The valid phase-zero observations, malformed later observations, and parser anomaly counters remain available. Harmless repeated emissions of the same block still allow extension.
 
@@ -157,7 +159,7 @@ succeeded with its unchanged lease and resource guards. No lock was bypassed or
 other process stopped. Launch preflight recorded 3,348 MiB GPU memory used, 6%
 GPU utilization, no compute applications, 279.42 GiB free SSD space and
 58,173,488 KiB available RAM; Ceres policy materialization was still running.
-The [compact completion evidence](evidence/g10-value-readiness-20260911/native-wdl-run07-complete.json)
+The [compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-value-readiness-20260911/native-wdl-run07-complete.json)
 retains the failed preflights, successful probe, launch and both terminal receipts.
 
 The single output directory makes the existing historical native-WDL consumer
@@ -195,7 +197,7 @@ attempt failed before admission because its working directory selected the wrong
 Python package; the corrected working directory yielded one successful metadata
 admission, with no inference or target changes.
 
-[Compact completed evidence](evidence/g10-native-wdl-next96-20260912.json) pins the
+[Compact completed evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-native-wdl-next96-20260912.json) pins the
 original qualification through the collector plan, complete output, saved checks
 and terminal handles. The single complete output directory supports the existing
 consumer route in principle; its provenance-manifest admission and writer checks
@@ -227,7 +229,7 @@ separately pinned historical producers and accepted attribute hashes. The two
 early pilot shards also matched their preserved storage fingerprints. A compact
 completed review checked all 20 actual manifests, routing maps and admission
 receipts without repeating the admission or reading array payloads. The
-[complete compact evidence and per-cohort manifest map](evidence/g10-native-wdl-all20-admission-20260912.json)
+[complete compact evidence and per-cohort manifest map](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-native-wdl-all20-admission-20260912.json)
 pin the actual results and local artifacts.
 
 This closes the historical manifest-admission gap. It does **not** create B100
@@ -268,7 +270,7 @@ launch observations, not peaks. The independent input/output namespace permits
 this one CPU producer alongside the existing downside and Ceres jobs; its guards
 and cleanup affect only its owned process group.
 
-The [compact launch evidence](evidence/g10-b100-remaining19-launch-20260912.json)
+The [compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-b100-remaining19-launch-20260912.json)
 contains the exact plan, unchanged qualified producer runtime, independent
 preparation review, per-cohort mapping and an immutable small launch snapshot.
 This is **policy target building in progress**, not a completed corpus, new value
@@ -310,7 +312,7 @@ establish playing strength. The follow-on value writer must still verify
 native cached contents, actual stored feeds and original SF/B100 lineage;
 no follow-on launch was claimed at that completion snapshot.
 
-[Compact completion evidence](evidence/g10-b100-all20-completed-20260912.json)
+[Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-b100-all20-completed-20260912.json)
 contains per-cohort source/output mappings, recipe and summary hashes, timings,
 resource limits and independent review. Local terminal state and the 19 new
 products are under
@@ -353,7 +355,7 @@ free disk**, and a **32 GiB sampled output cap**. Parent preflight observed abou
 observations, not peaks or an aggregate Windows/GPU memory bound. Only one value
 producer runs at a time.
 
-The [compact launch evidence](evidence/g10-native-value50-remaining19-launch-20260912.json)
+The [compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-native-value50-remaining19-launch-20260912.json)
 contains the exact plan and runtime, independent preparation review, actual
 B100 summary bindings, all 19 output mappings and an immutable launch snapshot.
 Parent root session **39995**, sole observer **184**, owns completion. This is
@@ -398,7 +400,7 @@ process peak does not establish aggregate host memory usage.
 Terminal status is
 `COMPLETE_ALL19_SF50_NATIVE50_VALUE_NOT_TRAINING_ADMISSION`; parent root 39995
 and sole observer 184 are closed with exit zero. The
-[compact completion evidence](evidence/g10-native-value50-all20-completed-20260912.json)
+[compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-native-value50-all20-completed-20260912.json)
 contains per-cohort output locations, summary/native-manifest hashes, timings,
 resource limits and independent review. It supersedes the preceding launch
 snapshot for completion status. These are materialized targets, not an admitted

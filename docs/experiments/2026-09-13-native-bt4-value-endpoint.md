@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-13-native-bt4-value-endpoint.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-13-native-bt4-value-endpoint.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Native BT4 value endpoint on the matched 35M corpus
 
 Selected September 13, 2026, before reading the running Ceres100 policy match.
@@ -58,7 +60,7 @@ accounting snapshot had 201.812 GiB free; refresh before launch. These are plann
 allowances, not a compressor bound. Enforce aggregate output and free-space limits
 during the operation, and preserve protected controls.
 
-[Compact readiness evidence](evidence/native100-readiness-20260913.json) records
+[Compact readiness evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/native100-readiness-20260913.json) records
 the actual head masks/losses, exact-root metadata census and disk-budget derivation.
 The metadata check took 36.114 seconds and read no array payloads; it is not a
 dataset qualification or source-content verification.
@@ -115,7 +117,7 @@ Parent review caught two preparation defects before any producer attempt: an inc
 
 The separate V100 source extension was merged in [PR #722](https://github.com/jjoshua2/DeepFin/pull/722), with independent full-source review. That supplies explicit alpha 1 lineage, historical V50 verifier and future training/match support; it does not qualify outputs that have not completed. Actual rewrite completion, V100 corpus/subset/prospective qualification and final training bindings remain required. Failure preserves partial outputs and evidence without automatic retry. The currently selected value recipe remains V50 until the registered completed comparison supplies evidence to change it.
 
-[Compact plan, disk accounting, review and actual-launch evidence](evidence/native-v100-rewrite-launched-20260913.json) retains every stage's exact argv/native binding and hashes the full local plan/layouts. This publication read only immutable launch/preparation records; it did not poll active jobs, scan corpus payloads, rerun source admission or launch training.
+[Compact plan, disk accounting, review and actual-launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/native-v100-rewrite-launched-20260913.json) retains every stage's exact argv/native binding and hashes the full local plan/layouts. This publication read only immutable launch/preparation records; it did not poll active jobs, scan corpus payloads, rerun source admission or launch training.
 
 ## Actual V100 rewrite completed; prospective schedule launched
 
@@ -142,7 +144,7 @@ It requires 48 GiB available RAM and 150 GiB disk at startup, with the existing
 32-GiB callback guard and no address-space cap. Startup recorded
 88,348,295,168 bytes available RAM and 184,630,718,464 bytes free disk.
 
-[Compact completion and launch evidence](evidence/v100-rewrite-completed-20260913.json)
+[Compact completion and launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/v100-rewrite-completed-20260913.json)
 retains actual terminal/start records and independent completed-rewrite and
 final-command reviews. Rewrite completion does not establish a completed
 prospective schedule, selected-subset compatibility, training or an arena result.
@@ -184,7 +186,7 @@ GPU compute applications, 89,001,152,512 bytes available RAM and
 The single metadata/argv default check exited 0 before launch; parent and
 independent final host reviews passed.
 
-[Completed prerequisites and actual launch evidence](evidence/v100-training-launched-20260913.json)
+[Completed prerequisites and actual launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/v100-training-launched-20260913.json)
 preserve exact report, qualification, host-manifest and review pins. At that launch
 snapshot, training and the registered arena were still pending. Their subsequent
 completion and launch are recorded below.
@@ -221,7 +223,7 @@ game-epoch sampling instead of the historical replacement sampler. The frozen
 runtime and preregistration remain unchanged. No value winner, 100M transfer,
 independent replication or RL deployment is established by this launch.
 
-[Compact completion and launch evidence](evidence/v100-trained-arena-launched-20260914.json)
+[Compact completion and launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/v100-trained-arena-launched-20260914.json)
 retains actual terminal/start receipts, schedule and checkpoint identities, CPU
 preparation and independent review. No model, book, training, or CPU preparation
 was repeated to publish this record.

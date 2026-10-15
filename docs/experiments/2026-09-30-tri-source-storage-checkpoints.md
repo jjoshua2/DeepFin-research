@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-30-tri-source-storage-checkpoints.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-30-tri-source-storage-checkpoints.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Tri-source replay storage checkpoints and one BT4 compression slice
 
 **Diagnostic readout, 2026-09-30; zero corpus, target and throughput credit.** The earlier 83,991-row strict replay stored two complete 44,800-byte canonical-input waves before exact byte/order comparison and global duplicate resolution. Each wave occupied 3,762,796,800 bytes; together they occupied 7,525,593,600 bytes. The later full-pack row JSON index was 68,624,951 bytes for 83,416 winners. The replay resolver also materializes global UID sets, digest groups and a winner list, while the pack materializes source/target joins and game-ID rosters. These current diagnostics cannot be made 500M-ready by changing only the physical ZIP shard size.
@@ -16,4 +18,4 @@ A subsequent **CPU-only 8,193-row synthetic external-join fixture** exercised th
 
 The companion evidence JSON pins the producer, corrected synthetic fixture, raw source slice, source/index/proof/route identities and independent audit SHA-256 values. No bulk source tape or compressed payload is included in this documentation change.
 
-[Compact evidence and source identities](evidence/2026-09-30-tri-source-storage-checkpoints.json) record the exact receipts and independent audit.
+[Compact evidence and source identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-30-tri-source-storage-checkpoints.json) record the exact receipts and independent audit.

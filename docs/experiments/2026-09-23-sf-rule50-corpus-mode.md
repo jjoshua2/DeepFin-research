@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-23-sf-rule50-corpus-mode.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-23-sf-rule50-corpus-mode.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF-rooted corpus rule-aware outcome mode (2026-09-23)
 
 This is a code qualification record, not a corpus run. No Stockfish games,
@@ -45,8 +47,8 @@ through real serialized source and derived records. Whole-repository lint was
 attempted once: Ruff passed, while repository-wide Basedpyright failed with
 1,949 errors and 1,231 warnings in the local dependency environment.
 
-A [bounded real-Stockfish search receipt](evidence/sf-rule50-corpus/actual-search.json)
-and its [exact qualification script](evidence/sf-rule50-corpus/actual-search.py.txt)
+A [bounded real-Stockfish search receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-rule50-corpus/actual-search.json)
+and its [exact qualification script](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-rule50-corpus/actual-search.py.txt)
 show one 1,024-node, one-thread, 16 MiB search of a seven-piece position. The
 engine received the explicit path, 50-move rule `true`, and six-piece probe
 limit, selected `b2c3` (a seven-to-six capture), and emitted `tbhits` up to 73.

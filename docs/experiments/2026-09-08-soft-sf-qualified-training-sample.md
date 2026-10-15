@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-soft-sf-qualified-training-sample.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-soft-sf-qualified-training-sample.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Soft-SF control from a qualified training sample
 
 The target-blind sample completed: **4,096 rows across 64 derived shards, 127 raw
@@ -7,10 +9,10 @@ shards and 2,082 source-qualified games**. Among the preregistered temperatures
 selects a descriptive control temperature on the sample; it does not select a
 training run or establish playing strength.
 
-[Compact readout](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/completed_readout.json)
-· [independent review](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/root_completed_review.json)
-· [original completion](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/complete.json)
-· [evidence and source hashes](evidence/bt4-bootstrap/soft-sf-qualified-sample-manifest.json).
+[Compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/completed_readout.json)
+· [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/root_completed_review.json)
+· [original completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/complete.json)
+· [evidence and source hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/soft-sf-qualified-sample-manifest.json).
 
 ## September 8 update: training and both arena cells complete
 
@@ -45,11 +47,11 @@ results follow below. That earlier snapshot remains unchanged.
 The lease wait is separate from GPU charges; each arena stage has a 5,400-second
 cap, within the 27,000-second package GPU cap including training.
 
-[Training completion](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/training.complete.json)
-· [realized schedule, lossless](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/realized_schedule.json.gz)
-· [independent training and arena-readiness review](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/independent_arena_launch_review.json)
-· [coordinator start snapshot](../../scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/arena_operator.actual_start.json)
-· [exact snapshots and hashes](evidence/bt4-bootstrap/softsf-training-ceres-gpu-manifest.json).
+[Training completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/training.complete.json)
+· [realized schedule, lossless](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/realized_schedule.json.gz)
+· [independent training and arena-readiness review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/independent_arena_launch_review.json)
+· [coordinator start snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_ceres_v1/softsf10/arena_operator.actual_start.json)
+· [exact snapshots and hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/softsf-training-ceres-gpu-manifest.json).
 
 ## Completed SoftSF10 versus B100 result
 
@@ -88,10 +90,10 @@ Including training, the package charged **3h13m05.74s**, below its 7.5-hour cap;
 CPU preparation and lease waits are separate. Both stages exited zero and their
 banks, commands, settings, checkpoint identities and runtime commit agree.
 
-[Independent result review](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/review/receipt.json)
-· [low bank, lossless](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/arena/low/arena.games.jsonl.gz)
-· [high bank, lossless](../../scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/arena/high/arena.games.jsonl.gz)
-· [exact terminal evidence](evidence/bt4-bootstrap/softsf-results-value-priorities-manifest.json).
+[Independent result review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/review/receipt.json)
+· [low bank, lossless](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/arena/low/arena.games.jsonl.gz)
+· [high bank, lossless](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/arena/high/arena.games.jsonl.gz)
+· [exact terminal evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/softsf-results-value-priorities-manifest.json).
 
 B100 remains the control for the next value contrast. This rejects the tested
 entropy-selected cp10 policy recipe at this checkpoint and horizon, not every SF
@@ -103,7 +105,7 @@ policy/value correction.
 ## Sampling and observed identity
 
 The [preregistration](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/preregistration.md)
-and [exact selection plan](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/plan.json.gz)
+and [exact selection plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/plan.json.gz)
 were fixed before reading targets. The original **18,910,484-row** training corpus
 has 2,309 shards. Its ordered shards were divided into 64 contiguous strata; a
 seed-labelled hash chose one shard per stratum and 64 rows within each chosen
@@ -170,9 +172,9 @@ Collection took **285.73 seconds wall time**, **247.56 CPU seconds**, and **648.
 maximum RSS**, inside the 600-second cap on CPUs 6–7 with two numerical threads,
 low I/O priority and GPU hidden. No model was loaded or evaluated.
 
-The [lossless observations](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/observations.json.gz),
-[raw rows and histories](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/raw_rows.jsonl.gz)
-and [consumed-input identities](../../scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/consumed_inputs.json.gz)
+The [lossless observations](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/observations.json.gz),
+[raw rows and histories](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/raw_rows.jsonl.gz)
+and [consumed-input identities](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/soft_sf_qualified_sample_v1/bank/consumed_inputs.json.gz)
 are published for reuse. The 64 array-bank parts and full corpora remain external;
 the original completion lists their exact sizes and hashes. Historical paths in
 archived originals describe provenance, not portable executable defaults.

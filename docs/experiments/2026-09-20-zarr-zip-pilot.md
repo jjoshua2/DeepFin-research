@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-20-zarr-zip-pilot.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-20-zarr-zip-pilot.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Byte-preserving Zarr ZIP decoder pilot
 
 This pilot measures the existing validated shard decoder with directory Zarr,
@@ -53,8 +55,8 @@ adapter. It does **not** establish exact-sampler training throughput: discovery,
 planning, content identity, store lifetimes and shuffled reads still need their
 own qualification before any production migration.
 
-[Raw decode result](artifacts/2026-09-20-zarr-zip-pilot/measure.json) and
-[full member-level packing proof](artifacts/2026-09-20-zarr-zip-pilot/pack.json).
+[Raw decode result](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-zarr-zip-pilot/measure.json) and
+[full member-level packing proof](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-zarr-zip-pilot/pack.json).
 The runtime was frozen at 502cd02e072471c901255f3fdb580d6ea7b826d0; script and loader
 SHA256s are recorded in the decode result. All outputs remain separate pilot
 artifacts. No production sources or queues were changed by this measurement.

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-30-ceres-direct-compact-synthetic-sink.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-30-ceres-direct-compact-synthetic-sink.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres direct-compact sink: bounded synthetic CPU screen
 
 **Readout, September 30, 2026.** The isolated candidate avoids materializing
@@ -44,7 +46,7 @@ actor retains audit-only discard rows; real chunks 22 and 29 completed with
 discards. The failed run01 is preserved as a fixture-integration failure,
 **not** a live source defect.
 
-The [compact evidence record](evidence/2026-09-30-ceres-direct-compact-synthetic-sink.json)
+The [compact evidence record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-30-ceres-direct-compact-synthetic-sink.json)
 contains all six pairs, component medians, source hashes and scope. The full
 code, output journal and ZIPs are sealed outside every checkout at
 `<artifact-root>/operations/ceres-direct-compact-synthetic-record-20260930`

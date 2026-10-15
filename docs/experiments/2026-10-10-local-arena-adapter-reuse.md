@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-10-10-local-arena-adapter-reuse.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-10-10-local-arena-adapter-reuse.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Local arena adapter reuse: isolated source packet
 
 Status: repository-ready source/evidence draft; no live adoption, arena result or
@@ -11,7 +13,7 @@ copy with a 28-line pinned caller. Four shared functions change to accept these
 existing differences and bind authority to the executing wrapper. The production
 diff removes 484 net lines; there is no new scheduler, CLI option or class.
 
-The [source packet](evidence/arena-adapter-reuse-20261010/) includes both candidate
+The [source packet](https://github.com/jjoshua2/DeepFin/tree/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/arena-adapter-reuse-20261010) includes both candidate
 files, 11 self-contained stdlib tests, byte-pinned baseline fixtures, the original
 local patch, and its verification/review receipt. Candidate production bytes are
 unchanged from independently reviewed local revision

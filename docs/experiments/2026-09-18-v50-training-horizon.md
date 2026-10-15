@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-18-v50-training-horizon.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-18-v50-training-horizon.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # V50 training horizon: four completed bootstrap arenas
 
 ## Question and completed scope
@@ -90,7 +92,7 @@ Candidates are bound only after successful training terminal and completion
 receipts, matching the registered training-plan hash, completed-summary hash and
 actual checkpoint hash. Failed training cannot supply an earlier accidental
 checkpoint. Every arena must finish all 128 pairs and pass actual-bank validation.
-The [adopted queue evidence](evidence/expanded50m-readouts-20260918.json) records
+The [adopted queue evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/expanded50m-readouts-20260918.json) records
 commands and identities; it is not evidence that any future game has completed.
 Each job allows 2,500 seconds plus 30 seconds of outer termination cleanup, with
 32 GiB available RAM and 150 GiB disk floors and an exclusive GPU lease. Independent
@@ -114,13 +116,13 @@ pending; the single completed match is not evidence that they succeeded.
 
 The candidate hash is
 `43786945252e746a6e646a21663f798e1dff224e8c48c6dac757d8398a4ee015`.
-[Completed receipt and bank identity](evidence/expanded50m-epoch1-result-20260918.json)
+[Completed receipt and bank identity](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/expanded50m-epoch1-result-20260918.json)
 retain exact lineage. Independent review verified all 128 color-swapped pairs,
 score, bank hash and successful outer terminal from the existing files.
 
 ## Evidence and verification
 
-[Compact bank evidence](evidence/v50-horizon-20260918.json) records all four
+[Compact bank evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/v50-horizon-20260918.json) records all four
 complete-bank hashes, scores and secondary paired differences. Bulk games and
 launch receipts remain under
 `scratchpad/bt4_joint20/takeover_20260916/v50_epoch_curve_arena_v1/`;

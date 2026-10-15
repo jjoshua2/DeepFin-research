@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-12-conservative-research-recovery.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-12-conservative-research-recovery.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Conservative research recovery after the September 12 reboot
 
 Status: guarded SF generation resumed at **19:07:34 UTC**, and the remaining
@@ -57,7 +59,7 @@ available, 7.3 GiB used, no swap use and GPU usage 5,573 MiB / 61%. Summed owned
 process RSS was 4,707,528,704 bytes and can double-count shared mappings. These
 are early warmup observations, not peaks or proof of safe steady-state usage.
 
-[Compact evidence](evidence/conservative-research-recovery-20260912.json) retains
+[Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/conservative-research-recovery-20260912.json) retains
 all launch, preservation, plan and independent-review pins, exact cohorts and
 parent-owned handles. No live process polling or payload scans were needed to
 publish this record. Results will be appended after actual completion.
@@ -79,7 +81,7 @@ compact review checked all 15 invocation bindings and 1,358 proof records withou
 reading arrays again. No cohort was dropped or retried, and no further GPU batch
 was automatically queued.
 
-[Full cohort counts and compact completion evidence](evidence/common-g10-native-wdl-complete-20260912.json)
+[Full cohort counts and compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/common-g10-native-wdl-complete-20260912.json)
 retain all outputs, original qualification identities, completion pins and runtime
 costs. Nineteen source cohorts have one complete native-WDL output directory and
 can follow the existing historical manifest route. The older run06 common-large

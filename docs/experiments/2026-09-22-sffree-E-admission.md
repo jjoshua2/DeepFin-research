@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-22-sffree-E-admission.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-22-sffree-E-admission.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF-free E admission and paired seed replication — September 22
 
 E preparation completed all 58,090,688 rows, 7,108 shards and 35 cohorts. Its full
@@ -34,7 +36,7 @@ losses. The actual initialization is checked after startup. The shared GPU lease
 STOP checks, reserve thresholds, hourly recovery and existing process ownership
 rules remain in force. Frozen deployed runtime files were not edited.
 
-The [independent final review](evidence/sffree-E-admission-20260922/factorial-next24h-final-admission-review-20260922.json)
+The [independent final review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sffree-E-admission-20260922/factorial-next24h-final-admission-review-20260922.json)
 approves all five final plans/descriptors. CPU-only validation passed E121's full
 receipt admission, all five registered descriptor checks, and refusal of the four
 future jobs before GPU access while dependencies are absent. Fourteen synthetic
@@ -44,19 +46,19 @@ games and schedule/count mismatches. They mock only the already separately exerc
 E121 admission and use the actual paired-bank/hash validator. No training was
 launched by those checks. No new GPU throughput or playing-strength result is claimed.
 
-The [snapshot manifest](evidence/sffree-E-admission-20260922/manifest.json) publishes
+The [snapshot manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sffree-E-admission-20260922/manifest.json) publishes
 exact operational runners, admission modules, plans, descriptors and test scripts.
 These are historical frozen operation sources, not a general supported API. Shared
 artifacts live at
 `~/chess-artifacts/operations/factorial58-sffree-training-20260922/`.
-The [reviewed queue metadata](evidence/sffree-E-admission-20260922/factorial-next24h-reviewed-queue-items-20260922.json)
+The [reviewed queue metadata](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sffree-E-admission-20260922/factorial-next24h-reviewed-queue-items-20260922.json)
 uses the scheduler's `estimated_active_seconds` field; the earlier standalone
 queue-item snapshots retain their original `estimated_seconds` spelling as provenance.
 
 Documentation path and identity checks pass (46 tests, two CPU threads).
 Whole-repository Ruff and Vulture pass; Basedpyright findings are adjudicated
 against the unchanged source baseline: all 14 diagnostics exactly match the earlier
-11+3 baseline logs. The [lint adjudication](evidence/sffree-E-admission-20260922/E-publication-lint-adjudication-20260922.json)
+11+3 baseline logs. The [lint adjudication](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sffree-E-admission-20260922/E-publication-lint-adjudication-20260922.json)
 and complete validation logs are banked beside the source snapshot. Inference follows the published preregistration: report both seed
 contrasts and their equal-weight score-margin average; concordant positive signs
 favor E provisionally, concordant negative signs favor D, and mixed directions

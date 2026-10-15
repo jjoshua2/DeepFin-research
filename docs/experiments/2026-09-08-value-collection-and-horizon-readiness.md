@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-value-collection-and-horizon-readiness.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-value-collection-and-horizon-readiness.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Value collection and two-epoch runtime readiness
 
 The matched value-head sample supports testing an SF/BT4 value mixture
@@ -13,8 +15,8 @@ its two-epoch training and matches remain pending.
 
 Related science: [value-head readout](2026-09-08-sf-anchored-value-bootstrap.md)
 and [completed G50/B100 comparison](2026-09-08-bt4-g50-b100-dose-comparison.md).
-[Historical launch evidence](evidence/value-bootstrap/collection-readiness.json) and
-[new completed evidence](evidence/value-bootstrap/collection-completed.json) retain
+[Historical launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/collection-readiness.json) and
+[new completed evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/collection-completed.json) retain
 the receipt identities. Bulk labels and runtime logs remain external.
 
 Snapshot: 2026-09-08, 19:36 UTC. Later completions are recorded separately.
@@ -24,7 +26,7 @@ Snapshot: 2026-09-08, 19:36 UTC. Later completions are recorded separately.
 The **18,910,484-row original SF corpus now has completed native BT4 WDL
 coverage across all 2,309 shards**. The final contiguous 2,180-shard remainder
 contributed **17,853,716 rows**; the unchanged pilot and larger prefix contribute
-8,192 and 1,048,576 rows. The [independent full-bank review](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/wdl/independent_full_bank_review.json)
+8,192 and 1,048,576 rows. The [independent full-bank review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/wdl/independent_full_bank_review.json)
 verified the three ordered selections, shared source/model/config bindings and
 parent/child closure; saved selections exactly reconstruct the original source
 summary. Five boundary attribute checks reuse native float32 `/output/wdl`
@@ -33,8 +35,8 @@ probabilities in W/D/L side-to-move order, without a bulk replay. The remainder'
 This is whole-invocation wall time, including admission/startup and metadata work;
 it is not a separately measured GPU inference duration or a speedup estimate.
 
-The [exact completion bundle](../../scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/full-wdl-completion.tar.gz)
-and [compact accounting manifest](evidence/bt4-bootstrap/full-wdl-v50-storage-manifest.json)
+The [exact completion bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/full-wdl-completion.tar.gz)
+and [compact accounting manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/full-wdl-v50-storage-manifest.json)
 preserve the three completion receipts, final selection, outer result and registered
 limits. This publication reconciles saved receipts without another feature read,
 inference or native-array rehash. The producer's source-qualified row/game/ply and

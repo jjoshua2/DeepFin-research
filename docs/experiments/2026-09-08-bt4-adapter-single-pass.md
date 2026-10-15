@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bt4-adapter-single-pass.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bt4-adapter-single-pass.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 adapter: collect identity records during verification
 
 A single CPU comparison on 8,236 banked raw positions reduced verification plus
@@ -24,7 +26,7 @@ verified result.
 
 ## Preregistered observation and result
 
-The [plan](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/plan.json)
+The [plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/plan.json)
 selected only the original closed `run06_g10/w00-00000.jsonl.zst` and its existing
 BT4 receipt. It specified exactly one baseline-first pair of actual
 `RawInputs.get` calls, with empty private caches and imports/constructor setup
@@ -72,13 +74,13 @@ identity cache was accepted or written. Final whole-repository Ruff, basedpyrigh
 (zero errors) and vulture passed in 201.56 seconds. A separate review checked the
 measurement's original baseline bytes and arithmetic.
 
-The [archive manifest](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/manifest.json)
-binds the [completed result](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/completed.json),
-[measurement source](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/measure_once.py),
-[exact command](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/command.txt),
-[author validation](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/author_validation.json),
-[independent code review](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/independent_review.json)
-and [measurement review](../../scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/performance_review.json).
+The [archive manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/manifest.json)
+binds the [completed result](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/completed.json),
+[measurement source](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/measure_once.py),
+[exact command](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/command.txt),
+[author validation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/author_validation.json),
+[independent code review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/independent_review.json)
+and [measurement review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/adapter_single_pass_v1/published_evidence/performance_review.json).
 Original machine paths are historical evidence, not portable launch instructions.
 The two baseline program files can be recovered from the stated commit using the
 manifest's filename mapping and hashes; raw data and cache arrays remain external.

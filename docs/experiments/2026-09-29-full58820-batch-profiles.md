@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-full58820-batch-profiles.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-full58820-batch-profiles.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Fixed-input BT4 and Ceres batch profiles on 58,820 rows
 
 Larger batches reduced measured label-call work on the same 58,820-row roster. BT4 batch 128 saved **28.558%** against batch 32; Ceres batch 512 saved **74.070%** against batch 32. These are separate four-arm, fixed-input numerical-profile screens. They measure conversion, inference and raw-head writing inside the call core; charged shape-matched warmup, session startup, target materialization, forensic readback, fresh source generation and integrated production writing are outside that clock.

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-11-g10-qualified-inventory.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-11-g10-qualified-inventory.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # G10 common-input inventory: 16,404,093 eligible rows
 
 The accepted distinct2 batch adds **1,846,805 rows** to the prior 14,557,288,
@@ -28,9 +30,9 @@ qualification receipts and final manifest. Parent acceptance records the total.
 
 ## Evidence and next use
 
-- [Independent completed review](evidence/bt4-bootstrap/g10-distinct2-completion/independent-review.json)
-- [Parent acceptance](evidence/bt4-bootstrap/g10-distinct2-completion/parent-review.json)
-- [Terminal completion](evidence/bt4-bootstrap/g10-distinct2-completion/completed.json)
+- [Independent completed review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-distinct2-completion/independent-review.json)
+- [Parent acceptance](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-distinct2-completion/parent-review.json)
+- [Terminal completion](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-distinct2-completion/completed.json)
 
 The independent review is SHA256
 `686d51a2db71957a0245023b22668824e6f8eb3a132ebe4645a15406f5813c1c`.

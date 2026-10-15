@@ -1,8 +1,10 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/README.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/bt4-bootstrap/README.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 bootstrap publication evidence
 
 These are historical scientific artifacts, copied byte-for-byte from the recorded
-experiment state. They accompany the [experiment records](../../README.md).
-The [manifest](manifest.json) maps every repository-relative source to its published
+experiment state. They accompany the [experiment records](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/README.md).
+The [manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/manifest.json) maps every repository-relative source to its published
 path, byte count and SHA256. Preserving originals keeps the hashes in preregistrations
 and reviews meaningful. Source `scratchpad/bt4_joint20/` paths are retained; training
 and data summaries are under `scratchpad/bt4_joint20/publication_originals/`, with
@@ -17,13 +19,13 @@ old manifests to resume work. The live runtime and development checkout are sepa
 
 September 8 preparation/readiness supplements have their own manifests:
 
-- [Completed corrected G10 block](g10-next-completion-manifest.json): 1,053,018
+- [Completed corrected G10 block](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-next-completion-manifest.json): 1,053,018
   common rows, original stage logs and independent accounting.
-- [Next worker01 inputs](g10-worker01-readiness-manifest.json): metadata-only
+- [Next worker01 inputs](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-worker01-readiness-manifest.json): metadata-only
   readiness for 2,126,537 raw rows; no pipeline launch.
-- [Training-horizon runtime](training-horizon-runtime-manifest.json): tiny real
+- [Training-horizon runtime](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/training-horizon-runtime-manifest.json): tiny real
   two-epoch CPU tests and preserved diagnostic failures/limits.
-- [Soft-SF bank readiness](soft-sf-bank-readiness-manifest.json): audit-bank
+- [Soft-SF bank readiness](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/soft-sf-bank-readiness-manifest.json): audit-bank
   provenance check and reuse of the existing small training sample.
 
 The bundle contains all nine completed global treatment cells, all three SF-close
@@ -46,24 +48,24 @@ their presence is not a claim that discarded plans or proposed G50 training ran.
 
 | Bank | Original game rows | File |
 | --- | --- | --- |
-| `af_run01/E0_sampler_diagnostic.games.jsonl` | 384 | [JSONL](../../../../scratchpad/bt4_joint20/af_run01/E0_sampler_diagnostic.games.jsonl) |
-| `confirmation_seed1_E0T05_vs_C20T05_v1/arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/confirmation_seed1_E0T05_vs_C20T05_v1/arena.games.jsonl) |
-| `direct_close_global_run01/arena/arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/direct_close_global_run01/arena/arena.games.jsonl) |
-| `global_run03/calibration/E0.s100.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/calibration/E0.s100.arena.games.jsonl) |
-| `global_run03/calibration/S0.s100.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/calibration/S0.s100.arena.games.jsonl) |
-| `global_run03/treatments/E0.s100.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/E0.s100.arena.games.jsonl) |
-| `global_run03/treatments/E0.s25.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/E0.s25.arena.games.jsonl) |
-| `global_run03/treatments/E0.s400.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/E0.s400.arena.games.jsonl) |
-| `global_run03/treatments/G20T05.s100.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/G20T05.s100.arena.games.jsonl) |
-| `global_run03/treatments/G20T05.s25.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/G20T05.s25.arena.games.jsonl) |
-| `global_run03/treatments/G20T05.s400.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/G20T05.s400.arena.games.jsonl) |
-| `global_run03/treatments/G20T1.s100.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/G20T1.s100.arena.games.jsonl) |
-| `global_run03/treatments/G20T1.s25.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/G20T1.s25.arena.games.jsonl) |
-| `global_run03/treatments/G20T1.s400.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/global_run03/treatments/G20T1.s400.arena.games.jsonl) |
-| `sf_close_run02/sf-close/C20T05.s100.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/sf_close_run02/sf-close/C20T05.s100.arena.games.jsonl) |
-| `sf_close_run02/sf-close/C20T05.s25.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/sf_close_run02/sf-close/C20T05.s25.arena.games.jsonl) |
-| `sf_close_run02/sf-close/C20T05.s400.arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/sf_close_run02/sf-close/C20T05.s400.arena.games.jsonl) |
-| `sharpened_ties_run01/experiment/arena/arena.games.jsonl` | 1000 | [JSONL](../../../../scratchpad/bt4_joint20/sharpened_ties_run01/experiment/arena/arena.games.jsonl) |
+| `af_run01/E0_sampler_diagnostic.games.jsonl` | 384 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/af_run01/E0_sampler_diagnostic.games.jsonl) |
+| `confirmation_seed1_E0T05_vs_C20T05_v1/arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/confirmation_seed1_E0T05_vs_C20T05_v1/arena.games.jsonl) |
+| `direct_close_global_run01/arena/arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/direct_close_global_run01/arena/arena.games.jsonl) |
+| `global_run03/calibration/E0.s100.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/calibration/E0.s100.arena.games.jsonl) |
+| `global_run03/calibration/S0.s100.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/calibration/S0.s100.arena.games.jsonl) |
+| `global_run03/treatments/E0.s100.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/E0.s100.arena.games.jsonl) |
+| `global_run03/treatments/E0.s25.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/E0.s25.arena.games.jsonl) |
+| `global_run03/treatments/E0.s400.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/E0.s400.arena.games.jsonl) |
+| `global_run03/treatments/G20T05.s100.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/G20T05.s100.arena.games.jsonl) |
+| `global_run03/treatments/G20T05.s25.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/G20T05.s25.arena.games.jsonl) |
+| `global_run03/treatments/G20T05.s400.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/G20T05.s400.arena.games.jsonl) |
+| `global_run03/treatments/G20T1.s100.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/G20T1.s100.arena.games.jsonl) |
+| `global_run03/treatments/G20T1.s25.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/G20T1.s25.arena.games.jsonl) |
+| `global_run03/treatments/G20T1.s400.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/global_run03/treatments/G20T1.s400.arena.games.jsonl) |
+| `sf_close_run02/sf-close/C20T05.s100.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/sf_close_run02/sf-close/C20T05.s100.arena.games.jsonl) |
+| `sf_close_run02/sf-close/C20T05.s25.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/sf_close_run02/sf-close/C20T05.s25.arena.games.jsonl) |
+| `sf_close_run02/sf-close/C20T05.s400.arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/sf_close_run02/sf-close/C20T05.s400.arena.games.jsonl) |
+| `sharpened_ties_run01/experiment/arena/arena.games.jsonl` | 1000 | [JSONL](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/sharpened_ties_run01/experiment/arena/arena.games.jsonl) |
 
 ## Checks and boundaries
 
@@ -84,7 +86,7 @@ records at collection. A populated `published_path` identifies the exact matchin
 bytes. Unmapped hashes remain visible: many identify external weights/runtime code,
 a canonical schedule digest rather than a file, or source payloads intentionally
 excluded here. Later document edits can add references after that collection snapshot.
-Fresh confirmation's [final independent completed-result review](../../../../scratchpad/bt4_joint20/confirmation_registration_v1/independent_completed_confirmation_review.json)
+Fresh confirmation's [final independent completed-result review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/confirmation_registration_v1/independent_completed_confirmation_review.json)
 is included at SHA256 `cab8e9ccbf5d379d6dc03c9fa5c0502d2b865b50a649d5bf6c3f8093661505e0`.
 It distinguishes the accepted complete-bank result from the earlier training/launch reviews.
 
@@ -147,17 +149,17 @@ for byte; their validation did not close the tracked-file path-hygiene check. Th
 follow-up relocation corrects that publication gap without redaction, changes to
 scientific results, or changes to the existing hygiene scanner and exemptions.
 
-[Qualified Soft-SF training sample](soft-sf-qualified-sample-manifest.json) includes
+[Qualified Soft-SF training sample](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/soft-sf-qualified-sample-manifest.json) includes
 the fixed sampling plan, original completion, row-level metrics and lossless raw d9
 observations; array-bank parts remain external with published identities.
 
-[Worker01 failure and larger-data proposal](g10-worker01-failure-and-large-readiness-manifest.json)
+[Worker01 failure and larger-data proposal](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g10-worker01-failure-and-large-readiness-manifest.json)
 preserves the failed rank admission and incomplete common-input status separately
 from the unregistered metadata-only proposal.
 
 ## Completed B100 two-budget screen
 
-The [completed result manifest](b100-two-budget-results-manifest.json) preserves
+The [completed result manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/b100-two-budget-results-manifest.json) preserves
 both match banks, successful readouts, stage/launch identities and the original
 reader failure. The [dated readout](../../2026-09-08-bt4-pure-policy-endpoint.md)
 reports the shallow sequential decision, protected deep result, aligned search

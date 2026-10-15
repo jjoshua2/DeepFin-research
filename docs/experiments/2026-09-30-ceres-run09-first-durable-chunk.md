@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-30-ceres-run09-first-durable-chunk.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-30-ceres-run09-first-durable-chunk.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres source run09: first durable chunk
 
 **Zero corpus, label, pack, and training admission.**
@@ -12,4 +14,4 @@ The new source cap is 1,500 seconds, readback cap 1,200 seconds, and chunk cap 3
 
 Run09's 120-index queue includes the 51 reused chunks, leaving at most 69 new chunks through index 119. At the observed source rate this is roughly a 14-hour remaining source queue, not a guaranteed 24 hours of new generation. A proposed run10 queue extension to index 239 needs a new reviewed source packet and ranked-roster extension. The next GPU handoff is planned for training once packs are ready; this record does not authorize another GPU task.
 
-The [evidence record](evidence/2026-09-30-ceres-run09-first-durable-chunk.json) lists the local receipt and review identities by role, hash and size. Raw archives remain outside the repository.
+The [evidence record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-30-ceres-run09-first-durable-chunk.json) lists the local receipt and review identities by role, hash and size. Raw archives remain outside the repository.

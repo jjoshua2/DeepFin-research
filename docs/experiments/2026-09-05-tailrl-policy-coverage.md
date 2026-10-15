@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-05-tailrl-policy-coverage.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-05-tailrl-policy-coverage.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # TailRL-inspired policy coverage screen
 
 ## Status and scope
@@ -50,7 +52,7 @@ or another preregistered adjudicator appropriate to the claim).
 
 Use immutable checkpoint copies and quarantined replay that was not used to train
 the compared checkpoints. Install the repository's locked development environment
-first; see [development](../development.md). No background jobs are launched.
+first; see [development](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/development.md). No background jobs are launched.
 
 ```bash
 PYTHONPATH=. python scripts/policy_tail_diagnostic.py \
@@ -149,7 +151,7 @@ upper-tail targeting. A union event loss does not preserve diversity within its
 set, guarantee good moves outside the measured set, or prove search quality.
 
 Only a subsequent paired playing evaluation at declared search/time budgets can
-support a strength claim; follow [evaluation](../eval_protocol.md). Recovery for
+support a strength claim; follow [evaluation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/eval_protocol.md). Recovery for
 this stage is simply stopping the isolated command; it has no model/YAML writes.
 Any later training arm must use a separate run directory and preserve its donor.
 

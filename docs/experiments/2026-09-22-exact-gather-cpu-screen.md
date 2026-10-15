@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-22-exact-gather-cpu-screen.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-22-exact-gather-cpu-screen.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Exact batch gather CPU screen — September 22
 
 Preallocation removes copying work in the isolated gather, but the absolute saving
@@ -27,7 +29,7 @@ work. Whole-shard content requalification and actual epoch construction were not
 performed. These timings omit refills/decoding, target preparation, pinning, transfer
 and GPU computation. They cannot establish end-to-end training speedup.
 
-The [training-path audit](evidence/exact-gather-screen-20260922/training-data-path-review.json)
+The [training-path audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/exact-gather-screen-20260922/training-data-path-review.json)
 pins the D summary and frozen code used for context. D's banked 1,290 training windows recorded 13,580.64s in
 `batch_prefetch_wait_s` across 113,459 updates, approximately 120ms per update.
 That phase includes sampling/preparation plus pinning and H2D issue; it is not pure
@@ -41,8 +43,8 @@ and 1.93s respectively, and peaked below 178MiB RSS. The external tensor bank is
 approximately 55MiB. This stays below the 10-minute/2-GiB-extra screen bounds.
 Development source is main `4e8d463e1`; no frozen runtime was edited.
 
-The [adjudication](evidence/exact-gather-screen-20260922/exact-gather-screen-adjudication-20260922.json)
-links hashed scripts and timing/profile receipts. The [input manifest](evidence/exact-gather-screen-20260922/inputs.json)
+The [adjudication](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/exact-gather-screen-20260922/exact-gather-screen-adjudication-20260922.json)
+links hashed scripts and timing/profile receipts. The [input manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/exact-gather-screen-20260922/inputs.json)
 pins the eight saved NumPy tensor archives and both fixed index schedules. Full
 inputs, prototypes and receipts live at
 `~/chess-artifacts/operations/exact-gather-screen-20260922/`. Source snapshots and

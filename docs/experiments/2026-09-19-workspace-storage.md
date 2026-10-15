@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-19-workspace-storage.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-19-workspace-storage.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Workspace storage migration — 2026-09-19
 
 Keep workspaces freely copyable by externalizing bulk data. This is an operational
@@ -61,7 +63,7 @@ changes and all eight queued records; only output paths and dependent hashes cha
 Adoption rechecked every hash/status under the scheduler lock, validated all eight
 actual operator descriptors, and preserved the active job.
 
-[Published migration evidence](evidence/workspace-storage-20260919/)
+[Published migration evidence](https://github.com/jjoshua2/DeepFin/tree/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/workspace-storage-20260919)
 contains the exact diff, before/after hashes, independent reviews, fixtures and
 adoption receipts. This amends the host storage paths of PR #786, not its experiment
 recipe, training horizon or evaluation settings.
@@ -108,8 +110,8 @@ Branches were retained. Each head additionally lives under
 avoid collisions. These artifact moves preserve data and do not themselves free space.
 The compact per-worktree receipts are published alongside this record:
 
-- [132 sibling retirements](evidence/workspace-storage-20260919/retired-siblings.jsonl)
-- [34 nested retirements](evidence/workspace-storage-20260919/retired-nested.jsonl)
+- [132 sibling retirements](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/workspace-storage-20260919/retired-siblings.jsonl)
+- [34 nested retirements](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/workspace-storage-20260919/retired-nested.jsonl)
 
 To restore source, create a worktree from the receipt's retained ref into a new
 path. Consult its archive before restoring any local output. Dirty checkouts,

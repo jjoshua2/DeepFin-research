@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-20-sf-generation-throughput.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-20-sf-generation-throughput.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF generation depth and concurrency for the 500M bootstrap
 
 ## Question and previous evidence
@@ -93,7 +95,7 @@ passed stubborn-root, setsid-grandchild, unrelated-child preservation, and natur
 root-exit cleanup checks. No GPU queue or existing corpus was changed.
 
 Frozen benchmark source: `401a93bf8`. Compact full cell evidence, plan hash and
-receipt hash: [JSON artifact](artifacts/2026-09-20-sf-throughput-v3.json).
+receipt hash: [JSON artifact](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-sf-throughput-v3.json).
 Raw results are under
 `~/chess-artifacts/corpora/generation_throughput_20260920/run_v3`;
 plans, logs and recovered-failure readouts are under
@@ -134,7 +136,7 @@ not supply independent order/seed replication or a trained-strength result.
 All 49,046 banked rows passed eligibility; no invalid or missing-result rows.
 The complete run used 1,240.0 wall seconds, 4,486.7 observed child CPU-seconds
 and 42.9 controller CPU-seconds, within its explicit bounds. Frozen source was
-`93537e6b0`. [Full compact evidence](artifacts/2026-09-20-sf-throughput-confirmation.json)
+`93537e6b0`. [Full compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-sf-throughput-confirmation.json)
 includes 30-second closure counters and exact plan/receipt hashes.
 
 D8 achieved **3.70x** G10's eligible generation throughput in this comparison.
@@ -207,8 +209,8 @@ that rate directly with this serial, fresh-table scalar-label rate would
 confound concurrency, caching and positions. The matched-row arm comparison is
 the appropriate local estimate of avoiding full-width work.
 
-Published evidence: [summary and source/sample hashes](artifacts/2026-09-20-sf-value-cost-summary.json)
-and [all 192 records, including effective UCI commands and raw info](artifacts/2026-09-20-sf-value-cost-records.jsonl.gz).
+Published evidence: [summary and source/sample hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-sf-value-cost-summary.json)
+and [all 192 records, including effective UCI commands and raw info](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-09-20-sf-value-cost-records.jsonl.gz).
 The gzip is deterministic and expands to the exact JSONL whose SHA256 is in the
 summary. Frozen source was `80e50a06e`; the parent independently reviewed the
 code and plan before launch. Ten focused tests passed, including real UCI

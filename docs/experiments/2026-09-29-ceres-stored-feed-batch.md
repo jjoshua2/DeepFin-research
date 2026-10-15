@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-ceres-stored-feed-batch.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-ceres-stored-feed-batch.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres stored-feed batch conversion, September 29, 2026
 
 The full 58,820-winner selected/dual cost pilot exposed avoidable CPU work in
@@ -36,7 +38,7 @@ batch 32. Main's pure TPG batch-512 conversion median was 0.039611 s versus
 0.058050 s for the frozen snapshot; this timing excludes raw-row validation,
 stacking and all inference.
 
-The reusable [stored-feed builder](../../chess_anti_engine/encoding/ceres_stored_feed.py)
+The reusable [stored-feed builder](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/chess_anti_engine/encoding/ceres_stored_feed.py)
 accepts staged little-endian float32 rows and their source SHA-256 values,
 requires the qualified source's corrected legacy-history profile explicitly,
 checks the exact-f16 storage domain, invokes the tracked batch TPG encoder,
@@ -46,8 +48,8 @@ cost-pilot source and running jobs were not modified. Its externally pinned
 producer is outside the tracked main package, so these results do not yet
 measure a live integrated throughput gain or change corpus/500M credit.
 
-Compact evidence: [first eight calls](evidence/2026-09-29-ceres-feed-first8.json)
-and [stratified 512 rows](evidence/2026-09-29-ceres-feed-stratified512.json).
+Compact evidence: [first eight calls](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-ceres-feed-first8.json)
+and [stratified 512 rows](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-ceres-feed-stratified512.json).
 The original CPU probe files were
 `/tmp/ceres-feed-conversion-first8-cpu-probe-20260929.json` (SHA-256
 `df04aa79ed79e64d9ba9d5d343511177e6db0768b2407a446b1da6f6a5a0f866`)

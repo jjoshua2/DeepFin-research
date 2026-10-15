@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-500m-continuation.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-500m-continuation.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 500M bootstrap continuation and partial factorial readout — September 21
 
 ## Decision
@@ -97,9 +99,9 @@ were saved before mutation; readback passed. No game was rerun, and active D and
 both queued matches were preserved. The remaining thirteen historical failed items
 are not thereby current incidents.
 
-Evidence: [independent review](evidence/500m-continuation-20260921/factorial-review.json),
-[repair receipt](evidence/500m-continuation-20260921/reconciliation.json), and
-[compact results](evidence/500m-continuation-20260921/factorial-results.json).
+Evidence: [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/factorial-review.json),
+[repair receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/reconciliation.json), and
+[compact results](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/factorial-results.json).
 Full repair artifacts are under
 `~/chess-artifacts/operations/factorial58-reconcile-20260921/`.
 
@@ -141,7 +143,7 @@ owned-process cleanup, raw per-case banking. Any move/score/rank mismatch preven
 an equivalence pass; missing meaningful tablebase probes is inconclusive. Passing
 finite fixtures does not automatically authorize production adoption.
 
-[Scale evidence and hashes](evidence/500m-continuation-20260921/scale-evidence.json)
+[Scale evidence and hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/scale-evidence.json)
 identify all completed artifacts, including prepared markers that are stale.
 
 ## Retention qualification completed
@@ -178,9 +180,9 @@ fixture equivalence, not an end-to-end generation rate or automatic deployment.
 Its value for the eventual training pipeline is conditional on whether SF labeling
 is retained; faster SF labels are not evidence that the labels improve training.
 
-[Completion receipt](evidence/500m-continuation-20260921/retention-complete.json),
-[independent review](evidence/500m-continuation-20260921/retention-review.json), and
-[exact runtime manifest](evidence/500m-continuation-20260921/retention-manifest.json)
+[Completion receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/retention-complete.json),
+[independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/retention-review.json), and
+[exact runtime manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/retention-manifest.json)
 identify the binaries, patch, inputs and harness. All raw observations, the failed
 loader attempt, build logs and exact harness/validator are under
 `~/chess-artifacts/operations/sf-retain-qualification-20260921/`.
@@ -188,7 +190,7 @@ loader attempt, build logs and exact harness/validator are under
 
 ## Does SF value supervision earn its cost?
 
-[Banked endpoint evidence and source hashes](evidence/500m-continuation-20260921/sf-value-evidence.json)
+[Banked endpoint evidence and source hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/sf-value-evidence.json)
 support the following comparisons. The current bootstrap evidence does not establish that a nonzero SF value share is
 necessary. Historical online-RL removal is a different intervention and must not be
 used as proof here. In the matched 35M series, reducing SF100 to SF50/BT4-50 gained
@@ -252,7 +254,7 @@ mutation tests and measured stage timing before adoption. No persistent unchecke
 hash cache or pinned runtime modification was made. This addresses startup cost
 regardless of whether the final value recipe contains SF.
 
-[Source analysis and limits](evidence/500m-continuation-20260921/startup-cost-review.json).
+[Source analysis and limits](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/startup-cost-review.json).
 
 
 ## Evening continuation: implementations published and E preparation active
@@ -334,7 +336,7 @@ At 01:22 UTC September 22, D was at 105,688/113,459 updates (93.2%). In its late
 memory pinning and transfer submission. It is not isolated disk I/O or measured
 GPU idle time. Concurrent CPU work and cache state prevent causal attribution.
 The per-window observations and source snapshot identity are banked in the
-[phase snapshot](evidence/500m-continuation-20260921/D-phase-snapshot.json).
+[phase snapshot](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/D-phase-snapshot.json).
 This supports prioritizing the data-to-training path, while leaving the storage
 comparison to determine the external drive's effect.
 
@@ -367,8 +369,8 @@ Corrected qualification completed in 748.045 seconds, within its new cap; total
 CPU preparation including the preserved failed attempt was 1,374.334 seconds.
 Both representations consumed all 1,963,948 rows with exact ordered tensor hash
 `c39d8f17230b3ab22cbe4203cca15d3e314085a94df795cd12b58fbbf0300707`.
-The [full-stream receipt](evidence/500m-continuation-20260921/storage-full-stream-qualification.json)
-and [completion receipt](evidence/500m-continuation-20260921/storage-requalification-complete.json)
+The [full-stream receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/storage-full-stream-qualification.json)
+and [completion receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/storage-requalification-complete.json)
 bank the result. Cached CPU consumer time including digest observation was
 318.643 seconds for NVMe and 340.250 seconds for external ZIP. These are
 qualification timings, not GPU throughput or cold 500M storage evidence.
@@ -378,7 +380,7 @@ The actual GPU comparison is published in [PR #818](https://github.com/jjoshua2/
 ## Final continuation status — September 22, 02:13 UTC
 
 D completed all 58,090,688 rows and 113,459 updates with scheduler exit zero.
-The [independent completion audit](evidence/500m-continuation-20260921/D-completion-review.json)
+The [independent completion audit](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/D-completion-review.json)
 verified initialization, all 1,089 registered runtime/operator pins, matching
 planned/realized schedule hashes and zero same-game repeats inside batches.
 Its final checkpoint SHA256 is
@@ -393,7 +395,7 @@ per-arm cap. The deciding storage screen requires external-drive training
 throughput to reach at least 90% of NVMe after the preregistered warmup exclusion;
 startup and complete wall time are also recorded. One ordered, cache-affected
 pair does not establish cold multi-terabyte performance or isolate disk causality.
-The [queue append receipt](evidence/500m-continuation-20260921/storage-queue-registration.json)
+The [queue append receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/500m-continuation-20260921/storage-queue-registration.json)
 confirms all prior queue items and active state were preserved. The order is
 D-C, D-B, BT4 labeling, then the storage pair. Both optimization results remain
 pending; no frozen training runtime was changed. SF-free E CPU preparation

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-14-pfs-frontier-advancement.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-14-pfs-frontier-advancement.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # PFS-inspired frontier advancement: cheap-first experiment plan
 
 Status: **Analytical examples completed; no DeepFin search, training or deployment
@@ -26,8 +28,8 @@ Neither the reported node savings nor an optimal chess dose is assumed here.
 
 ## What the follow-up arithmetic changed
 
-Runnable evidence: [analytic_screen.py](evidence/pfs-frontier/analytic_screen.py),
-[analytic_screen.json](evidence/pfs-frontier/analytic_screen.json).
+Runnable evidence: [analytic_screen.py](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/pfs-frontier/analytic_screen.py),
+[analytic_screen.json](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/pfs-frontier/analytic_screen.json).
 Eight standard-library arithmetic tests passed locally, including exhaustive
 finite-population subset checks through population size eight. The script does
 **not** import or execute DeepFin. Its schedule formulas are transcribed from the
@@ -259,7 +261,7 @@ matched time tests deployment cost. A 512-game arena is a possible follow-up,
 not an automatic job or universal evidence requirement. A Python prototype's
 latency does not predict a future native port. Preserve raw observations, declare
 read points, and do not expand until the preferred sign appears. See
-[evaluation](../eval_protocol.md) and [development](../development.md).
+[evaluation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/eval_protocol.md) and [development](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/development.md).
 
 ## Source map and implementation invariants
 

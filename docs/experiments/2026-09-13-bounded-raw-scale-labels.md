@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-13-bounded-raw-scale-labels.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-13-bounded-raw-scale-labels.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Bounded raw policy and native-WDL scale labels
 
 Status: the bounded collector completed with exit 0 on **2026-09-13 at 18:34:10 UTC**, recording **184 raw shards / 1,527,153 rows** in **2638.682 seconds** (43 minutes 58.682 seconds). The 12-group allocation ended; these labels are not yet derived or training-admitted. The original launch snapshot is retained below.
@@ -22,7 +24,7 @@ The outer launch recorded 88,090,669,056 bytes available RAM and 214,444,892,160
 
 Parent source/command review and independent review passed. Independent review `74ce1320987521e09924488519e646eaf6ebccdf54d52bb9a3a32128e9df67a1` includes the corrected outer cleanup grace. The plan is `bdca27264c2ca8d86f56b4b28a18c4a20504b30a16356a7ae024debdf72ef287`; command is `2e9964cc4a00151758a8a055cdf40f9e959f35156df14e8dc67a8ed1c83c3eca`.
 
-[Compact evidence](evidence/2026-09-13-bounded-raw-scale-label-launch.json) preserves actual launch, ownership, first-group argv and original snapshot references. Later derivation and raw-to-derived identity qualification remain necessary before these labels can join a training corpus. Existing accepted G10 native coverage and frozen V100 implementation are unchanged.
+[Compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-13-bounded-raw-scale-label-launch.json) preserves actual launch, ownership, first-group argv and original snapshot references. Later derivation and raw-to-derived identity qualification remain necessary before these labels can join a training corpus. Existing accepted G10 native coverage and frozen V100 implementation are unchanged.
 
 ## Actual bounded completion
 
@@ -40,7 +42,7 @@ The independent compact review reconciled every group receipt with the final lis
 
 Successful completion passed the frozen operator's resource guards; the startup samples above remain the available resource evidence, not measured peak RAM or GPU usage. This adds raw label coverage only: `training_admitted` and `backfill` are both false. The earlier snapshot's disjointness observation applies to that snapshot, not automatically to all later source closures. No further collection is queued by this record, and source generation and unrelated work remain unchanged.
 
-[Completion evidence](evidence/2026-09-13-bounded-raw-scale-label-completed.json) retains exact terminal, final/group receipt and independent-review pins, the saved reason string and its corrected interpretation. Parent and independent compact checks agree on the counts; neither repeated payload validation.
+[Completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-13-bounded-raw-scale-label-completed.json) retains exact terminal, final/group receipt and independent-review pins, the saved reason string and its corrected interpretation. Parent and independent compact checks agree on the counts; neither repeated payload validation.
 
 ## Actual baseline eligibility audit launched
 
@@ -49,7 +51,7 @@ the exact **184 shards / 1,527,153 rows** completed above. The tool merged in
 [PR #728](https://github.com/jjoshua2/DeepFin/pull/728) checks source hashes, row
 identity and the existing phase-zero uniform-d9 policy and consumed composite-d9
 value eligibility rules. It does not repair rows, select adaptive labels or
-produce training targets. See the [tool contract](../toolchains.md#receipt-selected-raw-baseline-eligibility).
+produce training targets. See the [tool contract](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/toolchains.md#receipt-selected-raw-baseline-eligibility).
 
 The frozen runtime is `1cacea59dff150673e41cfe0dd9b6cfb66edf6da`. The command
 uses CPUs 4,5, two numeric threads and a hidden GPU, with an **1800-second whole
@@ -59,7 +61,7 @@ It requires 48 GiB available RAM at startup, 32 GiB during sampled checks,
 cap is imposed. The start sample recorded 88,646,012,928 bytes available RAM.
 
 Parent review and independent source/execution review passed before launch.
-[Compact launch evidence](evidence/bounded-ceres-and-raw-audit-launched-20260913.json)
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bounded-ceres-and-raw-audit-launched-20260913.json)
 binds the actual start, exact selected manifest, command and reviews. This is a
 launch snapshot: preliminary counters are intentionally not a final eligibility
 result. Failure or a completed progress prefix would not admit a training corpus.
@@ -94,7 +96,7 @@ derivation or training admission has occurred in this result.
 
 Independent compact review reconciled all shard counts and 9,228 unique
 diagnostic identities. Saved diagnostics occupy 5,178,177 bytes, below the
-512-MiB cap. [Completion evidence](evidence/ceres-prefix-and-raw-audit-completed-20260913.json)
+512-MiB cap. [Completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-prefix-and-raw-audit-completed-20260913.json)
 preserves the exact report and review identities, the 30 required exclusions and
 their limits. Publication did not repeat raw payload checks or the audit.
 
@@ -125,7 +127,7 @@ Partial evidence is retained on failure; completing only the first source does
 not establish complete two-source derivation. Actual output qualification and
 exact retained-row alignment in downstream teacher joins remain necessary.
 
-[Launch evidence](evidence/filtered-raw-derivation-launched-20260913.json) retains
+[Launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/filtered-raw-derivation-launched-20260913.json) retains
 the immutable start, command, plan, runtime and review pins. No completed output,
 adapter qualification or training admission is claimed here.
 
@@ -156,7 +158,7 @@ The inherited sharp-SF target storage reports 21,617,693 positive move entries
 underflowing to zero in float16. This counts move entries, not excluded rows;
 no new clamp or target repair was applied by the row filter.
 
-[Completion evidence](evidence/filtered-raw-derivation-completed-20260913.json)
+[Completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/filtered-raw-derivation-completed-20260913.json)
 records the actual terminal and both summary pins. This completes derived
 baseline eligibility and provenance only. Matching these filtered/permuted rows
 to the existing raw BT4 policy/native-WDL banks still requires an exact adapter
@@ -173,7 +175,7 @@ The frozen plan is `a0ac417b…`, command `3f7825a6…`, using runtime `a22893d�
 
 The allocation is **three hours inclusive**, CPUs **8–9**, two numerical threads, nice 19, hidden GPU, **48 GiB available RAM at startup / 32 GiB at running checks**, and a **150-GiB running disk floor**. Startup requires **170 GiB free**: 150 GiB plus the **16-GiB aggregate output allowance** and 4 GiB for other writers. The launched supervisor admitted these startup guards. No address-space cap is imposed; the RAM checks are not an aggregate memory guarantee. The raw-index allowance is 1 GiB with only two raw indexes cached, while the whole-output cap remains separate. Deadline, STOP and owned-process cleanup stay in effect; there is no automatic retry.
 
-[Compact launch evidence](evidence/raw-joint-adapter-launched-20260913.json) pins the two manifests, saved source-receipt indexes, reviews and actual launch observation. The historical policy-only adapter timing motivated the bound; it is not a measured joint-adapter throughput result. Exact joint-output checks and any later consumer/training qualification remain pending.
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/raw-joint-adapter-launched-20260913.json) pins the two manifests, saved source-receipt indexes, reviews and actual launch observation. The historical policy-only adapter timing motivated the bound; it is not a measured joint-adapter throughput result. Exact joint-output checks and any later consumer/training qualification remain pending.
 
 
 ## Joint adapter completed
@@ -184,7 +186,7 @@ Both adapted summaries retain the saved BT4 policy and native float32 WDL probab
 
 Independent compact review `3af2e4d8…` passed. This review checked saved counts, commands, summary/profile bindings and raw receipt identities; it did not repeat payload, NPZ, model or output-tree scans. Actual physical-row matching was performed by the completed adapter. The result is a completed reusable policy/native-WDL bank, **not training admission or a strength result**. A subsequent B100 materialization must still apply its existing consumer checks.
 
-[Compact completion evidence](evidence/raw-adapter-completed-b100-handoff-20260913.json) preserves both stage receipts, exact summary pins and independent review.
+[Compact completion evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/raw-adapter-completed-b100-handoff-20260913.json) preserves both stage receipts, exact summary pins and independent review.
 
 
 ## B100 materialization: pre-writer failure and corrected launch
@@ -208,4 +210,4 @@ Metadata review `b524ecf7…` establishes **1,517,925 additional source-qualifie
 
 The potential combined count is **36,832,502 rows if subsequently admitted**. Physical-source disjointness does not establish unique chess positions, unique histories, independent games or statistical independence. No payload or game-column scan was repeated. The completed materialization and metadata disjointness proof do **not** confer union/training admission, launch a training run or demonstrate strength.
 
-[Compact completion and disjointness evidence](evidence/filtered-b100-completed-20260913.json) records the actual terminal, output summary bindings and both review identities. The next status is potential expansion eligibility with consumer/training admission still pending.
+[Compact completion and disjointness evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/filtered-b100-completed-20260913.json) records the actual terminal, output summary bindings and both review identities. The next status is potential expansion eligibility with consumer/training admission still pending.

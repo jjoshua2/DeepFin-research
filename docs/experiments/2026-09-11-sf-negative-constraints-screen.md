@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-11-sf-negative-constraints-screen.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-11-sf-negative-constraints-screen.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Saved SF constraints for neural bootstrap targets
 
 Registered September 11, 2026. Status: all 262,079 rows completed and the disjoint two-bank readout passed independent review. Tactical300 training remains on hold behind the registered Ceres anchors; the negative-constraint family remains plausible. No new target rewrite, teacher inference, training or playing result.
@@ -70,7 +72,7 @@ The first 8,192-row shard completed in **46.90 seconds** (producer 46.81 seconds
 
 Based on that measured cost, the remaining **253,887 rows / 31 shards** launched under the registered 90-minute limit, with unchanged runtime and resource bounds. Session 17956 owned this pass; shard zero was excluded and its completed bank was reused once. The completed readout below verified the disjoint union against the original 32-shard inventory.
 
-[Compact qualification and launch evidence](evidence/sf-constraints-pilot-20260911.json) pins the receipts, metric bank, independent review and remaining-shard plan. Bulk per-row evidence stays at the named host paths.
+[Compact qualification and launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-constraints-pilot-20260911.json) pins the receipts, metric bank, independent review and remaining-shard plan. Bulk per-row evidence stays at the named host paths.
 
 
 ## Completed cohort and next decision
@@ -145,8 +147,8 @@ automatically collector-qualified or representative; preserve inclusion
 probabilities and held-out games before drawing population conclusions. This
 record launches no new teacher collection, target rewrite or training.
 
-[Compact completed evidence](evidence/sf-constraints-completed-20260911.json)
+[Compact completed evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-constraints-completed-20260911.json)
 pins the full readout, both terminal receipts and metric-bank hashes, game-cluster
-sufficient statistics, completed-input plan and independent reviews. The [complete machine-readable readout](evidence/sf-constraints-full-readout-20260911.json)
+sufficient statistics, completed-input plan and independent reviews. The [complete machine-readable readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-constraints-full-readout-20260911.json)
 publishes all reported strata and intervals. The original bulk row banks remain at
 their pinned host locations.

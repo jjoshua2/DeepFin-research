@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-b100-tactical-policy-readiness.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-b100-tactical-policy-readiness.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # B100Tactical100: selective SF policy correction with SF value retained
 
 September 8, 2026 evening snapshot. **The producer and training-admission tools
@@ -35,7 +37,7 @@ visible; unchanged weights preserve the original policy bytes.
 ## Merged construction and admission
 
 [PR595](https://github.com/jjoshua2/DeepFin/pull/595) adds the explicit tactical
-route to the existing [SF policy writer](../../scripts/sf_policy_rewrite.py).
+route to the existing [SF policy writer](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/sf_policy_rewrite.py).
 It consumes the original raw 20M prefix, original SF corpus and qualified B100
 parent, preserving the original no-result filter and within-shard permutation.
 Every accepted row requires the full legal d9 roster and exact reconstruction of
@@ -46,7 +48,7 @@ compressed-byte-verified copies. The genuine tactical summary records both sourc
 lineages, consumed/output policy hashes, mate groups and storage diagnostics.
 
 [PR596](https://github.com/jjoshua2/DeepFin/pull/596) adds the schema3-only
-`B100Tactical100` route to the existing [original-epoch coordinator](../../scripts/bt4_one_epoch_screen.py).
+`B100Tactical100` route to the existing [original-epoch coordinator](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/bt4_one_epoch_screen.py).
 It requires the genuine `bt4_sf_tactical_policy_summary.json`, exact recipe/source
 identity, a separately qualified full output roster and prospective schedule.
 It rejects renamed policy/value recipes. The original training command, seed 0,
@@ -60,13 +62,13 @@ bound-line counts are not a new independent exact-bound witness for each row.
 SF agreement and deeper search share SF biases. Neither successful admission nor
 this supervised correction proves calibration, generalization or playing strength.
 
-The [implementation evidence](../../scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/implementation.tar.gz)
+The [implementation evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/implementation.tar.gz)
 preserves author validation and independent review. Producer validation covered
 58 distinct cases, including actual tiny shuffled writer/loader and nonpolicy
 byte parity, with a final whole-host static pass. Admission validation covered
 131 focused cases; its whole-repository type check found only two fixture
 annotations, followed by a final scoped Ruff/type/Vulture pass. These are separate
-validation histories, not a single combined-suite claim. The [independent review](../../scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/implementation.independent_review.json)
+validation histories, not a single combined-suite claim. The [independent review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/implementation.independent_review.json)
 checked five additional scalar-oracle cases, all source identities and the
 unchanged legacy paths. No full-source materialization or training was qualified
 by these small tests.
@@ -81,7 +83,7 @@ not read corpus payloads or establish a successful rewrite. The intended 20M raw
 prefix preserves 18,910,484 derived rows in 2,309 shards; those are expected counts,
 not a completed tactical corpus.
 
-The [frozen preparation bundle](../../scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/preparation.tar.gz)
+The [frozen preparation bundle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/preparation.tar.gz)
 contains exact command, runtime/source metadata, supervisor, prospective plan,
 continuation specification and review. It proposes CPUs 0,1, two numeric/Torch/Blosc
 threads, nice19/ionice3, GPU hidden, a 150 GiB free reserve and 32 GiB sampled
@@ -94,8 +96,8 @@ Independent preparation review caught a missing outer bound on the entry
 operator's prelude. The corrected exact command wraps the whole invocation in
 GNU timeout: 28,770 seconds to TERM plus 30 seconds to KILL. Internal deadlines
 and owned-child cleanup remain in force. Original command/preparation evidence
-and the [correction](../../scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/entry_deadline_correction.json)
-are preserved. The [independent final preparation review](../../scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/preparation.independent_review.json)
+and the [correction](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/entry_deadline_correction.json)
+are preserved. The [independent final preparation review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_tactical_schedule_v1/preparation.independent_review.json)
 closed the entry finding and checked all 29 frozen preparation members. Busy preparation lock, existing output/partial
 or STOP refuse the attempt; no automatic retry is planned.
 
@@ -103,7 +105,7 @@ After successful production, the prepared metadata qualifier has a 600-second
 inclusive bound and reuses actual producer byte proofs. Only its genuine output
 can supply the missing dataset/summary hashes to one 1,800-second original-runtime
 prospective schedule. Actual training and arena manifests remain unbound. The
-[publication manifest](evidence/bt4-bootstrap/tactical-schedule-manifest.json)
+[publication manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/tactical-schedule-manifest.json)
 records exact source and per-member hashes; archived scripts are inert data.
 
 ## Compute order and storage headroom

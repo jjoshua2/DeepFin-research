@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-bt4-g50-b100-dose-comparison.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-bt4-g50-b100-dose-comparison.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # G50 versus B100: original-epoch policy-dose comparison
 
 Registered comparison, 2026-09-08. G50 training and both registered arenas are complete. The shallow stopping rule and fixed higher-search comparison favor retaining B100. B100 is the current development leader after its completed comparison with H20. This next comparison asks whether retaining a 50% Stockfish policy contribution improves on the pure BT4 policy endpoint while preserving the same SF value supervision.
@@ -14,7 +16,7 @@ Training has a4.5-hour GPU-stage cap (16,200seconds). B100's matched training to
 
 ## Prespecified comparison and interpretation
 
-Use the merged `matched_original_epoch` [recipe screen](../bt4_recipe_screen.md): candidate G50 minus reference B100, qualified old-CUDA overlay, full search, prior temperature1, original PGN loader, seed42,16-ply histories and the same canonical500-pair development panel.
+Use the merged `matched_original_epoch` [recipe screen](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/bt4_recipe_screen.md): candidate G50 minus reference B100, qualified old-CUDA overlay, full search, prior temperature1, original PGN loader, seed42,16-ply histories and the same canonical500-pair development panel.
 
 - Low:100 simulations, ordered SPRT Elo0/+15, alpha.05/beta.10, first128 pairs then64-pair looks, cap500 pairs; rolling256 and evaluator4096.
 - High:400 simulations, fixed first128 paired openings, rolling128 and evaluator4096. Run after any valid low result, including H0 or inconclusive; operationally invalid low halts and preserves evidence.
@@ -60,7 +62,7 @@ status only. Match outcomes remain unread in this record.
 ## Completed paired readout — September 8
 
 Both stages completed and passed independent raw-bank review. The
-[compact readout](evidence/bt4-bootstrap/g50-b100-readout.json) includes both
+[compact readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/g50-b100-readout.json) includes both
 128-pair score vectors, stopping parameters and source/review identities. G50 is the candidate
 and B100 the reference; both retain the same SF value supervision.
 

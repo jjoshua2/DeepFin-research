@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/STORAGE_OBJECTIVE.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/scratchpad/bt4_joint20/publication_20260909_full_wdl_v50_storage_v1/STORAGE_OBJECTIVE.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Storage is part of bootstrap completion
 
 User direction, September 8: continually transfer completed cold data from SSD to the external drive and reclaim verified local copies so the approximately 100M-position bootstrap has room. This work remains part of completing the research objective.

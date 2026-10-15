@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-13-ceres-cpu-semantics.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-13-ceres-cpu-semantics.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres CPU encoding and value-getter semantics
 
 Status: the CPU encoding/getter check completed after a comparator-only recovery. All 144 history encodings matched byte-for-byte. The small getter differences from the conventional mathematical blend are reported below; no neural or backend parity is established.
@@ -12,7 +14,7 @@ The initial source allocation used CPU 2,3. Before launch, the parent selected C
 
 Static preparation passed Python AST, project XML, all sixteen fixture histories, Ruff and shell syntax. Independent review passed on the original source; parent review passed the literal affinity amendment. These checks did not compile the C# project or read the saved bank. At launch, dependency closure, build compatibility and runtime initialization remained actual-run questions; the completed observations follow below.
 
-[Compact launch evidence](evidence/ceres-cpu-semantics-launched-20260913.json) binds the plan, command, reviews and immutable snapshots of the small actual start receipts. The implementation is in [tools/ceres_cpu_oracle](../../tools/ceres_cpu_oracle/README.md).
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-cpu-semantics-launched-20260913.json) binds the plan, command, reviews and immutable snapshots of the small actual start receipts. The implementation is in [tools/ceres_cpu_oracle](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/tools/ceres_cpu_oracle/README.md).
 
 
 ## Completed CPU readout and comparator recovery
@@ -30,4 +32,4 @@ The completed CPU evidence covers **144 histories** (16 explicit fixtures plus 1
 
 The FP16 GetV getter and subtraction of decoded W/L are distinct quantities. These compare actual upstream CPU getters under the explicitly named parameterless profile with the mathematical blend; they do not prove equivalent neural inference, all-history universal parity, or effective deployed configuration.
 
-[Completed CPU evidence](evidence/ceres-cpu-semantics-completed-20260913.json) retains the failed original attempt, exact recovery and independent review. This resolves the tested encoder and getter question at the saved inputs. No teacher replacement, corpus rewrite, or training was performed in this check. It makes no playing-strength claim.
+[Completed CPU evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/ceres-cpu-semantics-completed-20260913.json) retains the failed original attempt, exact recovery and independent review. This resolves the tested encoder and getter question at the saved inputs. No teacher replacement, corpus rewrite, or training was performed in this check. It makes no playing-strength claim.

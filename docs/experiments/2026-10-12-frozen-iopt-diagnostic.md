@@ -1,11 +1,13 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-10-12-frozen-iopt-diagnostic.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-10-12-frozen-iopt-diagnostic.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # October 12, 2026 — Frozen-root I-opt mechanism screen
 
 **Status: bounded frozen-root diagnostic completed by the science owner; corrected CPU readout verified October 13. No operator adoption, training, arena or playing-strength claim.**
 
 Paper: [arXiv:2610.01566](https://arxiv.org/html/2610.01566).
 Parent source: main at 265adece34a6dbe8d4a32122fff4e5c65a5d84c0.
-Reuses [search_gain_probe.py](../../scripts/search_gain_probe.py), the actual native
-Gumbel root returned policy and the all-legal [one-ply backup machinery](../../chess_anti_engine/mcts/one_ply.py)
+Reuses [search_gain_probe.py](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scripts/search_gain_probe.py), the actual native
+Gumbel root returned policy and the all-legal [one-ply backup machinery](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/chess_anti_engine/mcts/one_ply.py)
 where useful for a later controlled extension.
 
 ## Scientific question and constraints
@@ -162,7 +164,7 @@ separately measured**.
   scripts/iopt_operator_screen.py.
 - CPU guards: tests/test_iopt_operator_screen.py.
 - Bulk traces remain outside git with SHA256 provenance. The compact corrected
-  [CPU readout](artifacts/2026-10-13-iopt-corrected-readout.json) records the raw
+  [CPU readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/artifacts/2026-10-13-iopt-corrected-readout.json) records the raw
   bank identity, capture plan, checkpoint/config/audit identities and parameters.
 - Independent code review is performed separately from the author. Synthetic CPU
   tests do not establish native C parity; the prior bank retains its actual parity

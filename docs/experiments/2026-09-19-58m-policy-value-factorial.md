@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-19-58m-policy-value-factorial.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-19-58m-policy-value-factorial.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 58M policy/value teacher factorial
 
 ## Decision and status
@@ -141,9 +143,9 @@ missing-fill-chunk hardening. Scoped repository lint passed. Owned-child runner 
 cover incorrect initialization, incomplete epochs, memory/deadline/STOP interruption;
 both-checkpoint arena binding has seven passing cases.
 
-[Adoption receipt](evidence/factorial58-20260919/pipeline_adoption.json),
-[final independent readback](evidence/factorial58-20260919/review_frozen.json),
-[coverage](evidence/factorial58-20260919/coverage/coverage.json), and the accompanying
+[Adoption receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-20260919/pipeline_adoption.json),
+[final independent readback](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-20260919/review_frozen.json),
+[coverage](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial58-20260919/coverage/coverage.json), and the accompanying
 frozen plans and operating-script snapshots preserve the operational handoff. Bulk
 labels, model files, optimizer states and game banks remain in host storage.
 

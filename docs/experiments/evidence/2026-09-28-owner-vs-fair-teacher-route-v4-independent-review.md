@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-28-owner-vs-fair-teacher-route-v4-independent-review.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/2026-09-28-owner-vs-fair-teacher-route-v4-independent-review.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Independent owner-versus-fair route preregistration v4 delta review
 
 **PASS_PREREG_SOURCE_ONLY_FOR_PUBLICATION; HOLD_REGISTERED_LAUNCH.** Packet manifest `/tmp/500m-owner-vs-fair-teacher-route-prereg-v4-20260928/PACKET_MANIFEST.json` SHA-256 `f8833f6f57e4898163fe426d4e644c28c0ad0556afa4025a18d3791ea720d3de` and all eight listed member hashes match. The directory contains exactly its nine allowlisted regular, non-executable files, with no bytecode directory, symlink or extra member. `verify_packet.py` returns this exact manifest SHA both before and after tests; its four synthetic closure/refusal tests pass. Ruff passes.

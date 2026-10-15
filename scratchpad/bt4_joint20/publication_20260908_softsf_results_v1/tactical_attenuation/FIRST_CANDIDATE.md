@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/FIRST_CANDIDATE.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/scratchpad/bt4_joint20/publication_20260908_softsf_results_v1/tactical_attenuation/FIRST_CANDIDATE.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # First tactical policy candidate selected for implementation qualification
 
 Use the 100 cp onset, 100 cp decay scale and 0.1 relative attenuation floor from

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/next_common_publication_v1/v2/preregistration.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/scratchpad/bt4_joint20/hybrid_endpoint_run01/preparation/next_common_publication_v1/v2/preregistration.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # G10 common inputs: next fully labelled disjoint block
 
 Registered before processing. Prepare common inputs for future matched teacher-recipe training; no training, mixing, inference or playing-strength test is part of this batch.

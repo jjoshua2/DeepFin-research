@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/bootstrap-route-matrix.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/bootstrap-syzygy-audit-20260923/bootstrap-route-matrix.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Bootstrap Syzygy route matrix and bounded change proposal — 2026-09-23
 
 Read-only plan for new data paths. Historical A–E labels and generator defaults stay byte-identical. The separate teacher-path audit is `/tmp/bt4-factorial-teacher-path-audit-20260923.md`.

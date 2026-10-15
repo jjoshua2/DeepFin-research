@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-28-500m-external-trainer-inventory.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-28-500m-external-trainer-inventory.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # External trainer throughput inventory for 500M planning
 
 Read-only publication of the September 26 archived inventory and its independently
@@ -38,7 +40,7 @@ The short pairs do not isolate storage medium: external used ZIP Zarr and local
 used directory Zarr, in fixed order with possible cache effects. They do not
 measure a sustained external 500M epoch. The independent source-note reviews
 passed arithmetic and receipt checks within their stated read-only scopes;
-the [compact evidence](evidence/2026-09-28-500m-external-trainer-inventory.json)
+the [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-28-500m-external-trainer-inventory.json)
 pins the archive, review and upstream receipt hashes without publishing private
 host paths or bulk logs.
 

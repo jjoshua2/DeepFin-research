@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-sffree-targets.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-sffree-targets.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF-free BT4+Ceres target preparation
 
 ## Question and registered comparison
@@ -40,13 +42,13 @@ inference invocations. A completed cohort alone is not full training admission.
 
 ## Evidence on September 21
 
-The [coverage receipt](evidence/2026-09-21-sffree-targets/coverage.json) establishes
+The [coverage receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/coverage.json) establishes
 metadata coverage of all 58,090,688 rows and all 7,108 shards, with native BT4 and
 both Ceres value heads. It is explicitly a metadata-only audit. All 35 prepared
-manifest identities are [banked](evidence/2026-09-21-sffree-targets/manifests.json).
+manifest identities are [banked](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/manifests.json).
 Full preparation must still verify actual array and row-feed bytes.
 
-The [real-data smoke](evidence/2026-09-21-sffree-targets/real-smoke.json) checks
+The [real-data smoke](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/real-smoke.json) checks
 one 8,192-row shard from each of three source families: original20m, common G10,
 and adapted saved-raw labels. All 24,576 rows pass schema-2 storage qualification,
 retain D policy and every non-value array exactly, and have changed WDL targets.
@@ -66,17 +68,17 @@ whole-repository gate reports 23 type errors in seven unchanged baseline test
 files and no introduced diagnostics; baseline reproduction is banked in the
 [companion loader optimization PR #810](https://github.com/jjoshua2/DeepFin/pull/810). Independent implementation review approved
 the builder after adding the explicit policy-mask guard. The
-[independent real-data review](evidence/2026-09-21-sffree-targets/independent-review.json)
+[independent real-data review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/independent-review.json)
 revalidated schema-2 receipts, independently reproduced E values byte-for-byte,
 and checked all 35 manifests and 14,216 current teacher metadata pins/bindings.
 
 ## Full CPU preparation launched
 
-After [independent launch review](evidence/2026-09-21-sffree-targets/launch-review.json),
+After [independent launch review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/launch-review.json),
 the full CPU preparation started on September 22 at 00:10:55 UTC (September 21
 local time). Supervisor PID 1755363 owns the first cohort child PID 1755443.
-[Launch](evidence/2026-09-21-sffree-targets/launch.json) and
-[compact plan](evidence/2026-09-21-sffree-targets/plan-summary.json) are banked;
+[Launch](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/launch.json) and
+[compact plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/plan-summary.json) are banked;
 the full plan SHA256 is
 `c0e137a3ec1a64bd6bc1fd2d0345901b18d4c2408923c302869cb710cdd40cdc`.
 
@@ -87,7 +89,7 @@ physical symlink targets and the smoke-tested builder are rechecked. The job run
 with affinity 8,9, nice19, two threads and CUDA hidden. D has wider CPU affinity,
 so these cores are not exclusively reserved. Guards check STOP markers, 150 GiB
 free disk and 40 GiB available RAM; failure preserves incomplete output and only
-terminates owned child groups. [Guard tests](evidence/2026-09-21-sffree-targets/guard-tests.json)
+terminates owned child groups. [Guard tests](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/guard-tests.json)
 cover failed children, STOP and low RAM, including cleanup and no next launch.
 
 The three cached smoke samples suggest 8.6–12.1 hours of building and 11.1–11.5 GB
@@ -108,7 +110,7 @@ active frozen factorial runtime or queue. The implementation PR is stacked on
 
 ## Next training admission draft
 
-A [draft readiness record](evidence/2026-09-21-sffree-targets/training-draft.json)
+A [draft readiness record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-sffree-targets/training-draft.json)
 and E-only runner/admission plan are banked at
 `~/chess-artifacts/operations/factorial58-sffree-training-draft-20260921`.
 The draft preserves D's exact training runtime, configuration, environment and

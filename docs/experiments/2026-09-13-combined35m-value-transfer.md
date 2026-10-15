@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-13-combined35m-value-transfer.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-13-combined35m-value-transfer.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Matched value transfer on original plus G10 data
 
 Status: the completed 512-game comparison supports V50 over SF100 at 35.3M rows:
@@ -200,7 +202,7 @@ The corrected run completed with exit 0 in **71.872 seconds**, maximum RSS
 **498,344 KiB**, and no Torch import. Its 298-second bound plus the failed attempt
 fit the original 300-second allocation; CPUs 4–5, two numeric threads, hidden GPU,
 4 GiB address space, 48 GiB startup headroom and 150 GiB disk reserve were retained.
-[Compact panel evidence](evidence/combined35m-fixed-panel-20260913.json) pins the
+[Compact panel evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/combined35m-fixed-panel-20260913.json) pins the
 failed attempt, exact invocation/source/book, independent preparation review and
 completed panel. Review did not reread the book, rerun generation or load models.
 The later actual match package must reproduce this full panel and the registered
@@ -275,7 +277,7 @@ seconds**. No failed-attempt partial record was reconstructed or adopted.
 
 The actual qualification SHA-256 is
 `fb72304dccd0cb277d3fcc80b57287964723760fcca5ddcd0bbc6b917039d8b7`.
-The [compact evidence](evidence/combined35m-fixed-panel-20260913.json) binds both
+The [compact evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/combined35m-fixed-panel-20260913.json) binds both
 attempts, the correction, independent reviews and completed admission/panel.
 These are completed preparation checks; neither combined model has been trained
 in this record, and no strength result is claimed.
@@ -307,7 +309,7 @@ The training stage is bounded at **21,600 seconds**, within the **27,000-second
 inclusive** host allowance; CUDA has no address-space cap. No duplicate host
 watchdog or automatic resume was added.
 
-[Compact launch evidence](evidence/g10-ceres-complete-sf100-launched-20260913.json)
+[Compact launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/g10-ceres-complete-sf100-launched-20260913.json)
 binds the exact host command, default validation, independent review and immutable
 stage snapshot. This publication did not poll training progress, read models or
 change the running job. V50 still requires this arm's qualified completion and
@@ -325,7 +327,7 @@ After this genuine predecessor completion, one V50 default command validation pa
 
 The parent launched the actual V50 host command at **09:50:27.454253 UTC** (exec 48861, sole observer 424). This is a host-invocation snapshot, not an observed optimizer step or completed V50 epoch. Launch-time checks reported approximately 83 GiB available memory, zero swap use, 195 GiB free disk and no GPU compute applications. The existing owned lease, 48 GiB startup/32 GiB ongoing available-memory floors, 150 GiB disk reserve, 21,600-second training cap and 27,000-second inclusive coordinator allowance remain unchanged.
 
-[Compact completed/launch evidence](evidence/combined35m-sf100-completed-v50-launched-20260913.json) preserves both independent reviews, the actual SF100 receipts and aggregate training metrics, exact V50 default argv and immutable launch snapshot. No models, active training outputs or corpus arrays were read for publication. The fixed 256-pair/512-game, 400-simulation evaluation on the precommitted seed 20260913 panel remains pending; no score, Elo, promotion or additional training allocation is claimed.
+[Compact completed/launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/combined35m-sf100-completed-v50-launched-20260913.json) preserves both independent reviews, the actual SF100 receipts and aggregate training metrics, exact V50 default argv and immutable launch snapshot. No models, active training outputs or corpus arrays were read for publication. The fixed 256-pair/512-game, 400-simulation evaluation on the precommitted seed 20260913 panel remains pending; no score, Elo, promotion or additional training allocation is claimed.
 
 
 ## V50 completed; fixed comparison host launched
@@ -338,7 +340,7 @@ The actual CPU pair preparation passed in **68.705 seconds** of host time (**64.
 
 The parent launched the arena host command at **2026-09-13 14:01:49.686701 UTC** (exec 81597, sole observer 444). This records the actual host invocation, not a completed game or an interim score. The fixed comparison is **V50 versus SF100, 256 swapped pairs / 512 games, 400 simulations**, opening seed **20260913**, priors 1, no tablebases, maximum 300 plies, rolling 128 and batch 4096. The stage allowance is 7,200 seconds with the existing 7,140-second internal arena limit; the enclosing allowance is 12,030 seconds including cleanup. Parent prelaunch observations were approximately 83 GiB available memory, zero swap use, 193 GiB free disk and no GPU compute applications. These are launch-time observations, not peak or current resource claims.
 
-[Compact completion and launch evidence](evidence/combined35m-v50-completed-arena-launched-20260913.json) preserves both independent reviews, the actual CPU package, final manifest and immutable host launch command. No active job, game bank, corpus array or model was read for publication. No score, Elo, promotion, extra games or new training allocation is claimed.
+[Compact completion and launch evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/combined35m-v50-completed-arena-launched-20260913.json) preserves both independent reviews, the actual CPU package, final manifest and immutable host launch command. No active job, game bank, corpus array or model was read for publication. No score, Elo, promotion, extra games or new training allocation is claimed.
 
 
 ## Completed fixed comparison and readout recovery
@@ -355,4 +357,4 @@ Recovered readout `398eae3d…` explicitly reports `command_observation="unavail
 
 The separate pure-Ceres policy comparison was selected before this outcome was read. It retains original SF-derived values to isolate the policy-teacher change; this value result does not silently alter that control. Its corpus and admission details remain in the [Ceres100 record](2026-09-13-ceres100-policy-preparation.md).
 
-[Compact result evidence](evidence/combined35m-value-result-20260913.json) includes all 256 pair scores, the original GPU process and failed host, parent recovery observations, exact small-artifact pins and both source/scientific reviews. Publication consumed those saved records only; it did not reread models, game banks, opening books or corpus payloads, or rerun validation.
+[Compact result evidence](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/combined35m-value-result-20260913.json) includes all 256 pair scores, the original GPU process and failed host, parent recovery observations, exact small-artifact pins and both source/scientific reviews. Publication consumed those saved records only; it did not reread models, game banks, opening books or corpus payloads, or rerun validation.

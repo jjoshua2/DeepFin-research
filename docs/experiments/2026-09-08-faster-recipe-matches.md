@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-faster-recipe-matches.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-faster-recipe-matches.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Faster recipe matches with ordered sequential decisions
 
 **Status:** the first prospective ordered sequential recipe screen and protected
@@ -113,10 +115,10 @@ The frozen producer checked every returned action for legality, but retained
 only action hashes, so the independent review could not replay action vectors.
 These are throughput observations, not playing-strength observations.
 
-The [original cells](../../scratchpad/bt4_joint20/match_efficiency_v1/batch_capacity_v1/execution/cells.jsonl),
-[full-history panel (gzip)](../../scratchpad/bt4_joint20/match_efficiency_v1/batch_capacity_v1/execution/panel.json.gz),
-and [independent completed review](../../scratchpad/bt4_joint20/match_efficiency_v1/batch_capacity_v1/independent_completed_review.json)
-are bound in the [capacity and launch evidence manifest](evidence/bt4-bootstrap/capacity-g10-launch-manifest.json).
+The [original cells](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/match_efficiency_v1/batch_capacity_v1/execution/cells.jsonl),
+[full-history panel (gzip)](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/match_efficiency_v1/batch_capacity_v1/execution/panel.json.gz),
+and [independent completed review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/match_efficiency_v1/batch_capacity_v1/independent_completed_review.json)
+are bound in the [capacity and launch evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/capacity-g10-launch-manifest.json).
 It also preserves the original CPU-only preflight failure: raw dataclass settings
 were compared with effective arena settings. The corrected serializer and passing
 CPU preflight preceded the GPU probe; no unsuccessful GPU measurement was
@@ -142,12 +144,12 @@ one checkpoint do not replace them. Fishtest also documents the
 
 ## Evidence and qualification
 
-The [compact evidence manifest](evidence/bt4-bootstrap/faster-arena-manifest.json)
+The [compact evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-bootstrap/faster-arena-manifest.json)
 binds original independent reviews, planning calculations, occupancy and the raw
 design note. Its correction preserves a historical provenance mistake: the note's
 blanket 1,000-game critique described the old deployed documentation; current main
 already starts with staged decisions and no universal game-count requirement.
-The current [evaluation protocol](../eval_protocol.md) now documents the ordered
+The current [evaluation protocol](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/eval_protocol.md) now documents the ordered
 sequential contract and conditional precision.
 
 Validation and independent implementation review are recorded with this PR.

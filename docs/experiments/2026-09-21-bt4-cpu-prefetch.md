@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-bt4-cpu-prefetch.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-bt4-cpu-prefetch.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Opt-in raw BT4 CPU prefetch (2026-09-21)
 
 ## Preregistration
@@ -62,7 +64,7 @@ and KeyboardInterrupt preserved. It independently passed all 73 tests and
 verified the full-shard receipt's source hash, ordered hashes and batch schedule.
 The review is banked as `bt4-cpu-prefetch-independent-review-20260921.json`.
 
-[Compact CPU qualification receipt](evidence/2026-09-21-bt4-cpu-prefetch.json)
+[Compact CPU qualification receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-21-bt4-cpu-prefetch.json)
 links the exact source, test, full-shard result and review hashes. The flag remains
 off by default; no GPU execution, live deployment, or end-to-end throughput claim
 in this readout.

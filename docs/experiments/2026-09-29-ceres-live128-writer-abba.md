@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-ceres-live128-writer-abba.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-ceres-live128-writer-abba.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Ceres live128 proof-writer A/B/B/A screen
 
 Four sequential, single-GPU arms replayed the same 128 frozen run14 roots

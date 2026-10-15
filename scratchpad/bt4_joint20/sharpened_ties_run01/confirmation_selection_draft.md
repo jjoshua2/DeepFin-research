@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/scratchpad/bt4_joint20/sharpened_ties_run01/confirmation_selection_draft.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/scratchpad/bt4_joint20/sharpened_ties_run01/confirmation_selection_draft.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Conditional fresh confirmation design — draft for review
 
 September 6, 2026. Written before observing any E0T05-versus-C playing outcomes.

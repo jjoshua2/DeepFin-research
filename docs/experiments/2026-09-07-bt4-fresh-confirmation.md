@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-07-bt4-fresh-confirmation.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-07-bt4-fresh-confirmation.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Fresh confirmation: SF-close versus sharpened stored ties
 
 Registered September 7, 2026 UTC, after independent review of the
@@ -64,7 +66,7 @@ allowance per stage. Expected cost is about six GPU hours. CPU schedule checking
 is capped at 1,800 seconds and readout at 120; neither CPU stages nor lease waits
 consume GPU charges.
 
-Use the qualified [confirmation launcher](../bt4_confirmation.md), frozen at
+Use the qualified [confirmation launcher](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/bt4_confirmation.md), frozen at
 revision `12f26da49f83225086e237ad0257494346abdb05`, with the shared GPU lease,
 independent timeout supervisors, two numerical threads, low scheduling/I/O
 priority and 150 GiB disk reserve. Release the lease for CPU-only stages. Preserve

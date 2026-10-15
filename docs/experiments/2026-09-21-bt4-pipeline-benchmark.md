@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-21-bt4-pipeline-benchmark.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-21-bt4-pipeline-benchmark.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # BT4 complete labeling pipeline screen — September 21
 
 ## Registered question and status
@@ -76,11 +78,11 @@ Scoped lint passes for the final candidate. Whole-repository lint reports the
 same 14 host-environment type diagnostics in six unchanged tests as the banked main
 baseline; Ruff and Vulture pass. No GPU result exists yet.
 
-[Independent code review](evidence/bt4-pipeline-20260921/code-review.json).
+[Independent code review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-pipeline-20260921/code-review.json).
 
-[Compact registration and full-plan hash](evidence/bt4-pipeline-20260921/registration.json);
-[registered command](evidence/bt4-pipeline-20260921/registered-command.json).
+[Compact registration and full-plan hash](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-pipeline-20260921/registration.json);
+[registered command](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-pipeline-20260921/registered-command.json).
 
-[Final admission review](evidence/bt4-pipeline-20260921/admission-review.json) and
-[append-only queue registration](evidence/bt4-pipeline-20260921/queue-registration.json)
+[Final admission review](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-pipeline-20260921/admission-review.json) and
+[append-only queue registration](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/bt4-pipeline-20260921/queue-registration.json)
 confirm all prior items and active state were preserved.

@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-strict-rule50-20260927/protocol.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/evidence/factorial-strict-rule50-20260927/protocol.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Strict factorial58 four-edge readout, preregistered before D–B/C–A/B–A results
 
 This is a CPU-only readout of four **new strict six-man, rule50-aware** checkpoint arenas. It does not add games or change training. D–C has already completed; D–B, C–A, and B–A were not read by the author when this analysis was defined. The historical tablebase-disabled arenas are excluded from every estimate.

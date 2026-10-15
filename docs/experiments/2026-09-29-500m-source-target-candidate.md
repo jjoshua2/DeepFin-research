@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-29-500m-source-target-candidate.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-29-500m-source-target-candidate.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 500M source and target candidate after the direct E–D replay
 
 The current **candidate**, not a production prescription, is to keep some
@@ -73,7 +75,7 @@ per row; the 38.89% selected-versus-dual cost saving must not be subtracted
 from it again. Under these assumptions, the projected trainer term is smaller
 than the projected neural source and label terms; no cold 500M epoch was measured.
 See the [external trainer screen](2026-09-29-zip128-external-trainer-screen.md)
-and the [capacity arithmetic and per-input provenance](evidence/2026-09-29-500m-candidate-capacity.json).
+and the [capacity arithmetic and per-input provenance](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/2026-09-29-500m-candidate-capacity.json).
 
 A bounded SF-origin source pilot has filled its 256 opening roots × 8 selected
 games quota: 2,048 selected games and 390,764 selected rows before global

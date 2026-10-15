@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-08-sf-anchored-value-bootstrap.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-08-sf-anchored-value-bootstrap.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # SF-anchored value bootstrap
 
 Research direction, September 8, 2026. The initial modest-dose proposal below
@@ -10,7 +12,7 @@ dose choice does not change the historical proposal or establish a best dose.
 
 The user's assessment that game outcome `z` added little is consistent with the
 historical bootstrap screens, within their tested scope. The September 2
-[Z-residual record](../experiment_ledger.md#2026-09-02-0620z--z-residual-screen-verdict-prereg-2026-09-01--operator-amendment-h1h4-no-λ--002-is-supported-on-the-deep-sf-ruler-arm-c-qzsegment-stays-parked-the-sf-blind-mate-hypothesis-is-untestable-on-an-sf-ruler) reports 6,263 rows from 1,447 games:
+[Z-residual record](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiment_ledger.md#2026-09-02-0620z--z-residual-screen-verdict-prereg-2026-09-01--operator-amendment-h1h4-no-λ--002-is-supported-on-the-deep-sf-ruler-arm-c-qzsegment-stays-parked-the-sf-blind-mate-hypothesis-is-untestable-on-an-sf-ruler) reports 6,263 rows from 1,447 games:
 Q-only MAE against deep SF was 0.0117, versus 0.5795 for Z alone. A 1% Z blend
 worsened held-out MAE by 0.00137 [0.00104, 0.00172], despite a small MSE gain.
 Earlier Q/Z training comparisons also lost on their internally matched,
@@ -93,12 +95,12 @@ completed all 128 rows for both teachers. Raw BT4 winner probabilities and Ceres
 primary/secondary logits are retained. Independent review recomputed every
 reported statistic from native arrays and checked the row identities, inherited
 selection weights and SF/outcome bindings. Neither teacher was run again for the
-review. The [evidence manifest](evidence/value-bootstrap/manifest.json) binds the
-[per-row outputs](evidence/value-bootstrap/matched-value-rows.json),
-[full descriptive readout](evidence/value-bootstrap/matched-value-readout.json),
-[matched input arrays](evidence/value-bootstrap/matched-inputs.npz) and both
-[collection](evidence/value-bootstrap/collector-source.txt) and
-[analysis](evidence/value-bootstrap/readout-source.txt) sources.
+review. The [evidence manifest](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/manifest.json) binds the
+[per-row outputs](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/matched-value-rows.json),
+[full descriptive readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/matched-value-readout.json),
+[matched input arrays](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/matched-inputs.npz) and both
+[collection](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/collector-source.txt) and
+[analysis](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/readout-source.txt) sources.
 
 Use centered value `q = W − L`; expected score is `(1 + q) / 2`. These are weighted
 descriptions of the existing training sample, not accuracy against a truth label.
@@ -129,7 +131,7 @@ complementary-teacher hypothesis because of SF disagreement.
 
 ## Lower-cost value backfill and future capture
 
-An additional [input check](evidence/value-bootstrap/derived-input-equivalence.json)
+An additional [input check](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/value-bootstrap/derived-input-equivalence.json)
 found bitwise-identical BT4 feeds for all 128 stored float16 tensors versus the
 original float32 inputs. The existing converter already does the necessary work:
 consumed history/castling/color planes are binary; rounding the rule50 plane

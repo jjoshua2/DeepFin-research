@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-23-overlay-hotload-diagnostic.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-23-overlay-hotload-diagnostic.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Overlay validation reuse: measured hot-load benefit
 
 Date: 2026-09-23 UTC. Eight qualified B schema-2 shards, 65,536 rows.
@@ -21,7 +23,7 @@ contexts retain the completed semantic validation while still checking source
 identity; avoiding repeated semantic scans explains the measured reduction.
 Only `chess_anti_engine/replay/target_overlay.py` differs within the package between
 the two frozen source commits. The fixture and all execution pins are in the
-[plan](evidence/overlay-hotload-diagnostic-20260923/prepared-hotload-plan.json).
+[plan](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/overlay-hotload-diagnostic-20260923/prepared-hotload-plan.json).
 
 ## Scope and resource evidence
 
@@ -42,9 +44,9 @@ run. Reruns need a new receipt and output directory.
 
 The runner passed 10 independent synthetic tests. Parent review independently
 compared all receipt parity fields, recomputed arm totals, and checked the source
-diff. [Review and artifact hashes](evidence/overlay-hotload-diagnostic-20260923/parent-review.json),
-[summary](evidence/overlay-hotload-diagnostic-20260923/summary.json), and
-[admission](evidence/overlay-hotload-diagnostic-20260923/admission.json) retain the evidence.
+diff. [Review and artifact hashes](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/overlay-hotload-diagnostic-20260923/parent-review.json),
+[summary](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/overlay-hotload-diagnostic-20260923/summary.json), and
+[admission](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/overlay-hotload-diagnostic-20260923/admission.json) retain the evidence.
 
 ## Next decision
 
@@ -54,4 +56,4 @@ before GPU testing. A trainer test must measure end-to-end time and preserve
 actual objective masks, row order, augmentation, and checkpoint/optimizer parity.
 This diagnostic alone does not determine training speed at 500M positions.
 
-The exact [executed runner](evidence/overlay-hotload-diagnostic-20260923/executed_runner.py) is retained as provenance. Publication review found its tooling branch was based on stale local main and scoped typecheck errors remain; reusable tooling is being rebased and repaired separately. These do not change the banked execution or the exact-parity result. No claim of a clean full lint gate is made.
+The exact [executed runner](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/overlay-hotload-diagnostic-20260923/executed_runner.py) is retained as provenance. Publication review found its tooling branch was based on stale local main and scoped typecheck errors remain; reusable tooling is being rebased and repaired separately. These do not change the banked execution or the exact-parity result. No claim of a clean full lint gate is made.

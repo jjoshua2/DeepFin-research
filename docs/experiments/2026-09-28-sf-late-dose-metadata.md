@@ -1,3 +1,5 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-28-sf-late-dose-metadata.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-28-sf-late-dose-metadata.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # 58M SF late-dose census: metadata receipt and bounded next step
 
 **Status: source-only planning, no row-level census.** A bounded reader inspected
@@ -5,7 +7,7 @@ the frozen E manifest roster, 35 child-manifest headers, their referenced
 derivation summaries, and three sample Zarr schemas. It read **4,713,721
 metadata bytes** against an 8 MiB cap. It opened no corpus or teacher array
 chunks, raw rows, model, GPU, trainer, or arena. The exact machine-readable
-[receipt](evidence/sf-late-dose-metadata-20260928.json) has SHA-256
+[receipt](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/sf-late-dose-metadata-20260928.json) has SHA-256
 `30074c27cdc816cf4927bca13a8257275fc90b256246ca095a88eeb3f44c54da`.
 The reader itself was sealed at SHA-256
 `50f91a8cad15bc12b32c90b1f0428aff8d8f1fbc5c1f0fd321badb07fe7ca710`;

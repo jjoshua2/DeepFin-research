@@ -1,11 +1,13 @@
+> Imported from [DeepFin at 32370b099f6d](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/2026-09-27-factorial-strict-rule50-readout.md). [Original bytes](https://github.com/jjoshua2/DeepFin-research/blob/8536ec99471478efee257e9b7bbeb4d3e614854b/docs/experiments/2026-09-27-factorial-strict-rule50-readout.md) and source history remain available. Historical commands and local artifact paths describe their original run.
+
 # Strict six-man factorial target readout — September 27
 
 Status: completed historical A–D evaluation readout. This record publishes the
 replacement rule50-aware arenas for the four seed121 checkpoints; it does not
 register new training or games. The frozen [analysis protocol](evidence/factorial-strict-rule50-20260927/protocol.md)
 was pinned before three of the four strict edge results were read. The
-[frozen readout](evidence/factorial-strict-rule50-20260927/four-edge-readout.json)
-and [independent small-receipt recomputation](evidence/factorial-strict-rule50-20260927/independent-recompute.json)
+[frozen readout](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-strict-rule50-20260927/four-edge-readout.json)
+and [independent small-receipt recomputation](https://github.com/jjoshua2/DeepFin/blob/32370b099f6d8d4ec965de135e70a752fc95a7a9/docs/experiments/evidence/factorial-strict-rule50-20260927/independent-recompute.json)
 agree on all four scores and the shared-opening bootstrap.
 
 ## Question and fixed comparison
