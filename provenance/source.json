@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/jjoshua2/DeepFin",
+  "commit": "32370b099f6d8d4ec965de135e70a752fc95a7a9",
+  "scope": "Already-public Markdown records from docs/experiments and scratchpad/bt4_joint20; source bytes preserved in this import commit.",
+  "history": "Earlier per-file history remains in original DeepFin; no history rewriting or transplantation.",
+  "license": "No repository-wide license file or pyproject license declaration was present at pinned source. Existing content notices remain unchanged; no new license grant is made."
+}
